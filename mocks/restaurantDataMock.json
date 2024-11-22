@@ -1,0 +1,59 @@
+{
+	"id": "65797",
+	"name": "Leon's - Burgers & Wings (Leon Grill)",
+	"cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/11/14/33bfb682-d5fa-4054-9e2c-31911e34ebf6_65797.jpg",
+	"locality": "Koramangala",
+	"areaName": "Koramangala",
+	"costForTwo": "₹300 for two",
+	"cuisines": ["American", "Snacks", "Turkish", "Portuguese", "Continental"],
+	"avgRating": 4.5,
+	"parentId": "371281",
+	"avgRatingString": "4.5",
+	"totalRatingsString": "53K+",
+	"sla": {
+		"deliveryTime": 30,
+		"lastMileTravel": 6.3,
+		"serviceability": "SERVICEABLE",
+		"slaString": "25-30 mins",
+		"lastMileTravelString": "6.3 km",
+		"iconType": "ICON_TYPE_EMPTY"
+	},
+	"availability": {
+		"nextCloseTime": "2024-11-22 04:00:00",
+		"opened": true
+	},
+	"badges": {},
+	"isOpen": true,
+	"type": "F",
+	"badgesV2": {
+		"entityBadges": {
+			"imageBased": {},
+			"textBased": {},
+			"textExtendedBadges": {}
+		}
+	},
+	"aggregatedDiscountInfoV3": {
+		"header": "₹175 OFF",
+		"subHeader": "ABOVE ₹599",
+		"discountTag": "FLAT DEAL"
+	},
+	"differentiatedUi": {
+		"displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+		"differentiatedUiMediaDetails": {
+			"lottie": {},
+			"video": {}
+		}
+	},
+	"reviewsSummary": {},
+	"displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+	"restaurantOfferPresentationInfo": {},
+	"externalRatings": {
+		"aggregatedRating": {
+			"rating": "4.5",
+			"ratingCount": "4.2K+"
+		},
+		"source": "GOOGLE",
+		"sourceIconImageId": "v1704440323/google_ratings/rating_google_tag"
+	},
+	"ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+}
