@@ -1,6 +1,6 @@
-import sum from '../utils/sum';
+import sum from "../utils/sum";
 
-test('should return the correct sum of two numbers', () => {
+test("should return the correct sum of two numbers", () => {
 	const result = sum(5, 7);
 
 	// Assertion.

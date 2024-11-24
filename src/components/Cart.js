@@ -1,9 +1,9 @@
-import React from 'react';
-import { useDispatch, useSelector } from 'react-redux';
-import OrderSummery from './OrderSummery';
-import UserContext from '../utils/UserContext';
-import { useContext } from 'react';
-import { clearCart } from '../utils/cartSlice';
+import React from "react";
+import { useDispatch, useSelector } from "react-redux";
+import OrderSummery from "./OrderSummery";
+import UserContext from "../utils/UserContext";
+import { useContext } from "react";
+import { clearCart } from "../utils/cartSlice";
 
 const Cart = () => {
 	const dishList = useSelector(store => store.cart.dish);
@@ -13,7 +13,7 @@ const Cart = () => {
 		<div className="container mx-auto w-3/4">
 			<div className="flex justify-between">
 				<h1 className="mb-2 text-3xl font-bold tracking-tight text-slate-800">
-					🛒{'  '}
+					🛒{"  "}
 					{username}'s Cart
 				</h1>
 				<button

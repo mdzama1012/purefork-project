@@ -1,8 +1,8 @@
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faStar, faTag } from '@fortawesome/free-solid-svg-icons';
-import { CDN_URL } from '../utils/constants';
-import { useDispatch } from 'react-redux';
-import { addItem } from '../utils/cartSlice';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faStar, faTag } from "@fortawesome/free-solid-svg-icons";
+import { CDN_URL } from "../utils/constants";
+import { useDispatch } from "react-redux";
+import { addItem } from "../utils/cartSlice";
 
 const AccordionBody = ({ category }) => {
 	// Handle the Adding of Item to the cart (cart slice)
@@ -19,6 +19,7 @@ const AccordionBody = ({ category }) => {
 				<div
 					key={dish.id}
 					className="flex justify-between border-b-[1.5px] p-7 last:border-none"
+					data-testid="dish"
 				>
 					{/* Text content about dish */}
 					<div className="w-4/5 pr-5">
@@ -29,7 +30,7 @@ const AccordionBody = ({ category }) => {
 									₹ {(dish.defaultPrice ?? dish.price) / 100}
 								</span>
 								<span className="font-semibold tracking-tight">
-									{' '}
+									{" "}
 									₹ {dish.finalPrice / 100}
 								</span>
 							</>
@@ -54,7 +55,7 @@ const AccordionBody = ({ category }) => {
 						<p className="mb-3 mt-2">
 							<span className="text-sm font-bold tracking-tight text-green-600">
 								<FontAwesomeIcon icon={faStar} />
-								{` ${dish?.ratings?.aggregatedRating?.rating ?? 'Un-rated'} `}
+								{` ${dish?.ratings?.aggregatedRating?.rating ?? "Un-rated"} `}
 							</span>
 							<span className="text-sm font-semibold tracking-tight">
 								({dish?.ratings?.aggregatedRating?.ratingCountV2 ?? 0})

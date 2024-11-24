@@ -1,8 +1,8 @@
-import React, { useContext } from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faTag, faStar } from '@fortawesome/free-solid-svg-icons';
-import { CDN_URL } from '../utils/constants';
-import { Link } from 'react-router-dom';
+import React from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faTag, faStar } from "@fortawesome/free-solid-svg-icons";
+import { CDN_URL } from "../utils/constants";
+import { Link } from "react-router-dom";
 
 const OrderSummery = ({ dishList }) => {
 	return (
@@ -23,6 +23,7 @@ const OrderSummery = ({ dishList }) => {
 					<div
 						key={dish.id}
 						className="flex justify-between border-b-[1.5px] p-5 last:border-none"
+						data-testid="dishInCart"
 					>
 						{/* Image of the dish */}
 						<div className="w-1/5">
@@ -40,7 +41,7 @@ const OrderSummery = ({ dishList }) => {
 										₹ {(dish.defaultPrice ?? dish.price) / 100}
 									</span>
 									<span className="font-semibold tracking-tight">
-										{' '}
+										{" "}
 										₹ {dish.finalPrice / 100}
 									</span>
 								</>
@@ -65,7 +66,7 @@ const OrderSummery = ({ dishList }) => {
 							<p className="mb-3 mt-2">
 								<span className="text-sm font-bold tracking-tight text-green-600">
 									<FontAwesomeIcon icon={faStar} />
-									{` ${dish?.ratings?.aggregatedRating?.rating ?? 'Un-rated'} `}
+									{` ${dish?.ratings?.aggregatedRating?.rating ?? "Un-rated"} `}
 								</span>
 								<span className="text-sm font-semibold tracking-tight">
 									({dish?.ratings?.aggregatedRating?.ratingCountV2 ?? 0})

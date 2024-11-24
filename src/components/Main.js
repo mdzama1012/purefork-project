@@ -128,18 +128,18 @@ const Main = () => {
 				<input
 					data-testid="searchField"
 					type="text"
-					id="search-input"
-					name="searchBox"
+					id="search-field"
+					name="search-field"
 					placeholder="Search Restaurants, Cuisines and Dishes..."
 					value={searchText}
-					onInput={event => setSearchText(event.target.value)}
+					onChange={event => setSearchText(event.target.value)}
 					autoComplete="off"
 					className="grow rounded-sm border-[1.5px] p-3 font-semibold focus:outline-none"
 				/>
 				<button
-					name="search"
+					name="searchBtn"
 					type="submit"
-					id="search-btn"
+					id="searchBtn"
 					className="transition-all hover:text-orange-500"
 					onClick={() => {
 						setFilteredRestaurants(

@@ -1,9 +1,9 @@
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faStar } from '@fortawesome/free-solid-svg-icons';
-import Shimmer from './Shimmer';
-import useRestaurantMenu from '../utils/useRestaurantMenu';
-import AccordionItem from './AccordionItem';
-import { useState } from 'react';
+import { useState } from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faStar } from "@fortawesome/free-solid-svg-icons";
+import Shimmer from "./Shimmer";
+import useRestaurantMenu from "../utils/useRestaurantMenu";
+import AccordionItem from "./AccordionItem";
 
 const RestaurantMenu = () => {
 	const [accordionIndex, setAccordionIndex] = useState(-1);
@@ -15,8 +15,8 @@ const RestaurantMenu = () => {
 		restaurantMenu?.cards[4]?.groupedCard?.cardGroupMap?.REGULAR?.cards?.filter(
 			currCard => {
 				return (
-					currCard.card.card['@type'] ===
-					'type.googleapis.com/swiggy.presentation.food.v2.ItemCategory'
+					currCard.card.card["@type"] ===
+					"type.googleapis.com/swiggy.presentation.food.v2.ItemCategory"
 				);
 			}
 		);
@@ -36,7 +36,7 @@ const RestaurantMenu = () => {
 						<span className="text-gray-500"> &#8226; </span>
 						<span> {restaurantBasicData.costForTwoMessage}</span>
 					</h3>
-					<h3>{restaurantBasicData.cuisines.join(', ')}</h3>
+					<h3>{restaurantBasicData.cuisines.join(", ")}</h3>
 					<h4>
 						<span className="tracking-tight">Nearest Outlet: </span>
 						{` ${restaurantBasicData.areaName} - ${restaurantBasicData.sla?.lastMileTravelString}`}

@@ -1,5 +1,5 @@
 import RestaurantCard from "../components/RestaurantCard";
-import MOCK_DATA from "../../mocks/restaurantDataMock.json";
+import MOCK_DATA from "../mocks/restaurantDataMock.json";
 import { screen, render } from "@testing-library/react";
 import "@testing-library/jest-dom";
 

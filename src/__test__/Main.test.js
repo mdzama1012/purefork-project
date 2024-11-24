@@ -1,9 +1,11 @@
-import { render, screen, act, fireEvent } from "@testing-library/react";
+import { render, screen, fireEvent } from "@testing-library/react";
+import { act } from "react";
 import Main from "../components/Main";
-import MOCK_RESPONSE from "../../mocks/restaurantsMockResponse.json";
+import MOCK_RESPONSE from "../mocks/restaurantsMockResponse.json";
 import { BrowserRouter } from "react-router-dom";
 import "@testing-library/jest-dom";
 
+// Faking an API call.
 global.fetch = jest.fn(() => {
 	return Promise.resolve({
 		json: () => {
@@ -27,7 +29,7 @@ test("Should render search input field and search button", async () => {
 	expect(searchField).toBeInTheDocument();
 });
 
-test("Should filter restaurants, offering pizza using search functionality", async () => {
+test("Should render all 20 restaurants", async () => {
 	await act(async () =>
 		render(
 			<BrowserRouter>
@@ -35,25 +37,47 @@ test("Should filter restaurants, offering pizza using search functionality", asy
 			</BrowserRouter>
 		)
 	);
+	const restaurantsList = screen.getAllByTestId("restaurantCard");
+	expect(restaurantsList.length).toBe(20);
+});
 
-	// Check the restaurant cards before search.
-	const restaurantsBeforeSearch = screen.getAllByTestId("restaurantCard");
-
-	expect(restaurantsBeforeSearch.length).toBe(20);
-
-	// Another ways of extracting the search input field.
+test("Should filter the restaurant that offers pizza, using search functionality", async () => {
+	await act(async () =>
+		render(
+			<BrowserRouter>
+				<Main />
+			</BrowserRouter>
+		)
+	);
+	// Another way of selecting search field.
 	const searchField = screen.getByTestId("searchField");
 	const searchBtn = screen.getByRole("button");
 
-	// Enter "pizza" in the search input field.
+	// Enter "pizza" in search field and click on search button.
 	fireEvent.change(searchField, { target: { value: "pizza" } });
-
-	// Click on the search button.
 	fireEvent.click(searchBtn);
 
-	// Check the filtered restaurant cards.
+	// After the search, number of restaurant card must be 3.
 	const restaurantsAfterSearch = screen.getAllByTestId("restaurantCard");
-
-	// Should have 3 restaurant cards.
 	expect(restaurantsAfterSearch.length).toBe(3);
+});
+
+test("Should filter the restaurant that offers burger, using search functionality", async () => {
+	await act(async () =>
+		render(
+			<BrowserRouter>
+				<Main />
+			</BrowserRouter>
+		)
+	);
+	const searchField = screen.getByTestId("searchField");
+	const searchBtn = screen.getByRole("button");
+
+	// Enter "burger" in search field and click on search button.
+	fireEvent.change(searchField, { target: { value: "burger" } });
+	fireEvent.click(searchBtn);
+
+	// After the search, number of restaurant card must be 2.
+	const restaurantsAfterSearch = screen.getAllByTestId("restaurantCard");
+	expect(restaurantsAfterSearch.length).toBe(2);
 });

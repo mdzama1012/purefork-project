@@ -9,11 +9,11 @@ test("Should render the Header component", () => {
 	// We need to provide the store to the header.
 	// render(<Header />);
 	render(
-		<Provider store={appStore}>
-			<BrowserRouter>
+		<BrowserRouter>
+			<Provider store={appStore}>
 				<Header />
-			</BrowserRouter>
-		</Provider>
+			</Provider>
+		</BrowserRouter>
 	);
 
 	// const loginBtn = screen.getAllByRole('button');

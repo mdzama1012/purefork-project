@@ -3,7 +3,7 @@
 	"data": {
 		"statusMessage": "done successfully",
 		"pageOffset": {
-			"nextOffset": "CJhlELQ4KICg07y9iIDvTTCnEzgD",
+			"nextOffset": "CJhlELQ4KIDQzveF9ZCVVzCnEzgC",
 			"widgetOffset": {
 				"NewListingView_category_bar_chicletranking_TwoRows": "",
 				"NewListingView_category_bar_chicletranking_TwoRows_Rendition": "",
@@ -74,6 +74,40 @@
 									"externalMarketing": {}
 								},
 								{
+									"id": "750585",
+									"imageId": "MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/8f508de7-e0ac-4ba8-b54d-def9db98959e_Salad-1.png",
+									"action": {
+										"link": "https://www.swiggy.com/collections/83634?collection_id=83634&search_context=southindian&tags=layout_CCS_SouthIndian&type=rcv2",
+										"text": "South Indian",
+										"type": "WEBLINK"
+									},
+									"entityType": "BANNER",
+									"accessibility": {
+										"altText": "restaurants curated for south indian",
+										"altTextCta": "open"
+									},
+									"entityId": "swiggy://collectionV2?collection_id=83634&tags=layout_CCS_SouthIndian&search_context=southindian",
+									"frequencyCapping": {},
+									"externalMarketing": {}
+								},
+								{
+									"id": "750581",
+									"imageId": "MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/6ef07bda-b707-48ea-9b14-2594071593d1_North Indian.png",
+									"action": {
+										"link": "https://www.swiggy.com/collections/83633?collection_id=83633&search_context=northindian&tags=layout_CCS_NorthIndian&type=rcv2",
+										"text": "North Indian",
+										"type": "WEBLINK"
+									},
+									"entityType": "BANNER",
+									"accessibility": {
+										"altText": "restaurants curated for north indian",
+										"altTextCta": "open"
+									},
+									"entityId": "swiggy://collectionV2?collection_id=83633&tags=layout_CCS_NorthIndian&search_context=northindian",
+									"frequencyCapping": {},
+									"externalMarketing": {}
+								},
+								{
 									"id": "750579",
 									"imageId": "MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/6ef07bda-b707-48ea-9b14-2594071593d1_Pizzas.png",
 									"action": {
@@ -125,23 +159,6 @@
 									"externalMarketing": {}
 								},
 								{
-									"id": "750222",
-									"imageId": "MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/17/58760e8e-324f-479e-88fa-31800120ea38_Rolls1.png",
-									"action": {
-										"link": "https://www.swiggy.com/collections/83669?collection_id=83669&tags=layout_CCS_Rolls&type=rcv2",
-										"text": "Rolls",
-										"type": "WEBLINK"
-									},
-									"entityType": "BANNER",
-									"accessibility": {
-										"altText": "restaurants curated for roll",
-										"altTextCta": "open"
-									},
-									"entityId": "swiggy://collectionV2?collection_id=83669&tags=layout_CCS_Rolls",
-									"frequencyCapping": {},
-									"externalMarketing": {}
-								},
-								{
 									"id": "750587",
 									"imageId": "MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/6ef07bda-b707-48ea-9b14-2594071593d1_Chinese.png",
 									"action": {
@@ -159,189 +176,19 @@
 									"externalMarketing": {}
 								},
 								{
-									"id": "749768",
-									"imageId": "MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/6ef07bda-b707-48ea-9b14-2594071593d1_Momos.png",
+									"id": "750222",
+									"imageId": "MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/17/58760e8e-324f-479e-88fa-31800120ea38_Rolls1.png",
 									"action": {
-										"link": "https://www.swiggy.com/collections/80461?collection_id=80461&tags=layout_CCS_Momos&type=rcv2",
-										"text": "Momos",
+										"link": "https://www.swiggy.com/collections/83669?collection_id=83669&tags=layout_CCS_Rolls&type=rcv2",
+										"text": "Rolls",
 										"type": "WEBLINK"
 									},
 									"entityType": "BANNER",
 									"accessibility": {
-										"altText": "restaurant curated for momos",
+										"altText": "restaurants curated for roll",
 										"altTextCta": "open"
 									},
-									"entityId": "swiggy://collectionV2?collection_id=80461&tags=layout_CCS_Momos",
-									"frequencyCapping": {},
-									"externalMarketing": {}
-								},
-								{
-									"id": "750228",
-									"imageId": "MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/f1263395-5d4a-4775-95dc-80ab6f3bbd89_samosa.png",
-									"action": {
-										"link": "https://www.swiggy.com/collections/80396?collection_id=80396&tags=layout_BAU_Contextual%2Csamosa&type=rcv2",
-										"text": "Samosa",
-										"type": "WEBLINK"
-									},
-									"entityType": "BANNER",
-									"accessibility": {
-										"altText": "restaurants curated for samosa",
-										"altTextCta": "open"
-									},
-									"entityId": "80396",
-									"frequencyCapping": {},
-									"externalMarketing": {}
-								},
-								{
-									"id": "750585",
-									"imageId": "MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/8f508de7-e0ac-4ba8-b54d-def9db98959e_Salad-1.png",
-									"action": {
-										"link": "https://www.swiggy.com/collections/83634?collection_id=83634&search_context=southindian&tags=layout_CCS_SouthIndian&type=rcv2",
-										"text": "South Indian",
-										"type": "WEBLINK"
-									},
-									"entityType": "BANNER",
-									"accessibility": {
-										"altText": "restaurants curated for south indian",
-										"altTextCta": "open"
-									},
-									"entityId": "swiggy://collectionV2?collection_id=83634&tags=layout_CCS_SouthIndian&search_context=southindian",
-									"frequencyCapping": {},
-									"externalMarketing": {}
-								},
-								{
-									"id": "750571",
-									"imageId": "MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/8f508de7-e0ac-4ba8-b54d-def9db98959e_Pure Veg.png",
-									"action": {
-										"link": "https://www.swiggy.com/collections/80435?collection_id=80435&tags=layout_CCS_PureVeg&type=rcv2",
-										"text": "Pure Veg",
-										"type": "WEBLINK"
-									},
-									"entityType": "BANNER",
-									"accessibility": {
-										"altText": "restaurants curated for veg",
-										"altTextCta": "open"
-									},
-									"entityId": "swiggy://collectionV2?collection_id=80435&tags=layout_CCS_PureVeg",
-									"frequencyCapping": {},
-									"externalMarketing": {}
-								},
-								{
-									"id": "750248",
-									"imageId": "MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/f1263395-5d4a-4775-95dc-80ab6f3bbd89_shawarma.png",
-									"action": {
-										"link": "https://www.swiggy.com/collections/80402?collection_id=80402&tags=layout_Shawarma_Contextual&type=rcv2",
-										"text": "Shawarma",
-										"type": "WEBLINK"
-									},
-									"entityType": "BANNER",
-									"accessibility": {
-										"altText": "restaurant curated for shawarma",
-										"altTextCta": "open"
-									},
-									"entityId": "swiggy://collectionV2?collection_id=80402&tags=layout_Shawarma_Contextual",
-									"frequencyCapping": {},
-									"externalMarketing": {}
-								},
-								{
-									"id": "750079",
-									"imageId": "MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/8f508de7-e0ac-4ba8-b54d-def9db98959e_cutlet.png",
-									"action": {
-										"link": "https://www.swiggy.com/collections/80414?collection_id=80414&tags=layout_BAU_Contextual%2Ccutlet&type=rcv2",
-										"text": "Cutlet",
-										"type": "WEBLINK"
-									},
-									"entityType": "BANNER",
-									"accessibility": {
-										"altText": "restaurant curated for cutlet",
-										"altTextCta": "open"
-									},
-									"entityId": "80414",
-									"frequencyCapping": {},
-									"externalMarketing": {}
-								},
-								{
-									"id": "749772",
-									"imageId": "MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/6ef07bda-b707-48ea-9b14-2594071593d1_Noodles.png",
-									"action": {
-										"link": "https://www.swiggy.com/collections/80463?collection_id=80463&tags=layout_BAU_Contextual%2Cnoodles&type=rcv2",
-										"text": "Noodles",
-										"type": "WEBLINK"
-									},
-									"entityType": "BANNER",
-									"accessibility": {
-										"altText": "restaurant curated for noodles",
-										"altTextCta": "open"
-									},
-									"entityId": "80463",
-									"frequencyCapping": {},
-									"externalMarketing": {}
-								},
-								{
-									"id": "750206",
-									"imageId": "MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/f1263395-5d4a-4775-95dc-80ab6f3bbd89_pasta.png",
-									"action": {
-										"link": "https://www.swiggy.com/collections/80479?collection_id=80479&search_context=pasta&tags=layout_CCS_Pasta&type=rcv2",
-										"text": "Pasta",
-										"type": "WEBLINK"
-									},
-									"entityType": "BANNER",
-									"accessibility": {
-										"altText": "restaurant curated for pasta",
-										"altTextCta": "open"
-									},
-									"entityId": "swiggy://collectionV2?collection_id=80479&tags=layout_CCS_Pasta&search_context=pasta",
-									"frequencyCapping": {},
-									"externalMarketing": {}
-								},
-								{
-									"id": "750131",
-									"imageId": "MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/6ef07bda-b707-48ea-9b14-2594071593d1_Dosa.png",
-									"action": {
-										"link": "https://www.swiggy.com/collections/80424?collection_id=80424&tags=layout_CCS_Dosa&type=rcv2",
-										"text": "Dosa",
-										"type": "WEBLINK"
-									},
-									"entityType": "BANNER",
-									"accessibility": {
-										"altText": "restaurants curated for dosa",
-										"altTextCta": "open"
-									},
-									"entityId": "swiggy://collectionV2?collection_id=80424&tags=layout_CCS_Dosa",
-									"frequencyCapping": {},
-									"externalMarketing": {}
-								},
-								{
-									"id": "750216",
-									"imageId": "MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/8f508de7-e0ac-4ba8-b54d-def9db98959e_Pav Bhaji.png",
-									"action": {
-										"link": "https://www.swiggy.com/collections/80362?collection_id=80362&tags=layout_PavBhaji_Contextual&type=rcv2",
-										"text": "Pav Bhaji",
-										"type": "WEBLINK"
-									},
-									"entityType": "BANNER",
-									"accessibility": {
-										"altText": "restaurant curated for pav bhaji",
-										"altTextCta": "open"
-									},
-									"entityId": "swiggy://collectionV2?collection_id=80362&tags=layout_PavBhaji_Contextual",
-									"frequencyCapping": {},
-									"externalMarketing": {}
-								},
-								{
-									"id": "750208",
-									"imageId": "MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/f1263395-5d4a-4775-95dc-80ab6f3bbd89_pastry.png",
-									"action": {
-										"link": "https://www.swiggy.com/collections/80355?collection_id=80355&tags=layout_CCS_Pastry&type=rcv2",
-										"text": "Pastry",
-										"type": "WEBLINK"
-									},
-									"entityType": "BANNER",
-									"accessibility": {
-										"altText": "restaurant curated for Pastry",
-										"altTextCta": "open"
-									},
-									"entityId": "swiggy://collectionV2?collection_id=80355&tags=layout_CCS_Pastry",
+									"entityId": "swiggy://collectionV2?collection_id=83669&tags=layout_CCS_Rolls",
 									"frequencyCapping": {},
 									"externalMarketing": {}
 								},
@@ -363,6 +210,142 @@
 									"externalMarketing": {}
 								},
 								{
+									"id": "750571",
+									"imageId": "MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/8f508de7-e0ac-4ba8-b54d-def9db98959e_Pure Veg.png",
+									"action": {
+										"link": "https://www.swiggy.com/collections/80435?collection_id=80435&tags=layout_CCS_PureVeg&type=rcv2",
+										"text": "Pure Veg",
+										"type": "WEBLINK"
+									},
+									"entityType": "BANNER",
+									"accessibility": {
+										"altText": "restaurants curated for veg",
+										"altTextCta": "open"
+									},
+									"entityId": "swiggy://collectionV2?collection_id=80435&tags=layout_CCS_PureVeg",
+									"frequencyCapping": {},
+									"externalMarketing": {}
+								},
+								{
+									"id": "750131",
+									"imageId": "MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/6ef07bda-b707-48ea-9b14-2594071593d1_Dosa.png",
+									"action": {
+										"link": "https://www.swiggy.com/collections/80424?collection_id=80424&tags=layout_CCS_Dosa&type=rcv2",
+										"text": "Dosa",
+										"type": "WEBLINK"
+									},
+									"entityType": "BANNER",
+									"accessibility": {
+										"altText": "restaurants curated for dosa",
+										"altTextCta": "open"
+									},
+									"entityId": "swiggy://collectionV2?collection_id=80424&tags=layout_CCS_Dosa",
+									"frequencyCapping": {},
+									"externalMarketing": {}
+								},
+								{
+									"id": "750206",
+									"imageId": "MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/f1263395-5d4a-4775-95dc-80ab6f3bbd89_pasta.png",
+									"action": {
+										"link": "https://www.swiggy.com/collections/80479?collection_id=80479&search_context=pasta&tags=layout_CCS_Pasta&type=rcv2",
+										"text": "Pasta",
+										"type": "WEBLINK"
+									},
+									"entityType": "BANNER",
+									"accessibility": {
+										"altText": "restaurant curated for pasta",
+										"altTextCta": "open"
+									},
+									"entityId": "swiggy://collectionV2?collection_id=80479&tags=layout_CCS_Pasta&search_context=pasta",
+									"frequencyCapping": {},
+									"externalMarketing": {}
+								},
+								{
+									"id": "750635",
+									"imageId": "MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/6ef07bda-b707-48ea-9b14-2594071593d1_Kebabs.png",
+									"action": {
+										"link": "https://www.swiggy.com/collections/80451?collection_id=80451&tags=layout_CCS_Kebabs&type=rcv2",
+										"text": "Kebabs",
+										"type": "WEBLINK"
+									},
+									"entityType": "BANNER",
+									"accessibility": {
+										"altText": "restaurant curated for kebabs",
+										"altTextCta": "open"
+									},
+									"entityId": "swiggy://collectionV2?collection_id=80451&tags=layout_CCS_Kebabs",
+									"frequencyCapping": {},
+									"externalMarketing": {}
+								},
+								{
+									"id": "750201",
+									"imageId": "MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/6ef07bda-b707-48ea-9b14-2594071593d1_Paratha.png",
+									"action": {
+										"link": "https://www.swiggy.com/collections/80475?collection_id=80475&tags=layout_CCS_Paratha&type=rcv2",
+										"text": "Paratha",
+										"type": "WEBLINK"
+									},
+									"entityType": "BANNER",
+									"accessibility": {
+										"altText": "restaurants curated for paratha",
+										"altTextCta": "open"
+									},
+									"entityId": "swiggy://collectionV2?collection_id=80475&tags=layout_CCS_Paratha",
+									"frequencyCapping": {},
+									"externalMarketing": {}
+								},
+								{
+									"id": "750596",
+									"imageId": "MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/8f508de7-e0ac-4ba8-b54d-def9db98959e_chocolate icecream.png",
+									"action": {
+										"link": "https://www.swiggy.com/collections/83640?collection_id=83640&tags=layout_CCS_IceCreams&type=rcv2",
+										"text": "Ice Cream",
+										"type": "WEBLINK"
+									},
+									"entityType": "BANNER",
+									"accessibility": {
+										"altText": "restaurants curated for icecream",
+										"altTextCta": "open"
+									},
+									"entityId": "swiggy://collectionV2?collection_id=83640&tags=layout_CCS_IceCreams",
+									"frequencyCapping": {},
+									"externalMarketing": {}
+								},
+								{
+									"id": "749772",
+									"imageId": "MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/6ef07bda-b707-48ea-9b14-2594071593d1_Noodles.png",
+									"action": {
+										"link": "https://www.swiggy.com/collections/80463?collection_id=80463&tags=layout_BAU_Contextual%2Cnoodles&type=rcv2",
+										"text": "Noodles",
+										"type": "WEBLINK"
+									},
+									"entityType": "BANNER",
+									"accessibility": {
+										"altText": "restaurant curated for noodles",
+										"altTextCta": "open"
+									},
+									"entityId": "80463",
+									"frequencyCapping": {},
+									"externalMarketing": {}
+								},
+								{
+									"id": "750643",
+									"imageId": "MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/6ef07bda-b707-48ea-9b14-2594071593d1_Idli.png",
+									"action": {
+										"link": "https://www.swiggy.com/collections/80440?collection_id=80440&tags=layout_CCS_Idli&type=rcv2",
+										"text": "Idli",
+										"type": "WEBLINK"
+									},
+									"entityType": "BANNER",
+									"accessibility": {
+										"altText": "restaurants curated for idly",
+										"altTextCta": "open"
+									},
+									"entityId": "swiggy://collectionV2?collection_id=80440&tags=layout_CCS_Idli",
+									"frequencyCapping": {},
+									"externalMarketing": {}
+								},
+								{
 									"id": "745861",
 									"imageId": "MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/8f508de7-e0ac-4ba8-b54d-def9db98959e_Shake.png",
 									"action": {
@@ -380,19 +363,36 @@
 									"externalMarketing": {}
 								},
 								{
-									"id": "749790",
-									"imageId": "MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/f1263395-5d4a-4775-95dc-80ab6f3bbd89_pakoda.png",
+									"id": "750248",
+									"imageId": "MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/f1263395-5d4a-4775-95dc-80ab6f3bbd89_shawarma.png",
 									"action": {
-										"link": "https://www.swiggy.com/collections/80469?collection_id=80469&tags=layout_BAU_Contextual%2Cpakoda&type=rcv2",
-										"text": "Pakoda",
+										"link": "https://www.swiggy.com/collections/80402?collection_id=80402&tags=layout_Shawarma_Contextual&type=rcv2",
+										"text": "Shawarma",
 										"type": "WEBLINK"
 									},
 									"entityType": "BANNER",
 									"accessibility": {
-										"altText": "restaurant curated for pakoda",
+										"altText": "restaurant curated for shawarma",
 										"altTextCta": "open"
 									},
-									"entityId": "80469",
+									"entityId": "swiggy://collectionV2?collection_id=80402&tags=layout_Shawarma_Contextual",
+									"frequencyCapping": {},
+									"externalMarketing": {}
+								},
+								{
+									"id": "749816",
+									"imageId": "MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/6ef07bda-b707-48ea-9b14-2594071593d1_Bath.png",
+									"action": {
+										"link": "https://www.swiggy.com/collections/80354?collection_id=80354&tags=layout_BAU_Contextual%2Cbath%2Clayout_ux4&type=rcv2",
+										"text": "Bath",
+										"type": "WEBLINK"
+									},
+									"entityType": "BANNER",
+									"accessibility": {
+										"altText": "restaurant curated for bath",
+										"altTextCta": "open"
+									},
+									"entityId": "80354",
 									"frequencyCapping": {},
 									"externalMarketing": {}
 								}
@@ -429,6 +429,40 @@
 											"altTextCta": "open"
 										},
 										"entityId": "swiggy://collectionV2?collection_id=83639&tags=layout_CCS_Biryani&search_context=biryani",
+										"frequencyCapping": {},
+										"externalMarketing": {}
+									},
+									{
+										"id": "750585",
+										"imageId": "MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/8f508de7-e0ac-4ba8-b54d-def9db98959e_Salad-1.png",
+										"action": {
+											"link": "https://www.swiggy.com/collections/83634?collection_id=83634&search_context=southindian&tags=layout_CCS_SouthIndian&type=rcv2",
+											"text": "South Indian",
+											"type": "WEBLINK"
+										},
+										"entityType": "BANNER",
+										"accessibility": {
+											"altText": "restaurants curated for south indian",
+											"altTextCta": "open"
+										},
+										"entityId": "swiggy://collectionV2?collection_id=83634&tags=layout_CCS_SouthIndian&search_context=southindian",
+										"frequencyCapping": {},
+										"externalMarketing": {}
+									},
+									{
+										"id": "750581",
+										"imageId": "MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/6ef07bda-b707-48ea-9b14-2594071593d1_North Indian.png",
+										"action": {
+											"link": "https://www.swiggy.com/collections/83633?collection_id=83633&search_context=northindian&tags=layout_CCS_NorthIndian&type=rcv2",
+											"text": "North Indian",
+											"type": "WEBLINK"
+										},
+										"entityType": "BANNER",
+										"accessibility": {
+											"altText": "restaurants curated for north indian",
+											"altTextCta": "open"
+										},
+										"entityId": "swiggy://collectionV2?collection_id=83633&tags=layout_CCS_NorthIndian&search_context=northindian",
 										"frequencyCapping": {},
 										"externalMarketing": {}
 									},
@@ -484,23 +518,6 @@
 										"externalMarketing": {}
 									},
 									{
-										"id": "750222",
-										"imageId": "MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/17/58760e8e-324f-479e-88fa-31800120ea38_Rolls1.png",
-										"action": {
-											"link": "https://www.swiggy.com/collections/83669?collection_id=83669&tags=layout_CCS_Rolls&type=rcv2",
-											"text": "Rolls",
-											"type": "WEBLINK"
-										},
-										"entityType": "BANNER",
-										"accessibility": {
-											"altText": "restaurants curated for roll",
-											"altTextCta": "open"
-										},
-										"entityId": "swiggy://collectionV2?collection_id=83669&tags=layout_CCS_Rolls",
-										"frequencyCapping": {},
-										"externalMarketing": {}
-									},
-									{
 										"id": "750587",
 										"imageId": "MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/6ef07bda-b707-48ea-9b14-2594071593d1_Chinese.png",
 										"action": {
@@ -518,189 +535,19 @@
 										"externalMarketing": {}
 									},
 									{
-										"id": "749768",
-										"imageId": "MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/6ef07bda-b707-48ea-9b14-2594071593d1_Momos.png",
+										"id": "750222",
+										"imageId": "MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/17/58760e8e-324f-479e-88fa-31800120ea38_Rolls1.png",
 										"action": {
-											"link": "https://www.swiggy.com/collections/80461?collection_id=80461&tags=layout_CCS_Momos&type=rcv2",
-											"text": "Momos",
+											"link": "https://www.swiggy.com/collections/83669?collection_id=83669&tags=layout_CCS_Rolls&type=rcv2",
+											"text": "Rolls",
 											"type": "WEBLINK"
 										},
 										"entityType": "BANNER",
 										"accessibility": {
-											"altText": "restaurant curated for momos",
+											"altText": "restaurants curated for roll",
 											"altTextCta": "open"
 										},
-										"entityId": "swiggy://collectionV2?collection_id=80461&tags=layout_CCS_Momos",
-										"frequencyCapping": {},
-										"externalMarketing": {}
-									},
-									{
-										"id": "750228",
-										"imageId": "MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/f1263395-5d4a-4775-95dc-80ab6f3bbd89_samosa.png",
-										"action": {
-											"link": "https://www.swiggy.com/collections/80396?collection_id=80396&tags=layout_BAU_Contextual%2Csamosa&type=rcv2",
-											"text": "Samosa",
-											"type": "WEBLINK"
-										},
-										"entityType": "BANNER",
-										"accessibility": {
-											"altText": "restaurants curated for samosa",
-											"altTextCta": "open"
-										},
-										"entityId": "80396",
-										"frequencyCapping": {},
-										"externalMarketing": {}
-									},
-									{
-										"id": "750585",
-										"imageId": "MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/8f508de7-e0ac-4ba8-b54d-def9db98959e_Salad-1.png",
-										"action": {
-											"link": "https://www.swiggy.com/collections/83634?collection_id=83634&search_context=southindian&tags=layout_CCS_SouthIndian&type=rcv2",
-											"text": "South Indian",
-											"type": "WEBLINK"
-										},
-										"entityType": "BANNER",
-										"accessibility": {
-											"altText": "restaurants curated for south indian",
-											"altTextCta": "open"
-										},
-										"entityId": "swiggy://collectionV2?collection_id=83634&tags=layout_CCS_SouthIndian&search_context=southindian",
-										"frequencyCapping": {},
-										"externalMarketing": {}
-									},
-									{
-										"id": "750571",
-										"imageId": "MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/8f508de7-e0ac-4ba8-b54d-def9db98959e_Pure Veg.png",
-										"action": {
-											"link": "https://www.swiggy.com/collections/80435?collection_id=80435&tags=layout_CCS_PureVeg&type=rcv2",
-											"text": "Pure Veg",
-											"type": "WEBLINK"
-										},
-										"entityType": "BANNER",
-										"accessibility": {
-											"altText": "restaurants curated for veg",
-											"altTextCta": "open"
-										},
-										"entityId": "swiggy://collectionV2?collection_id=80435&tags=layout_CCS_PureVeg",
-										"frequencyCapping": {},
-										"externalMarketing": {}
-									},
-									{
-										"id": "750248",
-										"imageId": "MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/f1263395-5d4a-4775-95dc-80ab6f3bbd89_shawarma.png",
-										"action": {
-											"link": "https://www.swiggy.com/collections/80402?collection_id=80402&tags=layout_Shawarma_Contextual&type=rcv2",
-											"text": "Shawarma",
-											"type": "WEBLINK"
-										},
-										"entityType": "BANNER",
-										"accessibility": {
-											"altText": "restaurant curated for shawarma",
-											"altTextCta": "open"
-										},
-										"entityId": "swiggy://collectionV2?collection_id=80402&tags=layout_Shawarma_Contextual",
-										"frequencyCapping": {},
-										"externalMarketing": {}
-									},
-									{
-										"id": "750079",
-										"imageId": "MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/8f508de7-e0ac-4ba8-b54d-def9db98959e_cutlet.png",
-										"action": {
-											"link": "https://www.swiggy.com/collections/80414?collection_id=80414&tags=layout_BAU_Contextual%2Ccutlet&type=rcv2",
-											"text": "Cutlet",
-											"type": "WEBLINK"
-										},
-										"entityType": "BANNER",
-										"accessibility": {
-											"altText": "restaurant curated for cutlet",
-											"altTextCta": "open"
-										},
-										"entityId": "80414",
-										"frequencyCapping": {},
-										"externalMarketing": {}
-									},
-									{
-										"id": "749772",
-										"imageId": "MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/6ef07bda-b707-48ea-9b14-2594071593d1_Noodles.png",
-										"action": {
-											"link": "https://www.swiggy.com/collections/80463?collection_id=80463&tags=layout_BAU_Contextual%2Cnoodles&type=rcv2",
-											"text": "Noodles",
-											"type": "WEBLINK"
-										},
-										"entityType": "BANNER",
-										"accessibility": {
-											"altText": "restaurant curated for noodles",
-											"altTextCta": "open"
-										},
-										"entityId": "80463",
-										"frequencyCapping": {},
-										"externalMarketing": {}
-									},
-									{
-										"id": "750206",
-										"imageId": "MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/f1263395-5d4a-4775-95dc-80ab6f3bbd89_pasta.png",
-										"action": {
-											"link": "https://www.swiggy.com/collections/80479?collection_id=80479&search_context=pasta&tags=layout_CCS_Pasta&type=rcv2",
-											"text": "Pasta",
-											"type": "WEBLINK"
-										},
-										"entityType": "BANNER",
-										"accessibility": {
-											"altText": "restaurant curated for pasta",
-											"altTextCta": "open"
-										},
-										"entityId": "swiggy://collectionV2?collection_id=80479&tags=layout_CCS_Pasta&search_context=pasta",
-										"frequencyCapping": {},
-										"externalMarketing": {}
-									},
-									{
-										"id": "750131",
-										"imageId": "MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/6ef07bda-b707-48ea-9b14-2594071593d1_Dosa.png",
-										"action": {
-											"link": "https://www.swiggy.com/collections/80424?collection_id=80424&tags=layout_CCS_Dosa&type=rcv2",
-											"text": "Dosa",
-											"type": "WEBLINK"
-										},
-										"entityType": "BANNER",
-										"accessibility": {
-											"altText": "restaurants curated for dosa",
-											"altTextCta": "open"
-										},
-										"entityId": "swiggy://collectionV2?collection_id=80424&tags=layout_CCS_Dosa",
-										"frequencyCapping": {},
-										"externalMarketing": {}
-									},
-									{
-										"id": "750216",
-										"imageId": "MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/8f508de7-e0ac-4ba8-b54d-def9db98959e_Pav Bhaji.png",
-										"action": {
-											"link": "https://www.swiggy.com/collections/80362?collection_id=80362&tags=layout_PavBhaji_Contextual&type=rcv2",
-											"text": "Pav Bhaji",
-											"type": "WEBLINK"
-										},
-										"entityType": "BANNER",
-										"accessibility": {
-											"altText": "restaurant curated for pav bhaji",
-											"altTextCta": "open"
-										},
-										"entityId": "swiggy://collectionV2?collection_id=80362&tags=layout_PavBhaji_Contextual",
-										"frequencyCapping": {},
-										"externalMarketing": {}
-									},
-									{
-										"id": "750208",
-										"imageId": "MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/f1263395-5d4a-4775-95dc-80ab6f3bbd89_pastry.png",
-										"action": {
-											"link": "https://www.swiggy.com/collections/80355?collection_id=80355&tags=layout_CCS_Pastry&type=rcv2",
-											"text": "Pastry",
-											"type": "WEBLINK"
-										},
-										"entityType": "BANNER",
-										"accessibility": {
-											"altText": "restaurant curated for Pastry",
-											"altTextCta": "open"
-										},
-										"entityId": "swiggy://collectionV2?collection_id=80355&tags=layout_CCS_Pastry",
+										"entityId": "swiggy://collectionV2?collection_id=83669&tags=layout_CCS_Rolls",
 										"frequencyCapping": {},
 										"externalMarketing": {}
 									},
@@ -722,6 +569,142 @@
 										"externalMarketing": {}
 									},
 									{
+										"id": "750571",
+										"imageId": "MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/8f508de7-e0ac-4ba8-b54d-def9db98959e_Pure Veg.png",
+										"action": {
+											"link": "https://www.swiggy.com/collections/80435?collection_id=80435&tags=layout_CCS_PureVeg&type=rcv2",
+											"text": "Pure Veg",
+											"type": "WEBLINK"
+										},
+										"entityType": "BANNER",
+										"accessibility": {
+											"altText": "restaurants curated for veg",
+											"altTextCta": "open"
+										},
+										"entityId": "swiggy://collectionV2?collection_id=80435&tags=layout_CCS_PureVeg",
+										"frequencyCapping": {},
+										"externalMarketing": {}
+									},
+									{
+										"id": "750131",
+										"imageId": "MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/6ef07bda-b707-48ea-9b14-2594071593d1_Dosa.png",
+										"action": {
+											"link": "https://www.swiggy.com/collections/80424?collection_id=80424&tags=layout_CCS_Dosa&type=rcv2",
+											"text": "Dosa",
+											"type": "WEBLINK"
+										},
+										"entityType": "BANNER",
+										"accessibility": {
+											"altText": "restaurants curated for dosa",
+											"altTextCta": "open"
+										},
+										"entityId": "swiggy://collectionV2?collection_id=80424&tags=layout_CCS_Dosa",
+										"frequencyCapping": {},
+										"externalMarketing": {}
+									},
+									{
+										"id": "750206",
+										"imageId": "MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/f1263395-5d4a-4775-95dc-80ab6f3bbd89_pasta.png",
+										"action": {
+											"link": "https://www.swiggy.com/collections/80479?collection_id=80479&search_context=pasta&tags=layout_CCS_Pasta&type=rcv2",
+											"text": "Pasta",
+											"type": "WEBLINK"
+										},
+										"entityType": "BANNER",
+										"accessibility": {
+											"altText": "restaurant curated for pasta",
+											"altTextCta": "open"
+										},
+										"entityId": "swiggy://collectionV2?collection_id=80479&tags=layout_CCS_Pasta&search_context=pasta",
+										"frequencyCapping": {},
+										"externalMarketing": {}
+									},
+									{
+										"id": "750635",
+										"imageId": "MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/6ef07bda-b707-48ea-9b14-2594071593d1_Kebabs.png",
+										"action": {
+											"link": "https://www.swiggy.com/collections/80451?collection_id=80451&tags=layout_CCS_Kebabs&type=rcv2",
+											"text": "Kebabs",
+											"type": "WEBLINK"
+										},
+										"entityType": "BANNER",
+										"accessibility": {
+											"altText": "restaurant curated for kebabs",
+											"altTextCta": "open"
+										},
+										"entityId": "swiggy://collectionV2?collection_id=80451&tags=layout_CCS_Kebabs",
+										"frequencyCapping": {},
+										"externalMarketing": {}
+									},
+									{
+										"id": "750201",
+										"imageId": "MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/6ef07bda-b707-48ea-9b14-2594071593d1_Paratha.png",
+										"action": {
+											"link": "https://www.swiggy.com/collections/80475?collection_id=80475&tags=layout_CCS_Paratha&type=rcv2",
+											"text": "Paratha",
+											"type": "WEBLINK"
+										},
+										"entityType": "BANNER",
+										"accessibility": {
+											"altText": "restaurants curated for paratha",
+											"altTextCta": "open"
+										},
+										"entityId": "swiggy://collectionV2?collection_id=80475&tags=layout_CCS_Paratha",
+										"frequencyCapping": {},
+										"externalMarketing": {}
+									},
+									{
+										"id": "750596",
+										"imageId": "MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/8f508de7-e0ac-4ba8-b54d-def9db98959e_chocolate icecream.png",
+										"action": {
+											"link": "https://www.swiggy.com/collections/83640?collection_id=83640&tags=layout_CCS_IceCreams&type=rcv2",
+											"text": "Ice Cream",
+											"type": "WEBLINK"
+										},
+										"entityType": "BANNER",
+										"accessibility": {
+											"altText": "restaurants curated for icecream",
+											"altTextCta": "open"
+										},
+										"entityId": "swiggy://collectionV2?collection_id=83640&tags=layout_CCS_IceCreams",
+										"frequencyCapping": {},
+										"externalMarketing": {}
+									},
+									{
+										"id": "749772",
+										"imageId": "MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/6ef07bda-b707-48ea-9b14-2594071593d1_Noodles.png",
+										"action": {
+											"link": "https://www.swiggy.com/collections/80463?collection_id=80463&tags=layout_BAU_Contextual%2Cnoodles&type=rcv2",
+											"text": "Noodles",
+											"type": "WEBLINK"
+										},
+										"entityType": "BANNER",
+										"accessibility": {
+											"altText": "restaurant curated for noodles",
+											"altTextCta": "open"
+										},
+										"entityId": "80463",
+										"frequencyCapping": {},
+										"externalMarketing": {}
+									},
+									{
+										"id": "750643",
+										"imageId": "MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/6ef07bda-b707-48ea-9b14-2594071593d1_Idli.png",
+										"action": {
+											"link": "https://www.swiggy.com/collections/80440?collection_id=80440&tags=layout_CCS_Idli&type=rcv2",
+											"text": "Idli",
+											"type": "WEBLINK"
+										},
+										"entityType": "BANNER",
+										"accessibility": {
+											"altText": "restaurants curated for idly",
+											"altTextCta": "open"
+										},
+										"entityId": "swiggy://collectionV2?collection_id=80440&tags=layout_CCS_Idli",
+										"frequencyCapping": {},
+										"externalMarketing": {}
+									},
+									{
 										"id": "745861",
 										"imageId": "MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/8f508de7-e0ac-4ba8-b54d-def9db98959e_Shake.png",
 										"action": {
@@ -739,19 +722,36 @@
 										"externalMarketing": {}
 									},
 									{
-										"id": "749790",
-										"imageId": "MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/f1263395-5d4a-4775-95dc-80ab6f3bbd89_pakoda.png",
+										"id": "750248",
+										"imageId": "MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/f1263395-5d4a-4775-95dc-80ab6f3bbd89_shawarma.png",
 										"action": {
-											"link": "https://www.swiggy.com/collections/80469?collection_id=80469&tags=layout_BAU_Contextual%2Cpakoda&type=rcv2",
-											"text": "Pakoda",
+											"link": "https://www.swiggy.com/collections/80402?collection_id=80402&tags=layout_Shawarma_Contextual&type=rcv2",
+											"text": "Shawarma",
 											"type": "WEBLINK"
 										},
 										"entityType": "BANNER",
 										"accessibility": {
-											"altText": "restaurant curated for pakoda",
+											"altText": "restaurant curated for shawarma",
 											"altTextCta": "open"
 										},
-										"entityId": "80469",
+										"entityId": "swiggy://collectionV2?collection_id=80402&tags=layout_Shawarma_Contextual",
+										"frequencyCapping": {},
+										"externalMarketing": {}
+									},
+									{
+										"id": "749816",
+										"imageId": "MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/6ef07bda-b707-48ea-9b14-2594071593d1_Bath.png",
+										"action": {
+											"link": "https://www.swiggy.com/collections/80354?collection_id=80354&tags=layout_BAU_Contextual%2Cbath%2Clayout_ux4&type=rcv2",
+											"text": "Bath",
+											"type": "WEBLINK"
+										},
+										"entityType": "BANNER",
+										"accessibility": {
+											"altText": "restaurant curated for bath",
+											"altTextCta": "open"
+										},
+										"entityId": "80354",
 										"frequencyCapping": {},
 										"externalMarketing": {}
 									}
@@ -843,7 +843,7 @@
 											"avgRatingString": "4.3",
 											"totalRatingsString": "10K+",
 											"sla": {
-												"deliveryTime": 36,
+												"deliveryTime": 37,
 												"lastMileTravel": 2.7,
 												"serviceability": "SERVICEABLE",
 												"slaString": "35-40 mins",
@@ -851,7 +851,7 @@
 												"iconType": "ICON_TYPE_EMPTY"
 											},
 											"availability": {
-												"nextCloseTime": "2024-11-23 01:00:00",
+												"nextCloseTime": "2024-11-25 01:00:00",
 												"opened": true
 											},
 											"badges": {},
@@ -889,10 +889,161 @@
 											"ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
 										},
 										"analytics": {
-											"context": "seo-data-f47cb279-646e-404b-adcf-5e68657f4dfe"
+											"context": "seo-data-10fc159b-413c-4856-941d-e7fccc0b9efe"
 										},
 										"cta": {
 											"link": "https://www.swiggy.com/city/bangalore/pizza-hut-richmond-town-shanti-nagar-rest10575",
+											"type": "WEBLINK"
+										}
+									},
+									{
+										"info": {
+											"id": "588619",
+											"name": "KFC",
+											"cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/11/5/ab13ff98-4cb5-4062-bef6-1738d5d5ed45_588619.JPG",
+											"locality": "Brigade Road",
+											"areaName": "Central Bangalore",
+											"costForTwo": "₹400 for two",
+											"cuisines": ["Burgers", "Fast Food", "Rolls & Wraps"],
+											"avgRating": 4.4,
+											"parentId": "547",
+											"avgRatingString": "4.4",
+											"totalRatingsString": "2.1K+",
+											"sla": {
+												"deliveryTime": 38,
+												"lastMileTravel": 2.4,
+												"serviceability": "SERVICEABLE",
+												"slaString": "35-40 mins",
+												"lastMileTravelString": "2.4 km",
+												"iconType": "ICON_TYPE_EMPTY"
+											},
+											"availability": {
+												"nextCloseTime": "2024-11-25 01:00:00",
+												"opened": true
+											},
+											"badges": {},
+											"isOpen": true,
+											"type": "F",
+											"badgesV2": {
+												"entityBadges": {
+													"imageBased": {},
+													"textBased": {},
+													"textExtendedBadges": {}
+												}
+											},
+											"aggregatedDiscountInfoV3": {
+												"header": "20% OFF",
+												"subHeader": "ABOVE ₹2999",
+												"discountTag": "FLAT DEAL"
+											},
+											"differentiatedUi": {
+												"displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+												"differentiatedUiMediaDetails": {
+													"lottie": {},
+													"video": {}
+												}
+											},
+											"reviewsSummary": {},
+											"displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+											"restaurantOfferPresentationInfo": {},
+											"externalRatings": {
+												"aggregatedRating": {
+													"rating": "4.0",
+													"ratingCount": "342"
+												},
+												"source": "GOOGLE",
+												"sourceIconImageId": "v1704440323/google_ratings/rating_google_tag"
+											},
+											"ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+										},
+										"analytics": {
+											"context": "seo-data-10fc159b-413c-4856-941d-e7fccc0b9efe"
+										},
+										"cta": {
+											"link": "https://www.swiggy.com/city/bangalore/kfc-brigade-road-central-bangalore-rest588619",
+											"type": "WEBLINK"
+										}
+									},
+									{
+										"info": {
+											"id": "69876",
+											"name": "Subway",
+											"cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/10/24/0f27fbff-1e49-4161-a0a5-848062423b76_69876.JPG",
+											"locality": "UB City",
+											"areaName": "Central Bangalore",
+											"costForTwo": "₹350 for two",
+											"cuisines": ["Salads", "Snacks", "Desserts", "Beverages"],
+											"avgRating": 4.3,
+											"parentId": "2",
+											"avgRatingString": "4.3",
+											"totalRatingsString": "3.6K+",
+											"sla": {
+												"deliveryTime": 40,
+												"lastMileTravel": 0.6,
+												"serviceability": "SERVICEABLE",
+												"slaString": "35-40 mins",
+												"lastMileTravelString": "0.6 km",
+												"iconType": "ICON_TYPE_EMPTY"
+											},
+											"availability": {
+												"nextCloseTime": "2024-11-24 23:00:00",
+												"opened": true
+											},
+											"badges": {
+												"imageBadges": [
+													{
+														"imageId": "Rxawards/_CATEGORY-Sandwiches.png",
+														"description": "Delivery!"
+													}
+												]
+											},
+											"isOpen": true,
+											"type": "F",
+											"badgesV2": {
+												"entityBadges": {
+													"imageBased": {
+														"badgeObject": [
+															{
+																"attributes": {
+																	"description": "Delivery!",
+																	"imageId": "Rxawards/_CATEGORY-Sandwiches.png"
+																}
+															}
+														]
+													},
+													"textBased": {},
+													"textExtendedBadges": {}
+												}
+											},
+											"aggregatedDiscountInfoV3": {
+												"header": "ITEMS",
+												"subHeader": "AT ₹119"
+											},
+											"differentiatedUi": {
+												"displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+												"differentiatedUiMediaDetails": {
+													"lottie": {},
+													"video": {}
+												}
+											},
+											"reviewsSummary": {},
+											"displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+											"restaurantOfferPresentationInfo": {},
+											"externalRatings": {
+												"aggregatedRating": {
+													"rating": "3.8",
+													"ratingCount": "282"
+												},
+												"source": "GOOGLE",
+												"sourceIconImageId": "v1704440323/google_ratings/rating_google_tag"
+											},
+											"ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+										},
+										"analytics": {
+											"context": "seo-data-10fc159b-413c-4856-941d-e7fccc0b9efe"
+										},
+										"cta": {
+											"link": "https://www.swiggy.com/city/bangalore/subway-ub-city-central-bangalore-rest69876",
 											"type": "WEBLINK"
 										}
 									},
@@ -918,7 +1069,7 @@
 												"iconType": "ICON_TYPE_EMPTY"
 											},
 											"availability": {
-												"nextCloseTime": "2024-11-22 22:59:00",
+												"nextCloseTime": "2024-11-24 22:59:00",
 												"opened": true
 											},
 											"badges": {
@@ -930,6 +1081,7 @@
 												]
 											},
 											"isOpen": true,
+											"aggregatedDiscountInfoV2": {},
 											"type": "F",
 											"badgesV2": {
 												"entityBadges": {
@@ -946,11 +1098,6 @@
 													"textBased": {},
 													"textExtendedBadges": {}
 												}
-											},
-											"aggregatedDiscountInfoV3": {
-												"header": "₹125 OFF",
-												"subHeader": "ABOVE ₹1199",
-												"discountTag": "FLAT DEAL"
 											},
 											"differentiatedUi": {
 												"displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
@@ -973,7 +1120,7 @@
 											"ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
 										},
 										"analytics": {
-											"context": "seo-data-f47cb279-646e-404b-adcf-5e68657f4dfe"
+											"context": "seo-data-10fc159b-413c-4856-941d-e7fccc0b9efe"
 										},
 										"cta": {
 											"link": "https://www.swiggy.com/city/bangalore/dominos-pizza-mg-road-brigade-road-rest23847",
@@ -982,34 +1129,36 @@
 									},
 									{
 										"info": {
-											"id": "396747",
-											"name": "LunchBox - Meals and Thalis",
-											"cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/10/16/2e69f87e-dff6-4bd1-a380-1b365b27bede_396747.jpg",
-											"locality": "Residency Road",
-											"areaName": "Shantinagar",
-											"costForTwo": "₹200 for two",
+											"id": "6924",
+											"name": "FreshMenu",
+											"cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/8/12/6d758a42-634e-4b3e-809f-876d0ee8e44a_6924.JPG",
+											"locality": "Johnson Market",
+											"areaName": "Richmond Road",
+											"costForTwo": "₹250 for two",
 											"cuisines": [
-												"Biryani",
-												"North Indian",
-												"Punjabi",
+												"Continental",
+												"Chinese",
+												"Oriental",
+												"Asian",
 												"Healthy Food",
-												"Desserts",
-												"Beverages"
+												"Fast Food",
+												"Indian",
+												"Desserts"
 											],
-											"avgRating": 4.3,
-											"parentId": "4925",
-											"avgRatingString": "4.3",
-											"totalRatingsString": "1.9K+",
+											"avgRating": 4.4,
+											"parentId": "398",
+											"avgRatingString": "4.4",
+											"totalRatingsString": "59K+",
 											"sla": {
-												"deliveryTime": 33,
-												"lastMileTravel": 2.2,
+												"deliveryTime": 39,
+												"lastMileTravel": 2.4,
 												"serviceability": "SERVICEABLE",
-												"slaString": "30-35 mins",
-												"lastMileTravelString": "2.2 km",
+												"slaString": "35-40 mins",
+												"lastMileTravelString": "2.4 km",
 												"iconType": "ICON_TYPE_EMPTY"
 											},
 											"availability": {
-												"nextCloseTime": "2024-11-22 23:59:00",
+												"nextCloseTime": "2024-11-24 23:59:00",
 												"opened": true
 											},
 											"badges": {
@@ -1043,7 +1192,7 @@
 											},
 											"aggregatedDiscountInfoV3": {
 												"header": "ITEMS",
-												"subHeader": "AT ₹159"
+												"subHeader": "AT ₹69"
 											},
 											"differentiatedUi": {
 												"displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
@@ -1063,36 +1212,37 @@
 											"ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
 										},
 										"analytics": {
-											"context": "seo-data-f47cb279-646e-404b-adcf-5e68657f4dfe"
+											"context": "seo-data-10fc159b-413c-4856-941d-e7fccc0b9efe"
 										},
 										"cta": {
-											"link": "https://www.swiggy.com/city/bangalore/lunchbox-meals-and-thalis-residency-road-shantinagar-rest396747",
+											"link": "https://www.swiggy.com/city/bangalore/freshmenu-johnson-market-richmond-road-rest6924",
 											"type": "WEBLINK"
 										}
 									},
 									{
 										"info": {
-											"id": "588619",
-											"name": "KFC",
-											"cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/11/5/ab13ff98-4cb5-4062-bef6-1738d5d5ed45_588619.JPG",
-											"locality": "Brigade Road",
-											"areaName": "Central Bangalore",
-											"costForTwo": "₹400 for two",
-											"cuisines": ["Burgers", "Fast Food", "Rolls & Wraps"],
-											"avgRating": 4.4,
-											"parentId": "547",
-											"avgRatingString": "4.4",
-											"totalRatingsString": "2.1K+",
+											"id": "697144",
+											"name": "Baskin Robbins - Ice Cream Desserts",
+											"cloudinaryImageId": "85ccae4e3576f9330af102c46ca85395",
+											"locality": "GARUDA MALL",
+											"areaName": "MAGARATH ROAD",
+											"costForTwo": "₹250 for two",
+											"cuisines": ["Desserts", "Ice Cream"],
+											"avgRating": 4.6,
+											"veg": true,
+											"parentId": "5588",
+											"avgRatingString": "4.6",
+											"totalRatingsString": "244",
 											"sla": {
-												"deliveryTime": 32,
+												"deliveryTime": 35,
 												"lastMileTravel": 2.4,
 												"serviceability": "SERVICEABLE",
-												"slaString": "30-35 mins",
+												"slaString": "35-40 mins",
 												"lastMileTravelString": "2.4 km",
 												"iconType": "ICON_TYPE_EMPTY"
 											},
 											"availability": {
-												"nextCloseTime": "2024-11-23 01:00:00",
+												"nextCloseTime": "2024-11-24 23:00:00",
 												"opened": true
 											},
 											"badges": {},
@@ -1106,8 +1256,8 @@
 												}
 											},
 											"aggregatedDiscountInfoV3": {
-												"header": "40% OFF",
-												"subHeader": "UPTO ₹80"
+												"header": "ITEMS",
+												"subHeader": "AT ₹160"
 											},
 											"differentiatedUi": {
 												"displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
@@ -1121,19 +1271,16 @@
 											"restaurantOfferPresentationInfo": {},
 											"externalRatings": {
 												"aggregatedRating": {
-													"rating": "4.0",
-													"ratingCount": "342"
-												},
-												"source": "GOOGLE",
-												"sourceIconImageId": "v1704440323/google_ratings/rating_google_tag"
+													"rating": "--"
+												}
 											},
 											"ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
 										},
 										"analytics": {
-											"context": "seo-data-f47cb279-646e-404b-adcf-5e68657f4dfe"
+											"context": "seo-data-10fc159b-413c-4856-941d-e7fccc0b9efe"
 										},
 										"cta": {
-											"link": "https://www.swiggy.com/city/bangalore/kfc-brigade-road-central-bangalore-rest588619",
+											"link": "https://www.swiggy.com/city/bangalore/baskin-robbins-ice-cream-desserts-garuda-mall-magarath-road-rest697144",
 											"type": "WEBLINK"
 										}
 									},
@@ -1151,7 +1298,7 @@
 											"avgRatingString": "4.4",
 											"totalRatingsString": "25K+",
 											"sla": {
-												"deliveryTime": 36,
+												"deliveryTime": 35,
 												"lastMileTravel": 1.3,
 												"serviceability": "SERVICEABLE",
 												"slaString": "35-40 mins",
@@ -1159,7 +1306,7 @@
 												"iconType": "ICON_TYPE_EMPTY"
 											},
 											"availability": {
-												"nextCloseTime": "2024-11-23 02:45:00",
+												"nextCloseTime": "2024-11-25 02:45:00",
 												"opened": true
 											},
 											"badges": {
@@ -1210,7 +1357,7 @@
 											"ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
 										},
 										"analytics": {
-											"context": "seo-data-f47cb279-646e-404b-adcf-5e68657f4dfe"
+											"context": "seo-data-10fc159b-413c-4856-941d-e7fccc0b9efe"
 										},
 										"cta": {
 											"link": "https://www.swiggy.com/city/bangalore/mcdonalds-mg-road-ashok-nagar-rest43836",
@@ -1219,42 +1366,70 @@
 									},
 									{
 										"info": {
-											"id": "570511",
-											"name": "Bakingo",
-											"cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/11/7/c795c5d6-96d4-409a-8106-3c3ba1f4253c_570511.JPG",
-											"locality": "Puhlong X-road",
-											"areaName": "Vasanth Nagar",
-											"costForTwo": "₹299 for two",
-											"cuisines": ["Bakery", "Desserts", "Beverages", "Snacks"],
+											"id": "440123",
+											"name": "Great Indian Khichdi by EatFit",
+											"cloudinaryImageId": "6e44fd7f1e5cd9967edfe47c10247671",
+											"locality": "VASANTHA NAGAR",
+											"areaName": "Cunningham Road",
+											"costForTwo": "₹200 for two",
+											"cuisines": [
+												"Home Food",
+												"Indian",
+												"North Indian",
+												"Healthy Food",
+												"Snacks",
+												"Desserts",
+												"Rajasthani",
+												"South Indian",
+												"Maharashtrian",
+												"Sweets"
+											],
 											"avgRating": 4.6,
-											"parentId": "3818",
+											"veg": true,
+											"parentId": "319582",
 											"avgRatingString": "4.6",
-											"totalRatingsString": "3.6K+",
+											"totalRatingsString": "1.8K+",
 											"sla": {
-												"deliveryTime": 32,
-												"lastMileTravel": 3.6,
+												"deliveryTime": 34,
+												"lastMileTravel": 3,
 												"serviceability": "SERVICEABLE",
 												"slaString": "30-35 mins",
-												"lastMileTravelString": "3.6 km",
+												"lastMileTravelString": "3.0 km",
 												"iconType": "ICON_TYPE_EMPTY"
 											},
 											"availability": {
-												"nextCloseTime": "2024-11-23 01:00:00",
+												"nextCloseTime": "2024-11-25 01:00:00",
 												"opened": true
 											},
-											"badges": {},
+											"badges": {
+												"imageBadges": [
+													{
+														"imageId": "Green%20Dot%20Awards/Best%20In%20Vegan.png",
+														"description": "Delivery!"
+													}
+												]
+											},
 											"isOpen": true,
 											"type": "F",
 											"badgesV2": {
 												"entityBadges": {
-													"imageBased": {},
+													"imageBased": {
+														"badgeObject": [
+															{
+																"attributes": {
+																	"description": "Delivery!",
+																	"imageId": "Green%20Dot%20Awards/Best%20In%20Vegan.png"
+																}
+															}
+														]
+													},
 													"textBased": {},
 													"textExtendedBadges": {}
 												}
 											},
 											"aggregatedDiscountInfoV3": {
-												"header": "50% OFF",
-												"subHeader": "UPTO ₹100"
+												"header": "ITEMS",
+												"subHeader": "AT ₹99"
 											},
 											"differentiatedUi": {
 												"displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
@@ -1274,64 +1449,70 @@
 											"ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
 										},
 										"analytics": {
-											"context": "seo-data-f47cb279-646e-404b-adcf-5e68657f4dfe"
+											"context": "seo-data-10fc159b-413c-4856-941d-e7fccc0b9efe"
 										},
 										"cta": {
-											"link": "https://www.swiggy.com/city/bangalore/bakingo-puhlong-x-road-vasanth-nagar-rest570511",
+											"link": "https://www.swiggy.com/city/bangalore/great-indian-khichdi-by-eatfit-vasantha-nagar-cunningham-road-rest440123",
 											"type": "WEBLINK"
 										}
 									},
 									{
 										"info": {
-											"id": "281469",
-											"name": "Lavonne Cafe",
-											"cloudinaryImageId": "emlehbuwgsmryxhwzhvq",
-											"locality": "St. Marks Road",
-											"areaName": "St. Marks Road",
-											"costForTwo": "₹750 for two",
-											"cuisines": ["Bakery", "Desserts"],
-											"avgRating": 4.6,
-											"parentId": "10530",
-											"avgRatingString": "4.6",
-											"totalRatingsString": "4.7K+",
+											"id": "643832",
+											"name": "WeFit - Protein Bowls, Salads & Sandwiches",
+											"cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/9/30/59e251dc-b6d9-4566-97c3-931b83ef7061_643832.JPG",
+											"locality": "Langford Road",
+											"areaName": "Santhinagar",
+											"costForTwo": "₹250 for two",
+											"cuisines": ["Healthy Food", "Salads", "Keto", "Snacks"],
+											"avgRating": 4.7,
+											"parentId": "355285",
+											"avgRatingString": "4.7",
+											"totalRatingsString": "538",
 											"sla": {
-												"deliveryTime": 36,
-												"lastMileTravel": 2.2,
+												"deliveryTime": 25,
+												"lastMileTravel": 2.6,
 												"serviceability": "SERVICEABLE",
-												"slaString": "35-40 mins",
-												"lastMileTravelString": "2.2 km",
+												"slaString": "20-30 mins",
+												"lastMileTravelString": "2.6 km",
 												"iconType": "ICON_TYPE_EMPTY"
 											},
 											"availability": {
-												"nextCloseTime": "2024-11-23 00:00:00",
+												"nextCloseTime": "2024-11-25 02:00:00",
 												"opened": true
 											},
 											"badges": {
-												"imageBadges": [
+												"textExtendedBadges": [
 													{
-														"imageId": "newg.png",
-														"description": "Gourmet"
+														"iconId": "guiltfree/GF_Logo_android_3x",
+														"shortDescription": "brand",
+														"fontColor": "#7E808C"
 													}
 												]
 											},
 											"isOpen": true,
-											"aggregatedDiscountInfoV2": {},
 											"type": "F",
 											"badgesV2": {
 												"entityBadges": {
-													"imageBased": {
+													"imageBased": {},
+													"textBased": {},
+													"textExtendedBadges": {
 														"badgeObject": [
 															{
 																"attributes": {
-																	"description": "Gourmet",
-																	"imageId": "newg.png"
+																	"description": "",
+																	"fontColor": "#7E808C",
+																	"iconId": "guiltfree/GF_Logo_android_3x",
+																	"shortDescription": "brand"
 																}
 															}
 														]
-													},
-													"textBased": {},
-													"textExtendedBadges": {}
+													}
 												}
+											},
+											"aggregatedDiscountInfoV3": {
+												"header": "ITEMS",
+												"subHeader": "AT ₹129"
 											},
 											"differentiatedUi": {
 												"displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
@@ -1345,408 +1526,55 @@
 											"restaurantOfferPresentationInfo": {},
 											"externalRatings": {
 												"aggregatedRating": {
-													"rating": "4.4",
-													"ratingCount": "1.0K+"
-												},
-												"source": "GOOGLE",
-												"sourceIconImageId": "v1704440323/google_ratings/rating_google_tag"
+													"rating": "--"
+												}
 											},
 											"ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
 										},
 										"analytics": {
-											"context": "seo-data-f47cb279-646e-404b-adcf-5e68657f4dfe"
+											"context": "seo-data-10fc159b-413c-4856-941d-e7fccc0b9efe"
 										},
 										"cta": {
-											"link": "https://www.swiggy.com/city/bangalore/lavonne-cafe-st-marks-road-rest281469",
+											"link": "https://www.swiggy.com/city/bangalore/wefit-protein-bowls-salads-and-sandwiches-langford-road-santhinagar-rest643832",
 											"type": "WEBLINK"
 										}
 									},
 									{
 										"info": {
-											"id": "435405",
-											"name": "Chaayos Chai+Snacks=Relax",
-											"cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/4/17/dfbcecfc-b380-4648-930a-b9b56b21e781_435405.JPG",
-											"locality": "Cunningham Road",
-											"areaName": "RT Nagar",
+											"id": "750396",
+											"name": "Daily Kitchen - Homely Meals",
+											"cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/5/19/741d7d41-1341-4358-b6e0-cc22b8e82f9a_750396.JPG",
+											"locality": "Lakshmi Road",
+											"areaName": "Langford Road",
 											"costForTwo": "₹250 for two",
 											"cuisines": [
-												"Bakery",
-												"Beverages",
-												"Chaat",
-												"Desserts",
 												"Home Food",
-												"Italian",
-												"Maharashtrian",
-												"Snacks",
-												"Street Food",
-												"Sweets"
+												"Indian",
+												"North Indian",
+												"Thalis"
 											],
-											"avgRating": 4.7,
-											"parentId": "281782",
-											"avgRatingString": "4.7",
-											"totalRatingsString": "1.8K+",
-											"sla": {
-												"deliveryTime": 32,
-												"lastMileTravel": 3,
-												"serviceability": "SERVICEABLE",
-												"slaString": "30-35 mins",
-												"lastMileTravelString": "3.0 km",
-												"iconType": "ICON_TYPE_EMPTY"
-											},
-											"availability": {
-												"nextCloseTime": "2024-11-22 23:00:00",
-												"opened": true
-											},
-											"badges": {
-												"imageBadges": [
-													{
-														"imageId": "Rxawards/_CATEGORY-Cafe%20&%20Chai.png",
-														"description": "Delivery!"
-													}
-												]
-											},
-											"isOpen": true,
-											"type": "F",
-											"badgesV2": {
-												"entityBadges": {
-													"imageBased": {
-														"badgeObject": [
-															{
-																"attributes": {
-																	"description": "Delivery!",
-																	"imageId": "Rxawards/_CATEGORY-Cafe%20&%20Chai.png"
-																}
-															}
-														]
-													},
-													"textBased": {},
-													"textExtendedBadges": {}
-												}
-											},
-											"aggregatedDiscountInfoV3": {
-												"header": "50% OFF",
-												"subHeader": "UPTO ₹100"
-											},
-											"differentiatedUi": {
-												"displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-												"differentiatedUiMediaDetails": {
-													"lottie": {},
-													"video": {}
-												}
-											},
-											"reviewsSummary": {},
-											"displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-											"restaurantOfferPresentationInfo": {},
-											"externalRatings": {
-												"aggregatedRating": {
-													"rating": "4.1",
-													"ratingCount": "371"
-												},
-												"source": "GOOGLE",
-												"sourceIconImageId": "v1704440323/google_ratings/rating_google_tag"
-											},
-											"ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
-										},
-										"analytics": {
-											"context": "seo-data-f47cb279-646e-404b-adcf-5e68657f4dfe"
-										},
-										"cta": {
-											"link": "https://www.swiggy.com/city/bangalore/chaayos-chai-snacks-relax-cunningham-road-rt-nagar-rest435405",
-											"type": "WEBLINK"
-										}
-									},
-									{
-										"info": {
-											"id": "667962",
-											"name": "Paris Panini - Gourmet Sandwiches & Wraps",
-											"cloudinaryImageId": "33101e2fff3a071cbd8b85e73c0d4f45",
-											"locality": "Church Street",
-											"areaName": "Central Bangalore",
-											"costForTwo": "₹500 for two",
-											"cuisines": [
-												"Continental",
-												"Pastas",
-												"Salads",
-												"Snacks",
-												"Desserts",
-												"Fast Food",
-												"French"
-											],
-											"avgRating": 4.6,
-											"parentId": "21019",
-											"avgRatingString": "4.6",
-											"totalRatingsString": "3.1K+",
-											"sla": {
-												"deliveryTime": 36,
-												"lastMileTravel": 1.5,
-												"serviceability": "SERVICEABLE",
-												"slaString": "35-40 mins",
-												"lastMileTravelString": "1.5 km",
-												"iconType": "ICON_TYPE_EMPTY"
-											},
-											"availability": {
-												"nextCloseTime": "2024-11-22 23:30:00",
-												"opened": true
-											},
-											"badges": {
-												"imageBadges": [
-													{
-														"imageId": "Rxawards/_CATEGORY-Sandwiches.png",
-														"description": "Delivery!"
-													}
-												]
-											},
-											"isOpen": true,
-											"type": "F",
-											"badgesV2": {
-												"entityBadges": {
-													"imageBased": {
-														"badgeObject": [
-															{
-																"attributes": {
-																	"description": "Delivery!",
-																	"imageId": "Rxawards/_CATEGORY-Sandwiches.png"
-																}
-															}
-														]
-													},
-													"textBased": {},
-													"textExtendedBadges": {}
-												}
-											},
-											"aggregatedDiscountInfoV3": {
-												"header": "60% OFF",
-												"subHeader": "UPTO ₹120"
-											},
-											"differentiatedUi": {
-												"displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-												"differentiatedUiMediaDetails": {
-													"lottie": {},
-													"video": {}
-												}
-											},
-											"reviewsSummary": {},
-											"displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-											"restaurantOfferPresentationInfo": {},
-											"externalRatings": {
-												"aggregatedRating": {
-													"rating": "4.2",
-													"ratingCount": "735"
-												},
-												"source": "GOOGLE",
-												"sourceIconImageId": "v1704440323/google_ratings/rating_google_tag"
-											},
-											"ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
-										},
-										"analytics": {
-											"context": "seo-data-f47cb279-646e-404b-adcf-5e68657f4dfe"
-										},
-										"cta": {
-											"link": "https://www.swiggy.com/city/bangalore/paris-panini-gourmet-sandwiches-and-wraps-church-street-central-bangalore-rest667962",
-											"type": "WEBLINK"
-										}
-									},
-									{
-										"info": {
-											"id": "53503",
-											"name": "Brik Oven - Original Sourdough Pizzas",
-											"cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/5/21/1999d787-3984-4db9-b817-55ffc0c3b0e8_53503.jpg",
-											"locality": "Church Street",
-											"areaName": "Church Street",
-											"costForTwo": "₹700 for two",
-											"cuisines": [
-												"Italian",
-												"Pizzas",
-												"Desserts",
-												"Beverages"
-											],
-											"avgRating": 4.4,
-											"parentId": "488952",
-											"avgRatingString": "4.4",
-											"totalRatingsString": "11K+",
-											"sla": {
-												"deliveryTime": 36,
-												"lastMileTravel": 1.8,
-												"serviceability": "SERVICEABLE",
-												"slaString": "35-40 mins",
-												"lastMileTravelString": "1.8 km",
-												"iconType": "ICON_TYPE_EMPTY"
-											},
-											"availability": {
-												"nextCloseTime": "2024-11-23 01:00:00",
-												"opened": true
-											},
-											"badges": {
-												"imageBadges": [
-													{
-														"imageId": "Rxawards/_CATEGORY-Pizza.png",
-														"description": "Delivery!"
-													}
-												]
-											},
-											"isOpen": true,
-											"type": "F",
-											"badgesV2": {
-												"entityBadges": {
-													"imageBased": {
-														"badgeObject": [
-															{
-																"attributes": {
-																	"description": "Delivery!",
-																	"imageId": "Rxawards/_CATEGORY-Pizza.png"
-																}
-															}
-														]
-													},
-													"textBased": {},
-													"textExtendedBadges": {}
-												}
-											},
-											"aggregatedDiscountInfoV3": {
-												"header": "40% OFF",
-												"subHeader": "UPTO ₹80"
-											},
-											"differentiatedUi": {
-												"displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-												"differentiatedUiMediaDetails": {
-													"lottie": {},
-													"video": {}
-												}
-											},
-											"reviewsSummary": {},
-											"displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-											"restaurantOfferPresentationInfo": {},
-											"externalRatings": {
-												"aggregatedRating": {
-													"rating": "4.4",
-													"ratingCount": "7.1K+"
-												},
-												"source": "GOOGLE",
-												"sourceIconImageId": "v1704440323/google_ratings/rating_google_tag"
-											},
-											"ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
-										},
-										"analytics": {
-											"context": "seo-data-f47cb279-646e-404b-adcf-5e68657f4dfe"
-										},
-										"cta": {
-											"link": "https://www.swiggy.com/city/bangalore/brik-oven-original-sourdough-pizzas-church-street-rest53503",
-											"type": "WEBLINK"
-										}
-									},
-									{
-										"info": {
-											"id": "51835",
-											"name": "Aubree",
-											"cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/11/16/78b1862b-4c60-4c7c-a24a-8b626fc0f227_51835.jpg",
-											"locality": "Shivaji Nagar",
-											"areaName": "Shivaji Nagar",
-											"costForTwo": "₹700 for two",
-											"cuisines": ["Desserts", "Bakery"],
-											"avgRating": 4.7,
-											"parentId": "3807",
-											"avgRatingString": "4.7",
-											"totalRatingsString": "1.9K+",
-											"sla": {
-												"deliveryTime": 35,
-												"lastMileTravel": 2.5,
-												"serviceability": "SERVICEABLE",
-												"slaString": "30-35 mins",
-												"lastMileTravelString": "2.5 km",
-												"iconType": "ICON_TYPE_EMPTY"
-											},
-											"availability": {
-												"nextCloseTime": "2024-11-22 21:00:00",
-												"opened": true
-											},
-											"badges": {
-												"imageBadges": [
-													{
-														"imageId": "newg.png",
-														"description": "Gourmet"
-													}
-												]
-											},
-											"isOpen": true,
-											"type": "D",
-											"badgesV2": {
-												"entityBadges": {
-													"imageBased": {
-														"badgeObject": [
-															{
-																"attributes": {
-																	"description": "Gourmet",
-																	"imageId": "newg.png"
-																}
-															}
-														]
-													},
-													"textBased": {},
-													"textExtendedBadges": {}
-												}
-											},
-											"aggregatedDiscountInfoV3": {
-												"header": "60% OFF",
-												"subHeader": "UPTO ₹120"
-											},
-											"differentiatedUi": {
-												"displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-												"differentiatedUiMediaDetails": {
-													"lottie": {},
-													"video": {}
-												}
-											},
-											"reviewsSummary": {},
-											"displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-											"restaurantOfferPresentationInfo": {},
-											"externalRatings": {
-												"aggregatedRating": {
-													"rating": "4.7",
-													"ratingCount": "775"
-												},
-												"source": "GOOGLE",
-												"sourceIconImageId": "v1704440323/google_ratings/rating_google_tag"
-											},
-											"ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
-										},
-										"analytics": {
-											"context": "seo-data-f47cb279-646e-404b-adcf-5e68657f4dfe"
-										},
-										"cta": {
-											"link": "https://www.swiggy.com/city/bangalore/aubree-shivaji-nagar-rest51835",
-											"type": "WEBLINK"
-										}
-									},
-									{
-										"info": {
-											"id": "19361",
-											"name": "Pasta Street",
-											"cloudinaryImageId": "aecff12704ebe42606524c852f9ab0e4",
-											"locality": "Cunningham Road",
-											"areaName": "Cunningham Road",
-											"costForTwo": "₹900 for two",
-											"cuisines": ["Italian", "Pastas", "Pizzas", "Desserts"],
 											"avgRating": 4.5,
-											"parentId": "2872",
+											"parentId": "444382",
 											"avgRatingString": "4.5",
-											"totalRatingsString": "7.4K+",
+											"totalRatingsString": "442",
 											"sla": {
-												"deliveryTime": 34,
-												"lastMileTravel": 2.8,
+												"deliveryTime": 15,
+												"lastMileTravel": 2.6,
 												"serviceability": "SERVICEABLE",
-												"slaString": "30-35 mins",
-												"lastMileTravelString": "2.8 km",
+												"slaString": "10-20 mins",
+												"lastMileTravelString": "2.6 km",
 												"iconType": "ICON_TYPE_EMPTY"
 											},
 											"availability": {
-												"nextCloseTime": "2024-11-22 23:30:00",
+												"nextCloseTime": "2024-11-25 02:00:00",
 												"opened": true
 											},
 											"badges": {
-												"imageBadges": [
+												"textExtendedBadges": [
 													{
-														"imageId": "newg.png",
-														"description": "Gourmet"
+														"iconId": "guiltfree/GF_Logo_android_3x",
+														"shortDescription": "options available",
+														"fontColor": "#7E808C"
 													}
 												]
 											},
@@ -1754,23 +1582,25 @@
 											"type": "F",
 											"badgesV2": {
 												"entityBadges": {
-													"imageBased": {
+													"imageBased": {},
+													"textBased": {},
+													"textExtendedBadges": {
 														"badgeObject": [
 															{
 																"attributes": {
-																	"description": "Gourmet",
-																	"imageId": "newg.png"
+																	"description": "",
+																	"fontColor": "#7E808C",
+																	"iconId": "guiltfree/GF_Logo_android_3x",
+																	"shortDescription": "options available"
 																}
 															}
 														]
-													},
-													"textBased": {},
-													"textExtendedBadges": {}
+													}
 												}
 											},
 											"aggregatedDiscountInfoV3": {
-												"header": "60% OFF",
-												"subHeader": "UPTO ₹120"
+												"header": "ITEMS",
+												"subHeader": "AT ₹119"
 											},
 											"differentiatedUi": {
 												"displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
@@ -1784,19 +1614,16 @@
 											"restaurantOfferPresentationInfo": {},
 											"externalRatings": {
 												"aggregatedRating": {
-													"rating": "4.4",
-													"ratingCount": "4.2K+"
-												},
-												"source": "GOOGLE",
-												"sourceIconImageId": "v1704440323/google_ratings/rating_google_tag"
+													"rating": "--"
+												}
 											},
 											"ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
 										},
 										"analytics": {
-											"context": "seo-data-f47cb279-646e-404b-adcf-5e68657f4dfe"
+											"context": "seo-data-10fc159b-413c-4856-941d-e7fccc0b9efe"
 										},
 										"cta": {
-											"link": "https://www.swiggy.com/city/bangalore/pasta-street-cunningham-road-rest19361",
+											"link": "https://www.swiggy.com/city/bangalore/daily-kitchen-homely-meals-lakshmi-road-langford-road-rest750396",
 											"type": "WEBLINK"
 										}
 									},
@@ -1812,17 +1639,17 @@
 											"avgRating": 4.7,
 											"parentId": "1040",
 											"avgRatingString": "4.7",
-											"totalRatingsString": "4.9K+",
+											"totalRatingsString": "5.0K+",
 											"sla": {
-												"deliveryTime": 21,
+												"deliveryTime": 18,
 												"lastMileTravel": 0.4,
 												"serviceability": "SERVICEABLE",
-												"slaString": "20-25 mins",
+												"slaString": "15-20 mins",
 												"lastMileTravelString": "0.4 km",
 												"iconType": "ICON_TYPE_EMPTY"
 											},
 											"availability": {
-												"nextCloseTime": "2024-11-22 23:00:00",
+												"nextCloseTime": "2024-11-24 23:00:00",
 												"opened": true
 											},
 											"badges": {
@@ -1876,7 +1703,7 @@
 											"ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
 										},
 										"analytics": {
-											"context": "seo-data-f47cb279-646e-404b-adcf-5e68657f4dfe"
+											"context": "seo-data-10fc159b-413c-4856-941d-e7fccc0b9efe"
 										},
 										"cta": {
 											"link": "https://www.swiggy.com/city/bangalore/theobroma-lavelle-road-ashok-nagar-rest426730",
@@ -1885,39 +1712,61 @@
 									},
 									{
 										"info": {
-											"id": "58568",
-											"name": "Sweet Chariot",
-											"cloudinaryImageId": "aun89df8igfy1zu0xf5v",
-											"locality": "Brigade Road",
-											"areaName": "Ashok Nagar",
-											"costForTwo": "₹200 for two",
-											"cuisines": ["Desserts"],
-											"avgRating": 4.6,
-											"parentId": "912",
-											"avgRatingString": "4.6",
-											"totalRatingsString": "512",
+											"id": "503003",
+											"name": "ZAZA Mughal Biryani",
+											"cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/9/17/d26bdfca-3b50-41ea-87e1-e7f9a6b0581d_503003.jpg",
+											"locality": "Lakshmi Nagar Road",
+											"areaName": "Shanti Nagar",
+											"costForTwo": "₹250 for two",
+											"cuisines": ["Biryani", "North Indian", "Awadhi"],
+											"avgRating": 4.4,
+											"parentId": "22473",
+											"avgRatingString": "4.4",
+											"totalRatingsString": "452",
 											"sla": {
-												"deliveryTime": 35,
-												"lastMileTravel": 2.3,
+												"deliveryTime": 15,
+												"lastMileTravel": 2.6,
 												"serviceability": "SERVICEABLE",
-												"slaString": "30-35 mins",
-												"lastMileTravelString": "2.3 km",
+												"slaString": "10-20 mins",
+												"lastMileTravelString": "2.6 km",
 												"iconType": "ICON_TYPE_EMPTY"
 											},
 											"availability": {
-												"nextCloseTime": "2024-11-22 21:00:00",
+												"nextCloseTime": "2024-11-25 02:00:00",
 												"opened": true
 											},
-											"badges": {},
+											"badges": {
+												"textExtendedBadges": [
+													{
+														"iconId": "guiltfree/GF_Logo_android_3x",
+														"shortDescription": "options available",
+														"fontColor": "#7E808C"
+													}
+												]
+											},
 											"isOpen": true,
-											"aggregatedDiscountInfoV2": {},
 											"type": "F",
 											"badgesV2": {
 												"entityBadges": {
 													"imageBased": {},
 													"textBased": {},
-													"textExtendedBadges": {}
+													"textExtendedBadges": {
+														"badgeObject": [
+															{
+																"attributes": {
+																	"description": "",
+																	"fontColor": "#7E808C",
+																	"iconId": "guiltfree/GF_Logo_android_3x",
+																	"shortDescription": "options available"
+																}
+															}
+														]
+													}
 												}
+											},
+											"aggregatedDiscountInfoV3": {
+												"header": "ITEMS",
+												"subHeader": "AT ₹139"
 											},
 											"differentiatedUi": {
 												"displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
@@ -1937,10 +1786,258 @@
 											"ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
 										},
 										"analytics": {
-											"context": "seo-data-f47cb279-646e-404b-adcf-5e68657f4dfe"
+											"context": "seo-data-10fc159b-413c-4856-941d-e7fccc0b9efe"
 										},
 										"cta": {
-											"link": "https://www.swiggy.com/city/bangalore/sweet-chariot-brigade-road-ashok-nagar-rest58568",
+											"link": "https://www.swiggy.com/city/bangalore/zaza-mughal-biryani-lakshmi-nagar-road-shanti-nagar-rest503003",
+											"type": "WEBLINK"
+										}
+									},
+									{
+										"info": {
+											"id": "503002",
+											"name": "NH1 Bowls - Highway To North",
+											"cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/11/8/aea607a6-5ce6-4fe6-b7d1-7ba2bacdc647_503002.jpg",
+											"locality": "Lakshmi Road",
+											"areaName": "Shanti Nagar",
+											"costForTwo": "₹250 for two",
+											"cuisines": ["North Indian", "Punjabi", "Home Food"],
+											"avgRating": 4.7,
+											"parentId": "22452",
+											"avgRatingString": "4.7",
+											"totalRatingsString": "629",
+											"sla": {
+												"deliveryTime": 15,
+												"lastMileTravel": 2.6,
+												"serviceability": "SERVICEABLE",
+												"slaString": "10-20 mins",
+												"lastMileTravelString": "2.6 km",
+												"iconType": "ICON_TYPE_EMPTY"
+											},
+											"availability": {
+												"nextCloseTime": "2024-11-25 02:00:00",
+												"opened": true
+											},
+											"badges": {
+												"textExtendedBadges": [
+													{
+														"iconId": "guiltfree/GF_Logo_android_3x",
+														"shortDescription": "options available",
+														"fontColor": "#7E808C"
+													}
+												]
+											},
+											"isOpen": true,
+											"type": "F",
+											"badgesV2": {
+												"entityBadges": {
+													"imageBased": {},
+													"textBased": {},
+													"textExtendedBadges": {
+														"badgeObject": [
+															{
+																"attributes": {
+																	"description": "",
+																	"fontColor": "#7E808C",
+																	"iconId": "guiltfree/GF_Logo_android_3x",
+																	"shortDescription": "options available"
+																}
+															}
+														]
+													}
+												}
+											},
+											"aggregatedDiscountInfoV3": {
+												"header": "ITEMS",
+												"subHeader": "AT ₹139"
+											},
+											"differentiatedUi": {
+												"displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+												"differentiatedUiMediaDetails": {
+													"lottie": {},
+													"video": {}
+												}
+											},
+											"reviewsSummary": {},
+											"displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+											"restaurantOfferPresentationInfo": {},
+											"externalRatings": {
+												"aggregatedRating": {
+													"rating": "--"
+												}
+											},
+											"ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+										},
+										"analytics": {
+											"context": "seo-data-10fc159b-413c-4856-941d-e7fccc0b9efe"
+										},
+										"cta": {
+											"link": "https://www.swiggy.com/city/bangalore/nh1-bowls-highway-to-north-lakshmi-road-shanti-nagar-rest503002",
+											"type": "WEBLINK"
+										}
+									},
+									{
+										"info": {
+											"id": "393107",
+											"name": "EatFit",
+											"cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/9/6/09dedbc6-e4eb-4fff-8b45-c825b0f18e14_393107.jpg",
+											"locality": "VASANTHA NAGAR",
+											"areaName": "Cunningham Road",
+											"costForTwo": "₹270 for two",
+											"cuisines": [
+												"Chinese",
+												"Healthy Food",
+												"Tandoor",
+												"Pizzas",
+												"North Indian",
+												"Thalis",
+												"Biryani"
+											],
+											"avgRating": 4.5,
+											"parentId": "76139",
+											"avgRatingString": "4.5",
+											"totalRatingsString": "5.3K+",
+											"sla": {
+												"deliveryTime": 38,
+												"lastMileTravel": 3,
+												"serviceability": "SERVICEABLE",
+												"slaString": "35-40 mins",
+												"lastMileTravelString": "3.0 km",
+												"iconType": "ICON_TYPE_EMPTY"
+											},
+											"availability": {
+												"nextCloseTime": "2024-11-25 01:00:00",
+												"opened": true
+											},
+											"badges": {},
+											"isOpen": true,
+											"type": "F",
+											"badgesV2": {
+												"entityBadges": {
+													"imageBased": {},
+													"textBased": {},
+													"textExtendedBadges": {}
+												}
+											},
+											"aggregatedDiscountInfoV3": {
+												"header": "ITEMS",
+												"subHeader": "AT ₹179"
+											},
+											"differentiatedUi": {
+												"displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+												"differentiatedUiMediaDetails": {
+													"lottie": {},
+													"video": {}
+												}
+											},
+											"reviewsSummary": {},
+											"displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+											"restaurantOfferPresentationInfo": {},
+											"externalRatings": {
+												"aggregatedRating": {
+													"rating": "--"
+												}
+											},
+											"ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+										},
+										"analytics": {
+											"context": "seo-data-10fc159b-413c-4856-941d-e7fccc0b9efe"
+										},
+										"cta": {
+											"link": "https://www.swiggy.com/city/bangalore/eatfit-vasantha-nagar-cunningham-road-rest393107",
+											"type": "WEBLINK"
+										}
+									},
+									{
+										"info": {
+											"id": "124178",
+											"name": "Starbucks Coffee",
+											"cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/10/28/0f9af795-6bb0-4bce-a153-65f0f42d15c6_124178.JPG",
+											"locality": "Lavelle Road",
+											"areaName": "Lavelle Road",
+											"costForTwo": "₹400 for two",
+											"cuisines": [
+												"Beverages",
+												"Cafe",
+												"Snacks",
+												"Desserts",
+												"Bakery",
+												"Ice Cream"
+											],
+											"avgRating": 4.5,
+											"parentId": "195515",
+											"avgRatingString": "4.5",
+											"totalRatingsString": "2.2K+",
+											"sla": {
+												"deliveryTime": 21,
+												"lastMileTravel": 0.5,
+												"serviceability": "SERVICEABLE",
+												"slaString": "20-25 mins",
+												"lastMileTravelString": "0.5 km",
+												"iconType": "ICON_TYPE_EMPTY"
+											},
+											"availability": {
+												"nextCloseTime": "2024-11-24 23:59:00",
+												"opened": true
+											},
+											"badges": {
+												"textExtendedBadges": [
+													{
+														"iconId": "guiltfree/GF_Logo_android_3x",
+														"shortDescription": "options available",
+														"fontColor": "#7E808C"
+													}
+												]
+											},
+											"isOpen": true,
+											"type": "F",
+											"badgesV2": {
+												"entityBadges": {
+													"imageBased": {},
+													"textBased": {},
+													"textExtendedBadges": {
+														"badgeObject": [
+															{
+																"attributes": {
+																	"description": "",
+																	"fontColor": "#7E808C",
+																	"iconId": "guiltfree/GF_Logo_android_3x",
+																	"shortDescription": "options available"
+																}
+															}
+														]
+													}
+												}
+											},
+											"aggregatedDiscountInfoV3": {
+												"header": "30% OFF",
+												"subHeader": "UPTO ₹75"
+											},
+											"differentiatedUi": {
+												"displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+												"differentiatedUiMediaDetails": {
+													"lottie": {},
+													"video": {}
+												}
+											},
+											"reviewsSummary": {},
+											"displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+											"restaurantOfferPresentationInfo": {},
+											"externalRatings": {
+												"aggregatedRating": {
+													"rating": "4.5",
+													"ratingCount": "1.9K+"
+												},
+												"source": "GOOGLE",
+												"sourceIconImageId": "v1704440323/google_ratings/rating_google_tag"
+											},
+											"ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+										},
+										"analytics": {
+											"context": "seo-data-10fc159b-413c-4856-941d-e7fccc0b9efe"
+										},
+										"cta": {
+											"link": "https://www.swiggy.com/city/bangalore/starbucks-coffee-lavelle-road-rest124178",
 											"type": "WEBLINK"
 										}
 									},
@@ -1972,7 +2069,7 @@
 												"iconType": "ICON_TYPE_EMPTY"
 											},
 											"availability": {
-												"nextCloseTime": "2024-11-22 23:59:00",
+												"nextCloseTime": "2024-11-24 23:59:00",
 												"opened": true
 											},
 											"badges": {},
@@ -2007,7 +2104,7 @@
 											"ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
 										},
 										"analytics": {
-											"context": "seo-data-f47cb279-646e-404b-adcf-5e68657f4dfe"
+											"context": "seo-data-10fc159b-413c-4856-941d-e7fccc0b9efe"
 										},
 										"cta": {
 											"link": "https://www.swiggy.com/city/bangalore/glens-bakehouse-lavelle-road-ashok-nagar-rest17376",
@@ -2016,27 +2113,178 @@
 									},
 									{
 										"info": {
-											"id": "737841",
-											"name": "Amadora Gourmet Ice Cream",
-											"cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/4/18/a0d99957-9f36-43ce-bf8e-01721cbd97af_737841.jpg",
-											"locality": "u b city",
-											"areaName": "Vittal Mallaya",
-											"costForTwo": "₹300 for two",
-											"cuisines": ["Ice Cream", "Desserts"],
-											"avgRating": 4.7,
-											"parentId": "30800",
-											"avgRatingString": "4.7",
-											"totalRatingsString": "554",
+											"id": "58568",
+											"name": "Sweet Chariot",
+											"cloudinaryImageId": "aun89df8igfy1zu0xf5v",
+											"locality": "Brigade Road",
+											"areaName": "Ashok Nagar",
+											"costForTwo": "₹200 for two",
+											"cuisines": ["Desserts"],
+											"avgRating": 4.6,
+											"parentId": "912",
+											"avgRatingString": "4.6",
+											"totalRatingsString": "512",
 											"sla": {
-												"deliveryTime": 29,
-												"lastMileTravel": 0.4,
+												"deliveryTime": 32,
+												"lastMileTravel": 2.3,
 												"serviceability": "SERVICEABLE",
-												"slaString": "25-30 mins",
-												"lastMileTravelString": "0.4 km",
+												"slaString": "30-35 mins",
+												"lastMileTravelString": "2.3 km",
 												"iconType": "ICON_TYPE_EMPTY"
 											},
 											"availability": {
-												"nextCloseTime": "2024-11-23 01:00:00",
+												"nextCloseTime": "2024-11-24 21:00:00",
+												"opened": true
+											},
+											"badges": {},
+											"isOpen": true,
+											"aggregatedDiscountInfoV2": {},
+											"type": "F",
+											"badgesV2": {
+												"entityBadges": {
+													"imageBased": {},
+													"textBased": {},
+													"textExtendedBadges": {}
+												}
+											},
+											"differentiatedUi": {
+												"displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+												"differentiatedUiMediaDetails": {
+													"lottie": {},
+													"video": {}
+												}
+											},
+											"reviewsSummary": {},
+											"displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+											"restaurantOfferPresentationInfo": {},
+											"externalRatings": {
+												"aggregatedRating": {
+													"rating": "--"
+												}
+											},
+											"ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+										},
+										"analytics": {
+											"context": "seo-data-10fc159b-413c-4856-941d-e7fccc0b9efe"
+										},
+										"cta": {
+											"link": "https://www.swiggy.com/city/bangalore/sweet-chariot-brigade-road-ashok-nagar-rest58568",
+											"type": "WEBLINK"
+										}
+									},
+									{
+										"info": {
+											"id": "600456",
+											"name": "Daily Sushi",
+											"cloudinaryImageId": "mpnblqqkh7xpi4h0fnju",
+											"locality": "Shanthala Nagar",
+											"areaName": "Ashok Nagar",
+											"costForTwo": "₹800 for two",
+											"cuisines": ["Japanese", "Asian", "Korean"],
+											"avgRating": 4.6,
+											"parentId": "7388",
+											"avgRatingString": "4.6",
+											"totalRatingsString": "1.5K+",
+											"sla": {
+												"deliveryTime": 35,
+												"lastMileTravel": 1.5,
+												"serviceability": "SERVICEABLE",
+												"slaString": "30-35 mins",
+												"lastMileTravelString": "1.5 km",
+												"iconType": "ICON_TYPE_EMPTY"
+											},
+											"availability": {
+												"nextCloseTime": "2024-11-24 23:59:00",
+												"opened": true
+											},
+											"badges": {
+												"imageBadges": [
+													{
+														"imageId": "Rxawards/_CATEGORY-Pan-Asian.png",
+														"description": "Delivery!"
+													}
+												]
+											},
+											"isOpen": true,
+											"type": "F",
+											"badgesV2": {
+												"entityBadges": {
+													"imageBased": {
+														"badgeObject": [
+															{
+																"attributes": {
+																	"description": "Delivery!",
+																	"imageId": "Rxawards/_CATEGORY-Pan-Asian.png"
+																}
+															}
+														]
+													},
+													"textBased": {},
+													"textExtendedBadges": {}
+												}
+											},
+											"aggregatedDiscountInfoV3": {
+												"header": "₹175 OFF",
+												"subHeader": "ABOVE ₹999",
+												"discountTag": "FLAT DEAL"
+											},
+											"differentiatedUi": {
+												"displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+												"differentiatedUiMediaDetails": {
+													"lottie": {},
+													"video": {}
+												}
+											},
+											"reviewsSummary": {},
+											"displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+											"restaurantOfferPresentationInfo": {},
+											"externalRatings": {
+												"aggregatedRating": {
+													"rating": "--"
+												}
+											},
+											"ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+										},
+										"analytics": {
+											"context": "seo-data-10fc159b-413c-4856-941d-e7fccc0b9efe"
+										},
+										"cta": {
+											"link": "https://www.swiggy.com/city/bangalore/daily-sushi-shanthala-nagar-ashok-nagar-rest600456",
+											"type": "WEBLINK"
+										}
+									},
+									{
+										"info": {
+											"id": "427422",
+											"name": "Zed The Baker",
+											"cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/11/22/4672d0c0-5201-4c21-a402-fc137827a304_427422.jpg",
+											"locality": "Museum Road",
+											"areaName": "Church Street",
+											"costForTwo": "₹500 for two",
+											"cuisines": [
+												"Bakery",
+												"Snacks",
+												"Desserts",
+												"Beverages",
+												"Cafe",
+												"Italian",
+												"Continental",
+												"American"
+											],
+											"avgRating": 4.3,
+											"parentId": "229773",
+											"avgRatingString": "4.3",
+											"totalRatingsString": "669",
+											"sla": {
+												"deliveryTime": 37,
+												"lastMileTravel": 1.4,
+												"serviceability": "SERVICEABLE",
+												"slaString": "35-40 mins",
+												"lastMileTravelString": "1.4 km",
+												"iconType": "ICON_TYPE_EMPTY"
+											},
+											"availability": {
+												"nextCloseTime": "2024-11-25 00:00:00",
 												"opened": true
 											},
 											"badges": {
@@ -2066,8 +2314,8 @@
 												}
 											},
 											"aggregatedDiscountInfoV3": {
-												"header": "20% OFF",
-												"subHeader": "UPTO ₹50"
+												"header": "50% OFF",
+												"subHeader": "UPTO ₹100"
 											},
 											"differentiatedUi": {
 												"displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
@@ -2081,296 +2329,51 @@
 											"restaurantOfferPresentationInfo": {},
 											"externalRatings": {
 												"aggregatedRating": {
-													"rating": "--"
-												}
+													"rating": "4.2",
+													"ratingCount": "1.0K+"
+												},
+												"source": "GOOGLE",
+												"sourceIconImageId": "v1704440323/google_ratings/rating_google_tag"
 											},
 											"ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
 										},
 										"analytics": {
-											"context": "seo-data-f47cb279-646e-404b-adcf-5e68657f4dfe"
+											"context": "seo-data-10fc159b-413c-4856-941d-e7fccc0b9efe"
 										},
 										"cta": {
-											"link": "https://www.swiggy.com/city/bangalore/amadora-gourmet-ice-cream-u-b-city-vittal-mallaya-rest737841",
+											"link": "https://www.swiggy.com/city/bangalore/zed-the-baker-museum-road-church-street-rest427422",
 											"type": "WEBLINK"
 										}
 									},
 									{
 										"info": {
-											"id": "622202",
-											"name": "MOJO Pizza - 2X Toppings",
-											"cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/6/24/295f1bfc-237b-4bd4-832b-a23fdf08f8aa_622202.JPG",
-											"locality": "Langford Road",
-											"areaName": "Shantinagar",
-											"costForTwo": "₹250 for two",
+											"id": "102334",
+											"name": "Dindigul Thalappakatti",
+											"cloudinaryImageId": "ogidjgqgh5w4otvuiipj",
+											"locality": "Mg Road",
+											"areaName": "MG Road",
+											"costForTwo": "₹650 for two",
 											"cuisines": [
-												"Pizzas",
-												"Italian",
-												"Fast Food",
-												"Desserts"
+												"Biryani",
+												"Barbecue",
+												"South Indian",
+												"Chinese",
+												"North Indian"
 											],
-											"avgRating": 4.6,
-											"parentId": "11329",
-											"avgRatingString": "4.6",
-											"totalRatingsString": "534",
+											"avgRating": 4.4,
+											"parentId": "332",
+											"avgRatingString": "4.4",
+											"totalRatingsString": "8.4K+",
 											"sla": {
-												"deliveryTime": 25,
-												"lastMileTravel": 2.6,
+												"deliveryTime": 32,
+												"lastMileTravel": 3,
 												"serviceability": "SERVICEABLE",
-												"slaString": "20-30 mins",
-												"lastMileTravelString": "2.6 km",
+												"slaString": "30-35 mins",
+												"lastMileTravelString": "3.0 km",
 												"iconType": "ICON_TYPE_EMPTY"
 											},
 											"availability": {
-												"nextCloseTime": "2024-11-23 02:00:00",
-												"opened": true
-											},
-											"badges": {
-												"textExtendedBadges": [
-													{
-														"iconId": "guiltfree/GF_Logo_android_3x",
-														"shortDescription": "options available",
-														"fontColor": "#7E808C"
-													}
-												]
-											},
-											"isOpen": true,
-											"type": "F",
-											"badgesV2": {
-												"entityBadges": {
-													"imageBased": {},
-													"textBased": {},
-													"textExtendedBadges": {
-														"badgeObject": [
-															{
-																"attributes": {
-																	"description": "",
-																	"fontColor": "#7E808C",
-																	"iconId": "guiltfree/GF_Logo_android_3x",
-																	"shortDescription": "options available"
-																}
-															}
-														]
-													}
-												}
-											},
-											"aggregatedDiscountInfoV3": {
-												"header": "50% OFF",
-												"subHeader": "UPTO ₹100"
-											},
-											"differentiatedUi": {
-												"displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-												"differentiatedUiMediaDetails": {
-													"lottie": {},
-													"video": {}
-												}
-											},
-											"reviewsSummary": {},
-											"displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-											"restaurantOfferPresentationInfo": {},
-											"externalRatings": {
-												"aggregatedRating": {
-													"rating": "--"
-												}
-											},
-											"ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
-										},
-										"analytics": {
-											"context": "seo-data-f47cb279-646e-404b-adcf-5e68657f4dfe"
-										},
-										"cta": {
-											"link": "https://www.swiggy.com/city/bangalore/mojo-pizza-2x-toppings-langford-road-shantinagar-rest622202",
-											"type": "WEBLINK"
-										}
-									},
-									{
-										"info": {
-											"id": "643832",
-											"name": "WeFit - Protein Bowls, Salads & Sandwiches",
-											"cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/9/30/59e251dc-b6d9-4566-97c3-931b83ef7061_643832.JPG",
-											"locality": "Langford Road",
-											"areaName": "Santhinagar",
-											"costForTwo": "₹250 for two",
-											"cuisines": ["Healthy Food", "Salads", "Keto", "Snacks"],
-											"avgRating": 4.7,
-											"parentId": "355285",
-											"avgRatingString": "4.7",
-											"totalRatingsString": "534",
-											"sla": {
-												"deliveryTime": 25,
-												"lastMileTravel": 2.6,
-												"serviceability": "SERVICEABLE",
-												"slaString": "20-30 mins",
-												"lastMileTravelString": "2.6 km",
-												"iconType": "ICON_TYPE_EMPTY"
-											},
-											"availability": {
-												"nextCloseTime": "2024-11-23 02:00:00",
-												"opened": true
-											},
-											"badges": {
-												"textExtendedBadges": [
-													{
-														"iconId": "guiltfree/GF_Logo_android_3x",
-														"shortDescription": "brand",
-														"fontColor": "#7E808C"
-													}
-												]
-											},
-											"isOpen": true,
-											"type": "F",
-											"badgesV2": {
-												"entityBadges": {
-													"imageBased": {},
-													"textBased": {},
-													"textExtendedBadges": {
-														"badgeObject": [
-															{
-																"attributes": {
-																	"description": "",
-																	"fontColor": "#7E808C",
-																	"iconId": "guiltfree/GF_Logo_android_3x",
-																	"shortDescription": "brand"
-																}
-															}
-														]
-													}
-												}
-											},
-											"aggregatedDiscountInfoV3": {
-												"header": "50% OFF",
-												"subHeader": "UPTO ₹100"
-											},
-											"differentiatedUi": {
-												"displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-												"differentiatedUiMediaDetails": {
-													"lottie": {},
-													"video": {}
-												}
-											},
-											"reviewsSummary": {},
-											"displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-											"restaurantOfferPresentationInfo": {},
-											"externalRatings": {
-												"aggregatedRating": {
-													"rating": "--"
-												}
-											},
-											"ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
-										},
-										"analytics": {
-											"context": "seo-data-f47cb279-646e-404b-adcf-5e68657f4dfe"
-										},
-										"cta": {
-											"link": "https://www.swiggy.com/city/bangalore/wefit-protein-bowls-salads-and-sandwiches-langford-road-santhinagar-rest643832",
-											"type": "WEBLINK"
-										}
-									},
-									{
-										"info": {
-											"id": "681612",
-											"name": "LeanCrust Pizza- ThinCrust Experts",
-											"cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/8/30/14414940-565f-4b31-8880-eb44478a5ec0_681612.jpg",
-											"locality": "Lakshmi Road",
-											"areaName": "Shanti Nagar",
-											"costForTwo": "₹300 for two",
-											"cuisines": ["Pizzas", "Italian", "Desserts"],
-											"avgRating": 4.7,
-											"parentId": "11216",
-											"avgRatingString": "4.7",
-											"totalRatingsString": "299",
-											"sla": {
-												"deliveryTime": 25,
-												"lastMileTravel": 2.6,
-												"serviceability": "SERVICEABLE",
-												"slaString": "20-30 mins",
-												"lastMileTravelString": "2.6 km",
-												"iconType": "ICON_TYPE_EMPTY"
-											},
-											"availability": {
-												"nextCloseTime": "2024-11-23 02:00:00",
-												"opened": true
-											},
-											"badges": {
-												"textExtendedBadges": [
-													{
-														"iconId": "guiltfree/GF_Logo_android_3x",
-														"shortDescription": "options available",
-														"fontColor": "#7E808C"
-													}
-												]
-											},
-											"isOpen": true,
-											"type": "F",
-											"badgesV2": {
-												"entityBadges": {
-													"imageBased": {},
-													"textBased": {},
-													"textExtendedBadges": {
-														"badgeObject": [
-															{
-																"attributes": {
-																	"description": "",
-																	"fontColor": "#7E808C",
-																	"iconId": "guiltfree/GF_Logo_android_3x",
-																	"shortDescription": "options available"
-																}
-															}
-														]
-													}
-												}
-											},
-											"aggregatedDiscountInfoV3": {
-												"header": "50% OFF",
-												"subHeader": "UPTO ₹100"
-											},
-											"differentiatedUi": {
-												"displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-												"differentiatedUiMediaDetails": {
-													"lottie": {},
-													"video": {}
-												}
-											},
-											"reviewsSummary": {},
-											"displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-											"restaurantOfferPresentationInfo": {},
-											"externalRatings": {
-												"aggregatedRating": {
-													"rating": "--"
-												}
-											},
-											"ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
-										},
-										"analytics": {
-											"context": "seo-data-f47cb279-646e-404b-adcf-5e68657f4dfe"
-										},
-										"cta": {
-											"link": "https://www.swiggy.com/city/bangalore/leancrust-pizza-thincrust-experts-lakshmi-road-shanti-nagar-rest681612",
-											"type": "WEBLINK"
-										}
-									},
-									{
-										"info": {
-											"id": "395202",
-											"name": "McDonald's Gourmet Burger Collection",
-											"cloudinaryImageId": "rqdtdkc3iqzxodv6vtyf",
-											"locality": "MG Road",
-											"areaName": "Central Bangalore",
-											"costForTwo": "₹600 for two",
-											"cuisines": ["Burgers", "Beverages", "Cafe", "Desserts"],
-											"avgRating": 4.6,
-											"parentId": "10761",
-											"avgRatingString": "4.6",
-											"totalRatingsString": "141",
-											"sla": {
-												"deliveryTime": 30,
-												"lastMileTravel": 1.3,
-												"serviceability": "SERVICEABLE",
-												"slaString": "25-30 mins",
-												"lastMileTravelString": "1.3 km",
-												"iconType": "ICON_TYPE_EMPTY"
-											},
-											"availability": {
-												"nextCloseTime": "2024-11-23 02:45:00",
+												"nextCloseTime": "2024-11-25 01:00:00",
 												"opened": true
 											},
 											"badges": {},
@@ -2384,8 +2387,8 @@
 												}
 											},
 											"aggregatedDiscountInfoV3": {
-												"header": "50% OFF",
-												"subHeader": "UPTO ₹100"
+												"header": "ITEMS",
+												"subHeader": "AT ₹199"
 											},
 											"differentiatedUi": {
 												"displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
@@ -2399,19 +2402,16 @@
 											"restaurantOfferPresentationInfo": {},
 											"externalRatings": {
 												"aggregatedRating": {
-													"rating": "4.1",
-													"ratingCount": "7.5K+"
-												},
-												"source": "GOOGLE",
-												"sourceIconImageId": "v1704440323/google_ratings/rating_google_tag"
+													"rating": "--"
+												}
 											},
 											"ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
 										},
 										"analytics": {
-											"context": "seo-data-f47cb279-646e-404b-adcf-5e68657f4dfe"
+											"context": "seo-data-10fc159b-413c-4856-941d-e7fccc0b9efe"
 										},
 										"cta": {
-											"link": "https://www.swiggy.com/city/bangalore/mcdonalds-gourmet-burger-collection-mg-road-central-bangalore-rest395202",
+											"link": "https://www.swiggy.com/city/bangalore/dindigul-thalappakatti-mg-road-rest102334",
 											"type": "WEBLINK"
 										}
 									}
@@ -2474,7 +2474,7 @@
 								"title": "Cost: High to Low"
 							}
 						],
-						"restaurantCount": 1862,
+						"restaurantCount": 1868,
 						"facetList": [
 							{
 								"label": "Delivery Time",
@@ -2689,6 +2689,12 @@
 										"openFilter": true
 									},
 									{
+										"label": "Default",
+										"id": "query_default",
+										"analytics": {},
+										"openFilter": true
+									},
+									{
 										"label": "Desserts",
 										"id": "query_desserts",
 										"analytics": {},
@@ -2715,12 +2721,6 @@
 									{
 										"label": "Goan",
 										"id": "query_goan",
-										"analytics": {},
-										"openFilter": true
-									},
-									{
-										"label": "Greek",
-										"id": "query_greek",
 										"analytics": {},
 										"openFilter": true
 									},
@@ -2917,6 +2917,12 @@
 										"openFilter": true
 									},
 									{
+										"label": "Mongolian",
+										"id": "query_mongolian",
+										"analytics": {},
+										"openFilter": true
+									},
+									{
 										"label": "Mughlai",
 										"id": "query_mughlai",
 										"analytics": {},
@@ -2955,6 +2961,12 @@
 									{
 										"label": "Oriental",
 										"id": "query_oriental",
+										"analytics": {},
+										"openFilter": true
+									},
+									{
+										"label": "Oriya",
+										"id": "query_oriya",
 										"analytics": {},
 										"openFilter": true
 									},
@@ -3039,12 +3051,6 @@
 									{
 										"label": "Seafood",
 										"id": "query_seafood",
-										"analytics": {},
-										"openFilter": true
-									},
-									{
-										"label": "Sindhi",
-										"id": "query_sindhi",
 										"analytics": {},
 										"openFilter": true
 									},
@@ -3227,6 +3233,12 @@
 										"id": "query_shawarma",
 										"analytics": {},
 										"openFilter": true
+									},
+									{
+										"label": "veg restaurant",
+										"id": "query_veg_restaurant",
+										"analytics": {},
+										"openFilter": true
 									}
 								],
 								"viewType": "VIEW_TYPE_HALF_CARD",
@@ -3364,7 +3376,7 @@
 											"avgRatingString": "4.3",
 											"totalRatingsString": "10K+",
 											"sla": {
-												"deliveryTime": 36,
+												"deliveryTime": 37,
 												"lastMileTravel": 2.7,
 												"serviceability": "SERVICEABLE",
 												"slaString": "35-40 mins",
@@ -3372,7 +3384,7 @@
 												"iconType": "ICON_TYPE_EMPTY"
 											},
 											"availability": {
-												"nextCloseTime": "2024-11-23 01:00:00",
+												"nextCloseTime": "2024-11-25 01:00:00",
 												"opened": true
 											},
 											"badges": {},
@@ -3417,7 +3429,7 @@
 											"ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
 										},
 										"analytics": {
-											"context": "seo-data-f47cb279-646e-404b-adcf-5e68657f4dfe"
+											"context": "seo-data-10fc159b-413c-4856-941d-e7fccc0b9efe"
 										},
 										"cta": {
 											"link": "https://www.swiggy.com/city/bangalore/pizza-hut-richmond-town-shanti-nagar-rest10575",
@@ -3440,15 +3452,15 @@
 											"avgRatingString": "4.4",
 											"totalRatingsString": "1.1K+",
 											"sla": {
-												"deliveryTime": 60,
+												"deliveryTime": 54,
 												"lastMileTravel": 5,
 												"serviceability": "SERVICEABLE",
-												"slaString": "55-60 mins",
+												"slaString": "50-55 mins",
 												"lastMileTravelString": "5.0 km",
 												"iconType": "ICON_TYPE_EMPTY"
 											},
 											"availability": {
-												"nextCloseTime": "2024-11-22 22:00:00",
+												"nextCloseTime": "2024-11-24 22:00:00",
 												"opened": true
 											},
 											"badges": {
@@ -3509,7 +3521,7 @@
 											"ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
 										},
 										"analytics": {
-											"context": "seo-data-f47cb279-646e-404b-adcf-5e68657f4dfe"
+											"context": "seo-data-10fc159b-413c-4856-941d-e7fccc0b9efe"
 										},
 										"cta": {
 											"link": "https://www.swiggy.com/city/bangalore/chinese-wok-malleshwaram-rest405798",
@@ -3520,33 +3532,33 @@
 									},
 									{
 										"info": {
-											"id": "23847",
-											"name": "Domino's Pizza",
-											"cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/10/24/75c0269c-cb7a-420d-8218-150f7ed3d546_23847.JPG",
-											"locality": "MG Road",
-											"areaName": "Brigade Road",
-											"costForTwo": "₹400 for two",
-											"cuisines": ["Pizzas", "Italian", "Pastas", "Desserts"],
-											"avgRating": 4.4,
-											"parentId": "2456",
-											"avgRatingString": "4.4",
-											"totalRatingsString": "5.9K+",
+											"id": "69876",
+											"name": "Subway",
+											"cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/10/24/0f27fbff-1e49-4161-a0a5-848062423b76_69876.JPG",
+											"locality": "UB City",
+											"areaName": "Central Bangalore",
+											"costForTwo": "₹350 for two",
+											"cuisines": ["Salads", "Snacks", "Desserts", "Beverages"],
+											"avgRating": 4.3,
+											"parentId": "2",
+											"avgRatingString": "4.3",
+											"totalRatingsString": "3.6K+",
 											"sla": {
-												"deliveryTime": 25,
-												"lastMileTravel": 2.4,
+												"deliveryTime": 40,
+												"lastMileTravel": 0.6,
 												"serviceability": "SERVICEABLE",
-												"slaString": "20-25 mins",
-												"lastMileTravelString": "2.4 km",
+												"slaString": "35-40 mins",
+												"lastMileTravelString": "0.6 km",
 												"iconType": "ICON_TYPE_EMPTY"
 											},
 											"availability": {
-												"nextCloseTime": "2024-11-22 22:59:00",
+												"nextCloseTime": "2024-11-24 23:00:00",
 												"opened": true
 											},
 											"badges": {
 												"imageBadges": [
 													{
-														"imageId": "Rxawards/_CATEGORY-Pizza.png",
+														"imageId": "Rxawards/_CATEGORY-Sandwiches.png",
 														"description": "Delivery!"
 													}
 												]
@@ -3560,7 +3572,7 @@
 															{
 																"attributes": {
 																	"description": "Delivery!",
-																	"imageId": "Rxawards/_CATEGORY-Pizza.png"
+																	"imageId": "Rxawards/_CATEGORY-Sandwiches.png"
 																}
 															}
 														]
@@ -3570,8 +3582,84 @@
 												}
 											},
 											"aggregatedDiscountInfoV3": {
-												"header": "₹125 OFF",
-												"subHeader": "ABOVE ₹1199",
+												"header": "ITEMS",
+												"subHeader": "AT ₹119"
+											},
+											"orderabilityCommunication": {
+												"title": {},
+												"subTitle": {},
+												"message": {},
+												"customIcon": {}
+											},
+											"differentiatedUi": {
+												"displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+												"differentiatedUiMediaDetails": {
+													"mediaType": "ADS_MEDIA_ENUM_IMAGE",
+													"lottie": {},
+													"video": {}
+												}
+											},
+											"reviewsSummary": {},
+											"displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+											"restaurantOfferPresentationInfo": {},
+											"externalRatings": {
+												"aggregatedRating": {
+													"rating": "3.8",
+													"ratingCount": "282"
+												},
+												"source": "GOOGLE",
+												"sourceIconImageId": "v1704440323/google_ratings/rating_google_tag"
+											},
+											"ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+										},
+										"analytics": {
+											"context": "seo-data-10fc159b-413c-4856-941d-e7fccc0b9efe"
+										},
+										"cta": {
+											"link": "https://www.swiggy.com/city/bangalore/subway-ub-city-central-bangalore-rest69876",
+											"text": "RESTAURANT_MENU",
+											"type": "WEBLINK"
+										},
+										"widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+									},
+									{
+										"info": {
+											"id": "588619",
+											"name": "KFC",
+											"cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/11/5/ab13ff98-4cb5-4062-bef6-1738d5d5ed45_588619.JPG",
+											"locality": "Brigade Road",
+											"areaName": "Central Bangalore",
+											"costForTwo": "₹400 for two",
+											"cuisines": ["Burgers", "Fast Food", "Rolls & Wraps"],
+											"avgRating": 4.4,
+											"parentId": "547",
+											"avgRatingString": "4.4",
+											"totalRatingsString": "2.1K+",
+											"sla": {
+												"deliveryTime": 38,
+												"lastMileTravel": 2.4,
+												"serviceability": "SERVICEABLE",
+												"slaString": "35-40 mins",
+												"lastMileTravelString": "2.4 km",
+												"iconType": "ICON_TYPE_EMPTY"
+											},
+											"availability": {
+												"nextCloseTime": "2024-11-25 01:00:00",
+												"opened": true
+											},
+											"badges": {},
+											"isOpen": true,
+											"type": "F",
+											"badgesV2": {
+												"entityBadges": {
+													"imageBased": {},
+													"textBased": {},
+													"textExtendedBadges": {}
+												}
+											},
+											"aggregatedDiscountInfoV3": {
+												"header": "20% OFF",
+												"subHeader": "ABOVE ₹2999",
 												"discountTag": "FLAT DEAL"
 											},
 											"orderabilityCommunication": {
@@ -3594,7 +3682,7 @@
 											"externalRatings": {
 												"aggregatedRating": {
 													"rating": "4.0",
-													"ratingCount": "4.8K+"
+													"ratingCount": "342"
 												},
 												"source": "GOOGLE",
 												"sourceIconImageId": "v1704440323/google_ratings/rating_google_tag"
@@ -3602,10 +3690,10 @@
 											"ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
 										},
 										"analytics": {
-											"context": "seo-data-f47cb279-646e-404b-adcf-5e68657f4dfe"
+											"context": "seo-data-10fc159b-413c-4856-941d-e7fccc0b9efe"
 										},
 										"cta": {
-											"link": "https://www.swiggy.com/city/bangalore/dominos-pizza-mg-road-brigade-road-rest23847",
+											"link": "https://www.swiggy.com/city/bangalore/kfc-brigade-road-central-bangalore-rest588619",
 											"text": "RESTAURANT_MENU",
 											"type": "WEBLINK"
 										},
@@ -3613,34 +3701,36 @@
 									},
 									{
 										"info": {
-											"id": "396747",
-											"name": "LunchBox - Meals and Thalis",
-											"cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/10/16/2e69f87e-dff6-4bd1-a380-1b365b27bede_396747.jpg",
-											"locality": "Residency Road",
-											"areaName": "Shantinagar",
-											"costForTwo": "₹200 for two",
+											"id": "6924",
+											"name": "FreshMenu",
+											"cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/8/12/6d758a42-634e-4b3e-809f-876d0ee8e44a_6924.JPG",
+											"locality": "Johnson Market",
+											"areaName": "Richmond Road",
+											"costForTwo": "₹250 for two",
 											"cuisines": [
-												"Biryani",
-												"North Indian",
-												"Punjabi",
+												"Continental",
+												"Chinese",
+												"Oriental",
+												"Asian",
 												"Healthy Food",
-												"Desserts",
-												"Beverages"
+												"Fast Food",
+												"Indian",
+												"Desserts"
 											],
-											"avgRating": 4.3,
-											"parentId": "4925",
-											"avgRatingString": "4.3",
-											"totalRatingsString": "1.9K+",
+											"avgRating": 4.4,
+											"parentId": "398",
+											"avgRatingString": "4.4",
+											"totalRatingsString": "59K+",
 											"sla": {
-												"deliveryTime": 33,
-												"lastMileTravel": 2.2,
+												"deliveryTime": 39,
+												"lastMileTravel": 2.4,
 												"serviceability": "SERVICEABLE",
-												"slaString": "30-35 mins",
-												"lastMileTravelString": "2.2 km",
+												"slaString": "35-40 mins",
+												"lastMileTravelString": "2.4 km",
 												"iconType": "ICON_TYPE_EMPTY"
 											},
 											"availability": {
-												"nextCloseTime": "2024-11-22 23:59:00",
+												"nextCloseTime": "2024-11-24 23:59:00",
 												"opened": true
 											},
 											"badges": {
@@ -3674,7 +3764,7 @@
 											},
 											"aggregatedDiscountInfoV3": {
 												"header": "ITEMS",
-												"subHeader": "AT ₹159"
+												"subHeader": "AT ₹69"
 											},
 											"orderabilityCommunication": {
 												"title": {},
@@ -3701,10 +3791,10 @@
 											"ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
 										},
 										"analytics": {
-											"context": "seo-data-f47cb279-646e-404b-adcf-5e68657f4dfe"
+											"context": "seo-data-10fc159b-413c-4856-941d-e7fccc0b9efe"
 										},
 										"cta": {
-											"link": "https://www.swiggy.com/city/bangalore/lunchbox-meals-and-thalis-residency-road-shantinagar-rest396747",
+											"link": "https://www.swiggy.com/city/bangalore/freshmenu-johnson-market-richmond-road-rest6924",
 											"text": "RESTAURANT_MENU",
 											"type": "WEBLINK"
 										},
@@ -3712,62 +3802,55 @@
 									},
 									{
 										"info": {
-											"id": "42577",
-											"name": "Cream Stone Ice Cream",
-											"cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/9/9/88f0b679-8ab8-40e1-b742-65e3cf2e00c8_42577.jpg",
-											"locality": "Frazer Town",
-											"areaName": "Central Bangalore",
+											"id": "23847",
+											"name": "Domino's Pizza",
+											"cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/10/24/75c0269c-cb7a-420d-8218-150f7ed3d546_23847.JPG",
+											"locality": "MG Road",
+											"areaName": "Brigade Road",
 											"costForTwo": "₹400 for two",
-											"cuisines": ["Ice Cream", "Desserts", "Beverages"],
-											"avgRating": 4.5,
-											"parentId": "289",
-											"avgRatingString": "4.5",
-											"totalRatingsString": "9.3K+",
+											"cuisines": ["Pizzas", "Italian", "Pastas", "Desserts"],
+											"avgRating": 4.4,
+											"parentId": "2456",
+											"avgRatingString": "4.4",
+											"totalRatingsString": "5.9K+",
 											"sla": {
-												"deliveryTime": 44,
-												"lastMileTravel": 5,
+												"deliveryTime": 25,
+												"lastMileTravel": 2.4,
 												"serviceability": "SERVICEABLE",
-												"slaString": "40-45 mins",
-												"lastMileTravelString": "5.0 km",
+												"slaString": "20-25 mins",
+												"lastMileTravelString": "2.4 km",
 												"iconType": "ICON_TYPE_EMPTY"
 											},
 											"availability": {
-												"nextCloseTime": "2024-11-22 23:59:00",
+												"nextCloseTime": "2024-11-24 22:59:00",
 												"opened": true
 											},
 											"badges": {
-												"textExtendedBadges": [
+												"imageBadges": [
 													{
-														"iconId": "guiltfree/GF_Logo_android_3x",
-														"shortDescription": "options available",
-														"fontColor": "#7E808C"
+														"imageId": "Rxawards/_CATEGORY-Pizza.png",
+														"description": "Delivery!"
 													}
 												]
 											},
 											"isOpen": true,
+											"aggregatedDiscountInfoV2": {},
 											"type": "F",
 											"badgesV2": {
 												"entityBadges": {
-													"imageBased": {},
-													"textBased": {},
-													"textExtendedBadges": {
+													"imageBased": {
 														"badgeObject": [
 															{
 																"attributes": {
-																	"description": "",
-																	"fontColor": "#7E808C",
-																	"iconId": "guiltfree/GF_Logo_android_3x",
-																	"shortDescription": "options available"
+																	"description": "Delivery!",
+																	"imageId": "Rxawards/_CATEGORY-Pizza.png"
 																}
 															}
 														]
-													}
+													},
+													"textBased": {},
+													"textExtendedBadges": {}
 												}
-											},
-											"aggregatedDiscountInfoV3": {
-												"header": "15% OFF",
-												"subHeader": "ABOVE ₹800",
-												"discountTag": "FLAT DEAL"
 											},
 											"orderabilityCommunication": {
 												"title": {},
@@ -3788,8 +3871,8 @@
 											"restaurantOfferPresentationInfo": {},
 											"externalRatings": {
 												"aggregatedRating": {
-													"rating": "4.2",
-													"ratingCount": "1.5K+"
+													"rating": "4.0",
+													"ratingCount": "4.8K+"
 												},
 												"source": "GOOGLE",
 												"sourceIconImageId": "v1704440323/google_ratings/rating_google_tag"
@@ -3797,10 +3880,10 @@
 											"ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
 										},
 										"analytics": {
-											"context": "seo-data-f47cb279-646e-404b-adcf-5e68657f4dfe"
+											"context": "seo-data-10fc159b-413c-4856-941d-e7fccc0b9efe"
 										},
 										"cta": {
-											"link": "https://www.swiggy.com/city/bangalore/cream-stone-ice-cream-frazer-town-central-bangalore-rest42577",
+											"link": "https://www.swiggy.com/city/bangalore/dominos-pizza-mg-road-brigade-road-rest23847",
 											"text": "RESTAURANT_MENU",
 											"type": "WEBLINK"
 										},
@@ -3808,27 +3891,122 @@
 									},
 									{
 										"info": {
-											"id": "43836",
-											"name": "McDonald's",
-											"cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/9/18/5e7991d9-6a0d-4034-82a9-59bd2bbdc0b3_43836.jpg",
-											"locality": "MG Road",
-											"areaName": "Ashok Nagar",
-											"costForTwo": "₹400 for two",
-											"cuisines": ["Burgers", "Beverages", "Cafe", "Desserts"],
-											"avgRating": 4.4,
-											"parentId": "630",
-											"avgRatingString": "4.4",
-											"totalRatingsString": "25K+",
+											"id": "197238",
+											"name": "The Belgian Waffle Co.",
+											"cloudinaryImageId": "5116a385bac0548e06c33c08350fbf11",
+											"locality": "SRI Vasavi Temple Street",
+											"areaName": "Basavanagudi",
+											"costForTwo": "₹200 for two",
+											"cuisines": [
+												"Waffle",
+												"Desserts",
+												"Ice Cream",
+												"Beverages"
+											],
+											"avgRating": 4.6,
+											"veg": true,
+											"parentId": "2233",
+											"avgRatingString": "4.6",
+											"totalRatingsString": "4.3K+",
 											"sla": {
-												"deliveryTime": 36,
-												"lastMileTravel": 1.3,
+												"deliveryTime": 46,
+												"lastMileTravel": 3,
 												"serviceability": "SERVICEABLE",
-												"slaString": "35-40 mins",
-												"lastMileTravelString": "1.3 km",
+												"slaString": "45-50 mins",
+												"lastMileTravelString": "3.0 km",
 												"iconType": "ICON_TYPE_EMPTY"
 											},
 											"availability": {
-												"nextCloseTime": "2024-11-23 02:45:00",
+												"nextCloseTime": "2024-11-25 01:00:00",
+												"opened": true
+											},
+											"badges": {
+												"imageBadges": [
+													{
+														"imageId": "Green%20Dot%20Awards/Best%20In%20Waffle.png",
+														"description": "Delivery!"
+													}
+												]
+											},
+											"isOpen": true,
+											"type": "F",
+											"badgesV2": {
+												"entityBadges": {
+													"imageBased": {
+														"badgeObject": [
+															{
+																"attributes": {
+																	"description": "Delivery!",
+																	"imageId": "Green%20Dot%20Awards/Best%20In%20Waffle.png"
+																}
+															}
+														]
+													},
+													"textBased": {},
+													"textExtendedBadges": {}
+												}
+											},
+											"aggregatedDiscountInfoV3": {
+												"header": "20% OFF",
+												"subHeader": "UPTO ₹50"
+											},
+											"orderabilityCommunication": {
+												"title": {},
+												"subTitle": {},
+												"message": {},
+												"customIcon": {}
+											},
+											"differentiatedUi": {
+												"displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+												"differentiatedUiMediaDetails": {
+													"mediaType": "ADS_MEDIA_ENUM_IMAGE",
+													"lottie": {},
+													"video": {}
+												}
+											},
+											"reviewsSummary": {},
+											"displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+											"restaurantOfferPresentationInfo": {},
+											"externalRatings": {
+												"aggregatedRating": {
+													"rating": "--"
+												}
+											},
+											"ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+										},
+										"analytics": {
+											"context": "seo-data-10fc159b-413c-4856-941d-e7fccc0b9efe"
+										},
+										"cta": {
+											"link": "https://www.swiggy.com/city/bangalore/the-belgian-waffle-co-sri-vasavi-temple-street-basavanagudi-rest197238",
+											"text": "RESTAURANT_MENU",
+											"type": "WEBLINK"
+										},
+										"widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+									},
+									{
+										"info": {
+											"id": "5938",
+											"name": "Burger King",
+											"cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/6/11/7f76a072-c1bc-4d74-ac56-33e0eea20c1e_5938.JPG",
+											"locality": "Tasker Town",
+											"areaName": "Shivaji Nagar",
+											"costForTwo": "₹350 for two",
+											"cuisines": ["Burgers", "American"],
+											"avgRating": 4.4,
+											"parentId": "166",
+											"avgRatingString": "4.4",
+											"totalRatingsString": "37K+",
+											"sla": {
+												"deliveryTime": 41,
+												"lastMileTravel": 2.8,
+												"serviceability": "SERVICEABLE",
+												"slaString": "40-45 mins",
+												"lastMileTravelString": "2.8 km",
+												"iconType": "ICON_TYPE_EMPTY"
+											},
+											"availability": {
+												"nextCloseTime": "2024-11-25 03:00:00",
 												"opened": true
 											},
 											"badges": {
@@ -3886,159 +4064,10 @@
 											"ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
 										},
 										"analytics": {
-											"context": "seo-data-f47cb279-646e-404b-adcf-5e68657f4dfe"
+											"context": "seo-data-10fc159b-413c-4856-941d-e7fccc0b9efe"
 										},
 										"cta": {
-											"link": "https://www.swiggy.com/city/bangalore/mcdonalds-mg-road-ashok-nagar-rest43836",
-											"text": "RESTAURANT_MENU",
-											"type": "WEBLINK"
-										},
-										"widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
-									},
-									{
-										"info": {
-											"id": "588619",
-											"name": "KFC",
-											"cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/11/5/ab13ff98-4cb5-4062-bef6-1738d5d5ed45_588619.JPG",
-											"locality": "Brigade Road",
-											"areaName": "Central Bangalore",
-											"costForTwo": "₹400 for two",
-											"cuisines": ["Burgers", "Fast Food", "Rolls & Wraps"],
-											"avgRating": 4.4,
-											"parentId": "547",
-											"avgRatingString": "4.4",
-											"totalRatingsString": "2.1K+",
-											"sla": {
-												"deliveryTime": 32,
-												"lastMileTravel": 2.4,
-												"serviceability": "SERVICEABLE",
-												"slaString": "30-35 mins",
-												"lastMileTravelString": "2.4 km",
-												"iconType": "ICON_TYPE_EMPTY"
-											},
-											"availability": {
-												"nextCloseTime": "2024-11-23 01:00:00",
-												"opened": true
-											},
-											"badges": {},
-											"isOpen": true,
-											"type": "F",
-											"badgesV2": {
-												"entityBadges": {
-													"imageBased": {},
-													"textBased": {},
-													"textExtendedBadges": {}
-												}
-											},
-											"aggregatedDiscountInfoV3": {
-												"header": "40% OFF",
-												"subHeader": "UPTO ₹80"
-											},
-											"orderabilityCommunication": {
-												"title": {},
-												"subTitle": {},
-												"message": {},
-												"customIcon": {}
-											},
-											"differentiatedUi": {
-												"displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-												"differentiatedUiMediaDetails": {
-													"mediaType": "ADS_MEDIA_ENUM_IMAGE",
-													"lottie": {},
-													"video": {}
-												}
-											},
-											"reviewsSummary": {},
-											"displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-											"restaurantOfferPresentationInfo": {},
-											"externalRatings": {
-												"aggregatedRating": {
-													"rating": "4.0",
-													"ratingCount": "342"
-												},
-												"source": "GOOGLE",
-												"sourceIconImageId": "v1704440323/google_ratings/rating_google_tag"
-											},
-											"ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
-										},
-										"analytics": {
-											"context": "seo-data-f47cb279-646e-404b-adcf-5e68657f4dfe"
-										},
-										"cta": {
-											"link": "https://www.swiggy.com/city/bangalore/kfc-brigade-road-central-bangalore-rest588619",
-											"text": "RESTAURANT_MENU",
-											"type": "WEBLINK"
-										},
-										"widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
-									},
-									{
-										"info": {
-											"id": "570511",
-											"name": "Bakingo",
-											"cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/11/7/c795c5d6-96d4-409a-8106-3c3ba1f4253c_570511.JPG",
-											"locality": "Puhlong X-road",
-											"areaName": "Vasanth Nagar",
-											"costForTwo": "₹299 for two",
-											"cuisines": ["Bakery", "Desserts", "Beverages", "Snacks"],
-											"avgRating": 4.6,
-											"parentId": "3818",
-											"avgRatingString": "4.6",
-											"totalRatingsString": "3.6K+",
-											"sla": {
-												"deliveryTime": 32,
-												"lastMileTravel": 3.6,
-												"serviceability": "SERVICEABLE",
-												"slaString": "30-35 mins",
-												"lastMileTravelString": "3.6 km",
-												"iconType": "ICON_TYPE_EMPTY"
-											},
-											"availability": {
-												"nextCloseTime": "2024-11-23 01:00:00",
-												"opened": true
-											},
-											"badges": {},
-											"isOpen": true,
-											"type": "F",
-											"badgesV2": {
-												"entityBadges": {
-													"imageBased": {},
-													"textBased": {},
-													"textExtendedBadges": {}
-												}
-											},
-											"aggregatedDiscountInfoV3": {
-												"header": "50% OFF",
-												"subHeader": "UPTO ₹100"
-											},
-											"orderabilityCommunication": {
-												"title": {},
-												"subTitle": {},
-												"message": {},
-												"customIcon": {}
-											},
-											"differentiatedUi": {
-												"displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-												"differentiatedUiMediaDetails": {
-													"mediaType": "ADS_MEDIA_ENUM_IMAGE",
-													"lottie": {},
-													"video": {}
-												}
-											},
-											"reviewsSummary": {},
-											"displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-											"restaurantOfferPresentationInfo": {},
-											"externalRatings": {
-												"aggregatedRating": {
-													"rating": "--"
-												}
-											},
-											"ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
-										},
-										"analytics": {
-											"context": "seo-data-f47cb279-646e-404b-adcf-5e68657f4dfe"
-										},
-										"cta": {
-											"link": "https://www.swiggy.com/city/bangalore/bakingo-puhlong-x-road-vasanth-nagar-rest570511",
+											"link": "https://www.swiggy.com/city/bangalore/burger-king-tasker-town-shivaji-nagar-rest5938",
 											"text": "RESTAURANT_MENU",
 											"type": "WEBLINK"
 										},
@@ -7128,7 +7157,7 @@
 						"lat": "12.9715987",
 						"lng": "77.5945627",
 						"userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
-						"gandalfRequest": "{\"sortAttribute\":\"relevance\",\"isFiltered\":false,\"queryId\":\"seo-data-f47cb279-646e-404b-adcf-5e68657f4dfe\",\"seoParams\":{\"apiName\":\"FoodHomePage\",\"brandId\":\"\",\"seoUrl\":\"www.swiggy.com\",\"pageType\":\"FOOD_HOME_PAGE\",\"businessLine\":\"FOOD\"}}",
+						"gandalfRequest": "{\"sortAttribute\":\"relevance\",\"isFiltered\":false,\"queryId\":\"seo-data-10fc159b-413c-4856-941d-e7fccc0b9efe\",\"seoParams\":{\"apiName\":\"FoodHomePage\",\"brandId\":\"\",\"seoUrl\":\"www.swiggy.com\",\"pageType\":\"FOOD_HOME_PAGE\",\"businessLine\":\"FOOD\"}}",
 						"id": "meta_data",
 						"metaInfo": {
 							"pageType": "FOOD_HOME_PAGE",
@@ -7156,8 +7185,8 @@
 		"cacheExpiryTime": 240,
 		"nextFetch": 1
 	},
-	"tid": "2bbd057e-9c42-44d8-adce-fd91a8f9d179",
-	"sid": "hdueb367-66a8-42f4-abdd-f4136fb60e07",
-	"deviceId": "0de65521-d17f-adbf-4646-f215ecd29345",
-	"csrfToken": "ZjM7o4ZR9ZS6-xB1h-VGWxG8NksgXbOK7P9o3yB8"
+	"tid": "4f607cca-8c0f-42a4-a035-223945eb5c1f",
+	"sid": "hf1fa8db-498e-4615-8b15-8f568504e103",
+	"deviceId": "138a1518-bde3-250f-b394-921eac3ed364",
+	"csrfToken": "5kVQWHieGTXw-dB929ivksZ3zPVpqE_7YqcaDpy8"
 }
