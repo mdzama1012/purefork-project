@@ -2,7 +2,7 @@ import { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faStar } from "@fortawesome/free-solid-svg-icons";
 import Shimmer from "./Shimmer";
-import useRestaurantMenu from "../utils/useRestaurantMenu";
+import useRestaurantMenu from "../hooks/useRestaurantMenu";
 import AccordionItem from "./AccordionItem";
 
 const RestaurantMenu = () => {

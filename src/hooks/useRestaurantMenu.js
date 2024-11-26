@@ -1,6 +1,6 @@
-import { useEffect, useState } from 'react';
-import { RESTAURANT_MENU_API } from './constants';
-import { useParams } from 'react-router-dom';
+import { useEffect, useState } from "react";
+import { RESTAURANT_MENU_API } from "../utils/constants";
+import { useParams } from "react-router-dom";
 
 const useRestaurantMenu = () => {
 	const [restaurantMenu, setRestaurantMenu] = useState(null);
@@ -10,7 +10,7 @@ const useRestaurantMenu = () => {
 		fetch(RESTAURANT_MENU_API + restaurantId)
 			.then(response => response.json())
 			.then(response => setRestaurantMenu(response.data))
-			.catch(error => console.log('Error fetching data:', error));
+			.catch(error => console.log("Error fetching data:", error));
 	}, []);
 
 	return restaurantMenu;

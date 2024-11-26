@@ -47,7 +47,10 @@ export const restaurantCardOffer = RestaurantCard => {
 		const labelText = `${offerHeader} ${offerHeader === "ITEMS" ? offerSubHeader : ""}`;
 		return (
 			<div className="relative">
-				<span className="absolute top-32 rounded-r-full bg-blue-600 px-2 text-sm font-semibold tracking-tighter text-white shadow-md">
+				<span
+					data-testid="offerLabel"
+					className="absolute left-0 top-32 rounded-r-full bg-blue-600 px-2 text-sm font-semibold tracking-tighter text-white shadow-md"
+				>
 					{labelText}
 				</span>
 				<RestaurantCard restaurantData={{ ...restaurantData }} />

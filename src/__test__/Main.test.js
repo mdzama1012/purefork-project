@@ -81,3 +81,15 @@ test("Should filter the restaurant that offers burger, using search functionalit
 	const restaurantsAfterSearch = screen.getAllByTestId("restaurantCard");
 	expect(restaurantsAfterSearch.length).toBe(2);
 });
+
+test("Should render the RestaurantCard component with offer label", async () => {
+	await act(async () =>
+		render(
+			<BrowserRouter>
+				<Main />
+			</BrowserRouter>
+		)
+	);
+	const restaurantWithOfferLabel = screen.getAllByTestId("offerLabel");
+	expect(restaurantWithOfferLabel.length).toBe(17);
+});

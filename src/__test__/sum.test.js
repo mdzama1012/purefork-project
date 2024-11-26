@@ -1,3 +1,5 @@
+// Just for learning purpose.
+
 import sum from "../utils/sum";
 
 test("should return the correct sum of two numbers", () => {

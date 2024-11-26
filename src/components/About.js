@@ -1,7 +1,7 @@
-import React, { Component } from 'react';
-import Shimmer from './Shimmer';
-import { GITHUB_USER_API } from '../utils/constants';
-import UserContext from '../utils/UserContext';
+import React, { Component } from "react";
+import Shimmer from "./Shimmer";
+import { GITHUB_USER_API } from "../utils/constants";
+import UserContext from "../utils/UserContext";
 
 class About extends Component {
 	constructor() {
@@ -14,7 +14,7 @@ class About extends Component {
 
 	// We can make this function async in order to handle API calls.
 	async componentDidMount() {
-		const response = await fetch(GITHUB_USER_API + 'mdzama1012');
+		const response = await fetch(GITHUB_USER_API + "mdzama1012");
 		const responseData = await response.json();
 		this.setState({ teamMembers: [responseData] });
 	}

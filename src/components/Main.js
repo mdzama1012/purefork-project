@@ -17,7 +17,7 @@ import { RESTAURANT_API } from "../utils/constants";
 import Shimmer from "./Shimmer";
 import Disconnected from "./Disconnected";
 import RestaurantCard, { restaurantCardOffer } from "./RestaurantCard";
-import useInternetStatus from "../utils/useInternetStatus";
+import useInternetStatus from "../hooks/useInternetStatus";
 import UserContext from "../utils/UserContext";
 
 const Main = () => {
