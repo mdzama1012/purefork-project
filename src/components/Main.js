@@ -15,7 +15,6 @@ import { Link } from "react-router-dom";
 
 import { RESTAURANT_API } from "../utils/constants";
 import Shimmer from "./Shimmer";
-import Disconnected from "./Disconnected";
 import RestaurantCard, { restaurantCardOffer } from "./RestaurantCard";
 import useInternetStatus from "../hooks/useInternetStatus";
 import UserContext from "../utils/UserContext";
@@ -116,31 +115,29 @@ const Main = () => {
 	};
 
 	// Conditional rendering
-	return !isOnline ? (
-		<Disconnected />
-	) : allRestaurants.length === 0 ? (
+	return allRestaurants.length === 0 ? (
 		// Shimmer effect for better UX
 		<Shimmer />
 	) : (
-		<div className="mx-auto w-4/5">
-			<h1 className="mb-10 text-center font-mono text-4xl font-bold tracking-tight text-slate-800">{`Hello, Good Morning ${userData.username}`}</h1>
+		<div className={`mx-auto w-4/5 ${isOnline ? "grayscale-0" : "grayscale"}`}>
+			{/* Just for learning purpose (Learning React Context) */}
+
+			{/* <h1 className="mb-10 text-center font-mono text-4xl font-bold tracking-tight text-slate-800">{`Hello, Good Morning ${userData.username}`}</h1> */}
+
+			{/* Just for learning purpose (Learning React Context) */}
 			<div className="mb-5 flex gap-5">
 				<input
 					data-testid="searchField"
 					type="text"
-					id="search-field"
-					name="search-field"
 					placeholder="Search Restaurants, Cuisines and Dishes..."
 					value={searchText}
 					onChange={event => setSearchText(event.target.value)}
 					autoComplete="off"
-					className="grow rounded-sm border-[1.5px] p-3 font-semibold focus:outline-none"
+					className="grow rounded-sm border p-4 font-semibold outline-none"
 				/>
 				<button
-					name="searchBtn"
 					type="submit"
-					id="searchBtn"
-					className="transition-all hover:text-orange-500"
+					className="transition-colors hover:text-orange-500"
 					onClick={() => {
 						setFilteredRestaurants(
 							allRestaurants.filter(
@@ -156,7 +153,7 @@ const Main = () => {
 						);
 					}}
 				>
-					<FontAwesomeIcon icon={faSearch} className="h-8 w-8" />
+					<FontAwesomeIcon icon={faSearch} className="h-7 w-7" />
 				</button>
 				{/* Just for learning purpose (Learning React Context) */}
 
@@ -173,7 +170,7 @@ const Main = () => {
 
 				{/* Just for learning purpose (Learning React Context) */}
 			</div>
-			<div className="sticky top-0 z-10 bg-white py-3">
+			<div className="sticky top-0 z-10 bg-white py-4">
 				<h2 className="mb-2 ml-2 text-2xl font-bold">
 					Restaurants with online food delivery
 				</h2>
@@ -192,7 +189,7 @@ const Main = () => {
 					))}
 				</div>
 			</div>
-			<div className="flex flex-wrap gap-5">
+			<div className="grid grid-cols-4 gap-5">
 				{
 					// Giving index as a key prop is not recommended (even in react documentations).
 					filteredRestaurants.map(restaurant => (
