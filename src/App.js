@@ -12,6 +12,8 @@ import UserContext from "./utils/UserContext";
 import { Provider } from "react-redux";
 import appStore from "./utils/appStore";
 import Cart from "./components/Cart";
+import AppNestedRoutes from "./AppNestedRoutes";
+import ConnectionStatus from "./components/ConnectionStatus";
 // import Grocery from './components/Grocery';
 
 const Grocery = lazy(() => import("./components/Grocery"));
@@ -35,6 +37,7 @@ const App = () => {
 				<Outlet />
 			</UserContext.Provider>
 			<Footer />
+			<ConnectionStatus />
 		</Provider>
 	);
 };
@@ -45,7 +48,7 @@ const appRouter = createBrowserRouter([
 		path: "/",
 		element: <App />,
 		children: [
-			{ path: "/", element: <Main /> },
+			{ index: true, element: <Main /> },
 			{ path: "/about", element: <About /> },
 			{
 				path: "/grocery",
@@ -67,4 +70,6 @@ const appRouter = createBrowserRouter([
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
-root.render(<RouterProvider router={appRouter} />);
+// root.render(<RouterProvider router={appRouter} />);
+// In App_2 we are using another way of creating routes using react-router-dom.
+root.render(<AppNestedRoutes />);
