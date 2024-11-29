@@ -6,9 +6,9 @@ import { Link } from "react-router-dom";
 
 const OrderSummery = ({ dishList }) => {
 	return (
-		<div className="w-3/5">
+		<div className="h-[80vh] w-3/5 overflow-auto">
 			{dishList.length === 0 ? (
-				<div className="flex h-[60vh] items-center justify-center">
+				<div className="flex h-full items-center justify-center">
 					<div>
 						<h1 className="my-3 text-3xl font-bold text-red-600">
 							Cart Empty 🫙
@@ -22,7 +22,7 @@ const OrderSummery = ({ dishList }) => {
 				dishList.map(dish => (
 					<div
 						key={dish.id}
-						className="flex justify-between border-b-[1.5px] p-5 last:border-none"
+						className="flex justify-between border-b-2 p-5 last:border-none"
 						data-testid="dishInCart"
 					>
 						{/* Image of the dish */}

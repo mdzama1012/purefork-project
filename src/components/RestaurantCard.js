@@ -10,9 +10,9 @@ const RestaurantCard = ({ restaurantData }) => {
 	const { cloudinaryImageId, name, cuisines, avgRating, sla, areaName } =
 		restaurantData;
 	return (
-		<div data-testid="restaurantCard" className="w-60 leading-6">
+		<div data-testid="restaurantCard" className="leading-6">
 			<img
-				className="h-40 w-full rounded-2xl object-cover"
+				className="h-44 w-full rounded-2xl object-cover hover:shadow-xl"
 				src={`${CDN_URL}${cloudinaryImageId}`}
 				alt="Restaurant Image Not Available"
 			/>
@@ -44,12 +44,12 @@ export const restaurantCardOffer = RestaurantCard => {
 		const offerHeader = restaurantData.aggregatedDiscountInfoV3?.header ?? "";
 		const offerSubHeader =
 			restaurantData.aggregatedDiscountInfoV3?.subHeader ?? "";
-		const labelText = `${offerHeader} ${offerHeader === "ITEMS" ? offerSubHeader : ""}`;
+		const labelText = `${offerHeader} ${offerSubHeader}`;
 		return (
 			<div className="relative">
 				<span
 					data-testid="offerLabel"
-					className="absolute left-0 top-32 rounded-r-full bg-blue-600 px-2 text-sm font-semibold tracking-tighter text-white shadow-md"
+					className="absolute left-0 top-36 rounded-r-full bg-blue-600 px-2 text-sm font-semibold tracking-tighter text-white shadow-md"
 				>
 					{labelText}
 				</span>

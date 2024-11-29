@@ -1,65 +1,72 @@
 import { useContext, useState } from "react";
 import { Link } from "react-router-dom";
 import { LOGO_URL } from "../utils/constants";
-import useInternetStatus from "../hooks/useInternetStatus";
 import UserContext from "../utils/UserContext";
 import { useSelector } from "react-redux";
 
 const Header = () => {
-	const [buttonContent, setButtonContent] = useState("Login");
-	const isOnline = useInternetStatus();
+	const [buttonContent, setButtonContent] = useState("SignIn");
 	const userData = useContext(UserContext);
 
 	const dishList = useSelector(store => store.cart.dish);
 
 	return (
-		<div className="mb-12 flex items-center justify-between px-20 py-3 shadow-md">
+		<header className="mb-12 flex items-center justify-between px-10 py-3 shadow-md">
 			<Link to={"/"}>
-				<img
-					className="aspect-square w-14 rounded-xl object-cover transition-all hover:scale-105"
-					src={LOGO_URL}
-					alt="Logo"
-				/>
+				<figure className="flex items-center">
+					<img
+						className="aspect-square w-14 rounded-xl object-cover transition-all hover:scale-105"
+						src={LOGO_URL}
+						alt="Logo"
+					/>
+					<figcaption className="ml-3 text-2xl font-bold">PureFork</figcaption>
+				</figure>
 			</Link>
-			<ul className="flex items-center gap-5 text-lg font-semibold tracking-tighter text-slate-700">
-				<li>Internet Status: {isOnline ? "✅ Online" : "❌ Offline"}</li>
-				<li>
-					<Link to="/" className="hover:text-orange-600">
-						Home
-					</Link>
-				</li>
-				<li>
-					<Link to="/about" className="hover:text-orange-600">
-						About
-					</Link>
-				</li>
-				<li>
-					<Link to="/cart" className="hover:text-orange-600">
-						Cart - {dishList.length} items
-					</Link>
-				</li>
-				<li>
-					<Link to="/grocery" className="hover:text-orange-600">
-						Grocery
-					</Link>
-				</li>
-				<li>
-					<button
-						className="w-24 rounded-md border-2 border-orange-500 px-5 py-1 font-mono shadow-md"
-						onClick={() =>
-							buttonContent === "Login"
-								? setButtonContent("Logout")
-								: setButtonContent("Login")
-						}
-					>
-						{buttonContent}
-					</button>
-				</li>
-				{buttonContent === "Logout" && (
-					<li>{buttonContent ? userData.username : ""}</li>
-				)}
-			</ul>
-		</div>
+			<nav>
+				<ul className="flex items-center">
+					<li>
+						<Link to="/" className="navlink">
+							Home
+						</Link>
+					</li>
+					<li>
+						<Link to="/about" className="navlink">
+							About Us
+						</Link>
+					</li>
+					<li>
+						<Link to="/cart" className="navlink">
+							Cart - {dishList.length}
+						</Link>
+					</li>
+					<li>
+						<Link to="/grocery" className="navlink">
+							Grocery App
+						</Link>
+					</li>
+					<li>
+						<button
+							className="font-mono text-orange-600"
+							onClick={() =>
+								buttonContent === "SignIn"
+									? setButtonContent("SignOut")
+									: setButtonContent("SignIn")
+							}
+						>
+							{buttonContent}
+						</button>
+					</li>
+					{buttonContent === "Logout" && (
+						<li>{buttonContent ? userData.username : ""}</li>
+					)}
+					<li>
+						<button className="ml-3 rounded bg-orange-500 px-3 py-2 font-mono text-white transition-colors hover:bg-orange-600">
+							SignUp
+						</button>
+					</li>
+				</ul>
+			</nav>
+		</header>
 	);
 };
 

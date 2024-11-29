@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+	.navlink {
+		@apply mr-6 uppercase tracking-tight text-slate-800 transition-all hover:text-orange-600;
+	}
+}
