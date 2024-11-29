@@ -1,6 +1,6 @@
 import { render, screen, fireEvent } from "@testing-library/react";
 import { act } from "react";
-import Main from "../components/Main";
+import Home from "../components/Home";
 import MOCK_RESPONSE from "../mocks/restaurantsMockResponse.json";
 import { BrowserRouter } from "react-router-dom";
 import "@testing-library/jest-dom";
@@ -19,7 +19,7 @@ test("Should render search input field and search button", async () => {
 	await act(async () =>
 		render(
 			<BrowserRouter>
-				<Main />
+				<Home />
 			</BrowserRouter>
 		)
 	);
@@ -33,7 +33,7 @@ test("Should render all 20 restaurants", async () => {
 	await act(async () =>
 		render(
 			<BrowserRouter>
-				<Main />
+				<Home />
 			</BrowserRouter>
 		)
 	);
@@ -45,7 +45,7 @@ test("Should filter the restaurant that offers pizza, using search functionality
 	await act(async () =>
 		render(
 			<BrowserRouter>
-				<Main />
+				<Home />
 			</BrowserRouter>
 		)
 	);
@@ -66,7 +66,7 @@ test("Should filter the restaurant that offers burger, using search functionalit
 	await act(async () =>
 		render(
 			<BrowserRouter>
-				<Main />
+				<Home />
 			</BrowserRouter>
 		)
 	);
@@ -86,7 +86,7 @@ test("Should render the RestaurantCard component with offer label", async () => 
 	await act(async () =>
 		render(
 			<BrowserRouter>
-				<Main />
+				<Home />
 			</BrowserRouter>
 		)
 	);

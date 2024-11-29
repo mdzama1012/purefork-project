@@ -58,7 +58,7 @@ test("Should add the dish to cart, by clicking on the ADD button", async () => {
 	fireEvent.click(accordionItem[1]);
 	const addButtonList = screen.getAllByRole("button", { name: "ADD" });
 	fireEvent.click(addButtonList[0]);
-	const updatedCart = screen.getByText("Cart - 1 items");
+	const updatedCart = screen.getByText("Cart - 1");
 	expect(updatedCart).toBeInTheDocument();
 });
 
@@ -79,7 +79,7 @@ test("Should add multiple dishes to the cart using ADD button", async () => {
 	const addButtonList = screen.getAllByRole("button", { name: "ADD" });
 	fireEvent.click(addButtonList[1]);
 	fireEvent.click(addButtonList[2]);
-	const updatedCart = screen.getByText("Cart - 3 items");
+	const updatedCart = screen.getByText("Cart - 3");
 	expect(updatedCart).toBeInTheDocument();
 });
 

@@ -1,21 +1,17 @@
-import React, { lazy, Suspense, useEffect, useState } from "react";
-import ReactDOM from "react-dom/client";
+import { lazy, Suspense, useEffect, useState } from "react";
 import { createBrowserRouter, Outlet, RouterProvider } from "react-router-dom";
-import Header from "./components/Header";
-import Main from "./components/Main";
-import Footer from "./components/Footer";
+import Home from "./components/Home";
 import About from "./components/About";
 import RestaurantMenu from "./components/RestaurantMenu";
 import Error from "./components/Error";
 import Shimmer from "./components/Shimmer";
-import UserContext from "./utils/UserContext";
+import UserContext from "./context/UserContext";
 import { Provider } from "react-redux";
 import appStore from "./utils/appStore";
 import Cart from "./components/Cart";
-import AppNestedRoutes from "./AppNestedRoutes";
-import ConnectionStatus from "./components/ConnectionStatus";
-// import Grocery from './components/Grocery';
+import BasicLayout from "./components/BasicLayout";
 
+// import Grocery from './components/Grocery';
 const Grocery = lazy(() => import("./components/Grocery"));
 
 const App = () => {
@@ -32,12 +28,10 @@ const App = () => {
 	// Now to update this new information about user we use <Context.Provider>.
 	return (
 		<Provider store={appStore}>
+			{/* Binding the context with state variable. */}
 			<UserContext.Provider value={{ username: userData, setUserData }}>
-				<Header />
-				<Outlet />
+				<RouterProvider router={appRouter}></RouterProvider>
 			</UserContext.Provider>
-			<Footer />
-			<ConnectionStatus />
 		</Provider>
 	);
 };
@@ -46,10 +40,14 @@ const App = () => {
 const appRouter = createBrowserRouter([
 	{
 		path: "/",
-		element: <App />,
+		element: <BasicLayout />,
 		children: [
-			{ index: true, element: <Main /> },
+			{ index: true, element: <Home /> },
 			{ path: "/about", element: <About /> },
+			{
+				path: "/cart",
+				element: <Cart />,
+			},
 			{
 				path: "/grocery",
 				element: (
@@ -59,17 +57,9 @@ const appRouter = createBrowserRouter([
 				),
 			},
 			{ path: "/restaurant/:restaurantId", element: <RestaurantMenu /> },
-			{
-				path: "/cart",
-				element: <Cart />,
-			},
 		],
 		errorElement: <Error />,
 	},
 ]);
 
-const root = ReactDOM.createRoot(document.getElementById("root"));
-
-// root.render(<RouterProvider router={appRouter} />);
-// In App_2 we are using another way of creating routes using react-router-dom.
-root.render(<AppNestedRoutes />);
+export default App;

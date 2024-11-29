@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import Shimmer from "./Shimmer";
 import { GITHUB_USER_API } from "../utils/constants";
-import UserContext from "../utils/UserContext";
+import UserContext from "../context/UserContext";
 
 class About extends Component {
 	constructor() {

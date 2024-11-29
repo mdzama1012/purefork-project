@@ -1,20 +1,19 @@
-import React, { lazy, Suspense, useEffect, useState } from "react";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { lazy, Suspense, useEffect, useState } from "react";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { Provider } from "react-redux";
 import appStore from "./utils/appStore";
-import UserContext from "./utils/UserContext";
-import Main from "./components/Main";
-import About from "./components/About";
+import UserContext from "./context/UserContext";
 import BasicLayout from "./components/BasicLayout";
+import Home from "./components/Home";
+import About from "./components/About";
 import RestaurantMenu from "./components/RestaurantMenu";
 import Cart from "./components/Cart";
 import Shimmer from "./components/Shimmer";
 
 // import Grocery from './components/Grocery';
-// Code splitting (lazy loading)
 const Grocery = lazy(() => import("./components/Grocery"));
 
-const AppNestedRoutes = () => {
+const App_2 = () => {
 	const [userData, setUserData] = useState("Guest");
 
 	// Some authentication logic.
@@ -31,7 +30,7 @@ const AppNestedRoutes = () => {
 				<BrowserRouter>
 					<Routes>
 						<Route path="/" element={<BasicLayout />}>
-							<Route index element={<Main />} />
+							<Route index element={<Home />} />
 							<Route path="about" element={<About />} />
 							<Route
 								path="grocery"
@@ -54,4 +53,4 @@ const AppNestedRoutes = () => {
 	);
 };
 
-export default AppNestedRoutes;
+export default App_2;

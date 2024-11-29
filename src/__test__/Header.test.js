@@ -19,7 +19,7 @@ test("Should render the Header component", () => {
 	// const loginBtn = screen.getAllByRole('button');
 	// expect(loginBtn.length).toBe(1);
 
-	const loginBtn = screen.getByRole("button");
+	const loginBtn = screen.getByRole("button", { name: "SignIn" });
 	expect(loginBtn).toBeInTheDocument();
 });
 
@@ -33,7 +33,7 @@ test("Should render the Header component with 0 items in cart", () => {
 	);
 
 	// We can also use regex inside the getByText string.
-	const cartItems = screen.getByText("Cart - 0 items");
+	const cartItems = screen.getByText("Cart - 0");
 	expect(cartItems).toBeInTheDocument();
 });
 
@@ -46,8 +46,8 @@ test("Should change the Login button to Logout when clicked", () => {
 		</Provider>
 	);
 
-	const loginBtn = screen.getByRole("button", { name: "Login" });
+	const loginBtn = screen.getByRole("button", { name: "SignIn" });
 	fireEvent.click(loginBtn);
-	const logoutBtn = screen.getByRole("button", { name: "Logout" });
+	const logoutBtn = screen.getByRole("button", { name: "SignOut" });
 	expect(logoutBtn).toBeInTheDocument();
 });

@@ -2,7 +2,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faStar } from "@fortawesome/free-solid-svg-icons";
 import { CDN_URL } from "../utils/constants";
 import { useContext } from "react";
-import UserContext from "../utils/UserContext";
+import UserContext from "../context/UserContext";
 
 const RestaurantCard = ({ restaurantData }) => {
 	const userData = useContext(UserContext);

@@ -1,7 +1,7 @@
 import React from "react";
 import { useDispatch, useSelector } from "react-redux";
 import OrderSummery from "./OrderSummery";
-import UserContext from "../utils/UserContext";
+import UserContext from "../context/UserContext";
 import { useContext } from "react";
 import { clearCart } from "../utils/cartSlice";
 

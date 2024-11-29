@@ -17,9 +17,9 @@ import { RESTAURANT_API } from "../utils/constants";
 import Shimmer from "./Shimmer";
 import RestaurantCard, { restaurantCardOffer } from "./RestaurantCard";
 import useInternetStatus from "../hooks/useInternetStatus";
-import UserContext from "../utils/UserContext";
+import UserContext from "../context/UserContext";
 
-const Main = () => {
+const Home = () => {
 	// Local state variable - Super powerful variable given by React.
 	const [originalRestaurants, setOriginalRestaurants] = useState([]); // Reason why this is a state rather then a normal JS variable.
 	const [allRestaurants, setAllRestaurants] = useState([]);
@@ -211,4 +211,4 @@ const Main = () => {
 	);
 };
 
-export default Main;
+export default Home;
