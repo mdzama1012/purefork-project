@@ -1,19 +1,20 @@
-import { useEffect, useState } from "react";
-import { RESTAURANT_MENU_API } from "../utils/constants";
-import { useParams } from "react-router-dom";
+import { useEffect, useState } from 'react';
+import { useParams } from 'react-router-dom';
+
+import { RESTAURANT_MENU_API } from '../utils/constants';
 
 const useRestaurantMenu = () => {
-	const [restaurantMenu, setRestaurantMenu] = useState(null);
-	const { restaurantId } = useParams();
+  const [restaurantMenu, setRestaurantMenu] = useState(null);
+  const { restaurantId } = useParams();
 
-	useEffect(() => {
-		fetch(RESTAURANT_MENU_API + restaurantId)
-			.then(response => response.json())
-			.then(response => setRestaurantMenu(response.data))
-			.catch(error => console.log("Error fetching data:", error));
-	}, []);
+  useEffect(() => {
+    fetch(RESTAURANT_MENU_API + restaurantId)
+      .then((response) => response.json())
+      .then((response) => setRestaurantMenu(response.data))
+      .catch((error) => console.log('Error fetching data:', error));
+  }, []);
 
-	return restaurantMenu;
+  return restaurantMenu;
 };
 
 export default useRestaurantMenu;

@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 @layer components {
-	.navlink {
-		@apply mr-6 uppercase tracking-tight text-slate-800 transition-all hover:text-orange-600;
-	}
+  .navlink {
+    @apply mr-6 font-mono uppercase tracking-tight text-slate-800 transition-colors hover:text-orange-600;
+  }
 }

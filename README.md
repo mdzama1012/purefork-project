@@ -34,8 +34,8 @@
    In your component, import `FontAwesomeIcon` and the icons you want to use:
 
    ```javascript
-   import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-   import { faCoffee } from "@fortawesome/free-solid-svg-icons";
+   import { faCoffee } from '@fortawesome/free-solid-svg-icons';
+   import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
    ```
 
 3. **Use the Icon**:
