@@ -41,7 +41,10 @@ const App_2 = () => {
                   </Suspense>
                 }
               />
-              <Route path="restaurant/:restaurantId" element={<RestaurantMenu />} />
+              <Route
+                path="restaurant/:restaurantId"
+                element={<RestaurantMenu />}
+              />
               <Route path="cart" element={<Cart />} />
             </Route>
           </Routes>

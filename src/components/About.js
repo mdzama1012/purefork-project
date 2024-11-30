@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 import UserContext from '../context/UserContext';
 import { GITHUB_USER_API } from '../utils/constants';
 
-import Shimmer from './Shimmer';
+import Shimmer from './Spinner';
 
 class About extends Component {
   constructor() {
@@ -37,15 +37,18 @@ class About extends Component {
         <div className="mb-5 flex flex-col gap-2">
           <p>Welcome to PureFork – Your Trusted Food Delivery Partner!</p>
           <p>
-            At PureFork, we believe great food brings people together. Founded with the vision of
-            making quality meals accessible, we connect you with your favorite restaurants and
-            cuisines, delivering fresh and delicious food right to your doorstep.
+            At PureFork, we believe great food brings people together. Founded
+            with the vision of making quality meals accessible, we connect you
+            with your favorite restaurants and cuisines, delivering fresh and
+            delicious food right to your doorstep.
           </p>
           <p>
-            With a seamless app, quick delivery, and a wide variety of options, PureFork is here to
-            satisfy your cravings anytime, anywhere.
+            With a seamless app, quick delivery, and a wide variety of options,
+            PureFork is here to satisfy your cravings anytime, anywhere.
           </p>
-          <p>Join us in our mission to make every meal a delightful experience!</p>
+          <p>
+            Join us in our mission to make every meal a delightful experience!
+          </p>
           <p className="font-bold">PureFork – Fresh, Fast, and Flavorsome.</p>
         </div>
         {/* This will be replaced by team member component */}

@@ -3,16 +3,23 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 import AccordionBody from './AccordionBody';
 
-const AccordionItem = ({ category, showAccordionContent, setAccordionIndex }) => {
+const AccordionItem = ({
+  category,
+  showAccordionContent,
+  setAccordionIndex,
+}) => {
   return (
-    <div className="mb-3 rounded-md border shadow-sm">
-      <div
-        className="flex cursor-pointer justify-between px-5 py-3 hover:bg-slate-100"
+    <div className="mb-3 rounded border shadow">
+      <button
+        className="flex w-full cursor-pointer justify-between px-4 py-3 hover:bg-slate-100"
         onClick={() => setAccordionIndex()}
         data-testid="accordionItem"
       >
         <span className="font-bold">
-          {category?.card?.card?.title} ({category?.card?.card?.itemCards?.length})
+          {category?.card?.card?.title}
+          <span className="font-mono">
+            ({category?.card?.card?.itemCards?.length})
+          </span>
         </span>
         <span>
           {showAccordionContent ? (
@@ -21,7 +28,7 @@ const AccordionItem = ({ category, showAccordionContent, setAccordionIndex }) =>
             <FontAwesomeIcon icon={faChevronDown} />
           )}
         </span>
-      </div>
+      </button>
       {showAccordionContent && <AccordionBody category={category} />}
     </div>
   );

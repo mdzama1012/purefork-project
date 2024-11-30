@@ -6,7 +6,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import useRestaurantMenu from '../hooks/useRestaurantMenu';
 
 import AccordionItem from './AccordionItem';
-import Shimmer from './Shimmer';
+import Shimmer from './Spinner';
 
 const RestaurantMenu = () => {
   const [accordionIndex, setAccordionIndex] = useState(-1);
@@ -14,42 +14,44 @@ const RestaurantMenu = () => {
   const restaurantMenu = useRestaurantMenu();
   const restaurantBasicData = restaurantMenu?.cards[2].card?.card?.info;
   // Array of object containing categories of dishes (food).
-  const categories = restaurantMenu?.cards[4]?.groupedCard?.cardGroupMap?.REGULAR?.cards?.filter(
-    (currCard) => {
-      return (
-        currCard.card.card['@type'] ===
-        'type.googleapis.com/swiggy.presentation.food.v2.ItemCategory'
-      );
-    }
-  );
+  const categories =
+    restaurantMenu?.cards[4]?.groupedCard?.cardGroupMap?.REGULAR?.cards?.filter(
+      (currCard) => {
+        return (
+          currCard.card.card['@type'] ===
+          'type.googleapis.com/swiggy.presentation.food.v2.ItemCategory'
+        );
+      }
+    );
   return restaurantMenu === null ? (
     <Shimmer />
   ) : (
-    <>
-      <div className="mx-auto w-1/2 leading-7">
-        <h2 className="mb-3 ml-3 text-2xl font-extrabold">{restaurantBasicData.name}</h2>
-        <div className="rounded-3xl border-2 p-8">
-          <h3 className="font-bold">
-            <FontAwesomeIcon icon={faStar} className="text-green-700" />
+    <main>
+      <section className="mx-auto mb-10 w-1/2 leading-7">
+        <h1 className="mb-3 ml-3 text-2xl font-bold">
+          {restaurantBasicData.name}
+        </h1>
+        <article className="rounded-xl border-2 border-slate-200 p-8">
+          <h2 className="font-mono font-semibold">
+            <FontAwesomeIcon icon={faStar} className="text-xl text-green-600" />
             <span> {restaurantBasicData.avgRating}</span>
             <span> ({restaurantBasicData.totalRatingsString})</span>
             <span className="text-gray-500"> &#8226; </span>
             <span> {restaurantBasicData.costForTwoMessage}</span>
-          </h3>
+          </h2>
           <h3>{restaurantBasicData.cuisines.join(', ')}</h3>
-          <h4>
+          <h3>
             <span className="tracking-tight">Nearest Outlet: </span>
             {` ${restaurantBasicData.areaName} - ${restaurantBasicData.sla?.lastMileTravelString}`}
-          </h4>
-          <h4>
+          </h3>
+          <h3>
             <span className="tracking-tight">Delivery Time: </span>
             {`${restaurantBasicData.sla?.minDeliveryTime} - ${restaurantBasicData.sla?.maxDeliveryTime} minutes`}
-          </h4>
-        </div>
-      </div>
-      <div className="mx-auto my-10 flex w-9/12 flex-col justify-center">
-        <div className="p-2 text-center text-sm text-slate-500">M E N U</div>
-        <hr></hr>
+          </h3>
+        </article>
+      </section>
+      <section className="mx-auto flex w-9/12 flex-col justify-center">
+        <div className="text-center font-mono uppercase">Menu</div>
         {/* Accordion */}
         <div className="mx-auto my-5 w-4/5">
           {categories.map((category, index) => (
@@ -57,12 +59,14 @@ const RestaurantMenu = () => {
               key={category?.card?.card?.title}
               category={category}
               showAccordionContent={accordionIndex === index}
-              setAccordionIndex={() => setAccordionIndex(accordionIndex === index ? -1 : index)}
+              setAccordionIndex={() =>
+                setAccordionIndex(accordionIndex === index ? -1 : index)
+              }
             />
           ))}
         </div>
-      </div>
-    </>
+      </section>
+    </main>
   );
 };
 

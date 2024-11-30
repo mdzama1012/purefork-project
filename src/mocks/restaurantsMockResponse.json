@@ -1547,7 +1547,12 @@
                       "locality": "Lakshmi Road",
                       "areaName": "Langford Road",
                       "costForTwo": "₹250 for two",
-                      "cuisines": ["Home Food", "Indian", "North Indian", "Thalis"],
+                      "cuisines": [
+                        "Home Food",
+                        "Indian",
+                        "North Indian",
+                        "Thalis"
+                      ],
                       "avgRating": 4.5,
                       "parentId": "444382",
                       "avgRatingString": "4.5",
@@ -2044,7 +2049,13 @@
                       "locality": "Lavelle Road",
                       "areaName": "Ashok Nagar",
                       "costForTwo": "₹500 for two",
-                      "cuisines": ["Desserts", "Bakery", "Beverages", "Continental", "Italian"],
+                      "cuisines": [
+                        "Desserts",
+                        "Bakery",
+                        "Beverages",
+                        "Continental",
+                        "Italian"
+                      ],
                       "avgRating": 4.7,
                       "parentId": "3220",
                       "avgRatingString": "4.7",
@@ -3886,7 +3897,12 @@
                       "locality": "SRI Vasavi Temple Street",
                       "areaName": "Basavanagudi",
                       "costForTwo": "₹200 for two",
-                      "cuisines": ["Waffle", "Desserts", "Ice Cream", "Beverages"],
+                      "cuisines": [
+                        "Waffle",
+                        "Desserts",
+                        "Ice Cream",
+                        "Beverages"
+                      ],
                       "avgRating": 4.6,
                       "veg": true,
                       "parentId": "2233",

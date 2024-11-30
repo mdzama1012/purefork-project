@@ -8,7 +8,7 @@ import Cart from './components/Cart';
 import Error from './components/Error';
 import Home from './components/Home';
 import RestaurantMenu from './components/RestaurantMenu';
-import Shimmer from './components/Shimmer';
+import Shimmer from './components/Spinner';
 import UserContext from './context/UserContext';
 import appStore from './utils/appStore';
 

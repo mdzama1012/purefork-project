@@ -12,12 +12,13 @@ import { Link } from 'react-router-dom';
 import { faSearch } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
+import NoRestaurantFound from '../components/NoRestaurantFound';
 import UserContext from '../context/UserContext';
 import useInternetStatus from '../hooks/useInternetStatus';
 import { RESTAURANT_API } from '../utils/constants';
 
 import RestaurantCard, { restaurantCardOffer } from './RestaurantCard';
-import Shimmer from './Shimmer';
+import Shimmer from './Spinner';
 
 const Home = () => {
   // Local state variable - Super powerful variable given by React.
@@ -89,7 +90,10 @@ const Home = () => {
   };
 
   const toggleFilter = (index) => {
-    if (filters[index].name === 'Low to High' || filters[index].name === 'High to Low') {
+    if (
+      filters[index].name === 'Low to High' ||
+      filters[index].name === 'High to Low'
+    ) {
       setAllRestaurants(
         filters[index].active
           ? originalRestaurants
@@ -98,7 +102,9 @@ const Home = () => {
               const costA = +costStringA.slice(1);
               const costStringB = restaurantB.costForTwo.split(' ')[0];
               const costB = +costStringB.slice(1);
-              return filters[index].name === 'Low to High' ? costA - costB : costB - costA;
+              return filters[index].name === 'Low to High'
+                ? costA - costB
+                : costB - costA;
             })
       );
     }
@@ -115,13 +121,13 @@ const Home = () => {
     // Shimmer effect for better UX
     <Shimmer />
   ) : (
-    <div className={`mx-auto w-4/5 ${isOnline ? 'grayscale-0' : 'grayscale'}`}>
+    <main className={`mx-auto w-4/5 ${isOnline ? 'grayscale-0' : 'grayscale'}`}>
       {/* Just for learning purpose (Learning React Context) */}
 
       {/* <h1 className="mb-10 text-center font-mono text-4xl font-bold tracking-tight text-slate-800">{`Hello, Good Morning ${userData.username}`}</h1> */}
 
       {/* Just for learning purpose (Learning React Context) */}
-      <div className="mb-5 flex gap-5">
+      <form className="mb-5 flex gap-5">
         <input
           data-testid="searchField"
           type="text"
@@ -129,18 +135,23 @@ const Home = () => {
           value={searchText}
           onChange={(event) => setSearchText(event.target.value)}
           autoComplete="off"
-          className="grow rounded-sm border p-4 font-semibold outline-none"
+          className="grow rounded border p-4 outline-none"
         />
         <button
           type="submit"
-          className="transition-colors hover:text-orange-500"
-          onClick={() => {
+          className="transition-colors hover:text-orange-600"
+          onClick={(event) => {
+            event.preventDefault();
             setFilteredRestaurants(
               allRestaurants.filter(
                 (restaurant) =>
-                  restaurant.name.toLowerCase().indexOf(searchText.toLowerCase()) !== -1 ||
-                  restaurant.cuisines.join('').toLowerCase().indexOf(searchText.toLowerCase()) !==
-                    -1
+                  restaurant.name
+                    .toLowerCase()
+                    .indexOf(searchText.toLowerCase()) !== -1 ||
+                  restaurant.cuisines
+                    .join('')
+                    .toLowerCase()
+                    .indexOf(searchText.toLowerCase()) !== -1
               )
             );
           }}
@@ -161,43 +172,49 @@ const Home = () => {
 				/> */}
 
         {/* Just for learning purpose (Learning React Context) */}
-      </div>
-      <div className="sticky top-0 z-10 bg-white py-4">
-        <h2 className="mb-2 ml-2 text-2xl font-bold">Restaurants with online food delivery</h2>
-        <div className="flex gap-1">
+      </form>
+      <aside className="sticky top-0 z-10 bg-white py-3">
+        <h2 className="mb-2 ml-2 text-xl font-bold">
+          Restaurants with online food delivery
+        </h2>
+        <section>
           {filters.map((filter, index) => (
-            <div
+            <button
               key={index}
               className={
                 (filter.active ? 'border-slate-400 bg-slate-200 ' : '') +
-                'cursor-pointer rounded-full border-[1.5px] border-slate-300 px-3 py-1 tracking-tighter'
+                'mr-1 cursor-pointer rounded-full border-2 border-slate-300 px-3 py-1 tracking-tight last:m-0'
               }
               onClick={() => toggleFilter(index)}
             >
               {filter.name}
-            </div>
+            </button>
           ))}
-        </div>
-      </div>
-      <div className="grid grid-cols-4 gap-5">
-        {
-          // Giving index as a key prop is not recommended (even in react documentations).
-          filteredRestaurants.map((restaurant) => (
-            <Link
-              key={restaurant.id}
-              to={`/restaurant/${restaurant.id}`}
-              className="transition-transform hover:scale-95"
-            >
-              {restaurant.aggregatedDiscountInfoV3 ? (
-                <RestaurantCardOffer restaurantData={restaurant} />
-              ) : (
-                <RestaurantCard restaurantData={restaurant} />
-              )}
-            </Link>
-          ))
-        }
-      </div>
-    </div>
+        </section>
+      </aside>
+      {filteredRestaurants.length === 0 ? (
+        <NoRestaurantFound />
+      ) : (
+        <section className="grid grid-cols-4 gap-5">
+          {
+            // Giving index as a key prop is not recommended (even in react documentations).
+            filteredRestaurants.map((restaurant) => (
+              <Link
+                key={restaurant.id}
+                to={`/restaurant/${restaurant.id}`}
+                className="transition-transform hover:scale-95"
+              >
+                {restaurant.aggregatedDiscountInfoV3 ? (
+                  <RestaurantCardOffer restaurantData={restaurant} />
+                ) : (
+                  <RestaurantCard restaurantData={restaurant} />
+                )}
+              </Link>
+            ))
+          }
+        </section>
+      )}
+    </main>
   );
 };
 

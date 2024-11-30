@@ -12,24 +12,22 @@ const Cart = () => {
   const { username } = useContext(UserContext);
   const dispatch = useDispatch();
   return (
-    <div className="container mx-auto w-3/4">
-      <div className="flex justify-between">
+    <section className="container mx-auto w-3/4">
+      <header className="flex justify-between">
         <h1 className="mb-2 text-3xl font-bold tracking-tight text-slate-800">
-          🛒{'  '}
-          {username}'s Cart
+          🛒 {username}'s Cart
         </h1>
         <button
-          className="my-1 rounded-md border-[1.5px] border-orange-500 bg-transparent px-3 text-sm font-bold tracking-tight hover:bg-orange-50"
+          className="rounded border-2 border-orange-600 px-4 font-mono hover:bg-orange-500 hover:text-white"
           onClick={() => {
             dispatch(clearCart());
           }}
         >
           CLEAR CART
         </button>
-      </div>
-      <hr className="mb-4"></hr>
+      </header>
       <OrderSummery dishList={dishList} />
-    </div>
+    </section>
   );
 };
 

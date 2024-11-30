@@ -57,7 +57,9 @@ const Header = () => {
               {buttonContent}
             </button>
           </li>
-          {buttonContent === 'Logout' && <li>{buttonContent ? userData.username : ''}</li>}
+          {buttonContent === 'Logout' && (
+            <li>{buttonContent ? userData.username : ''}</li>
+          )}
           <li>
             <button className="ml-6 rounded border-2 border-orange-600 px-4 py-2 font-mono text-slate-800 transition-colors hover:bg-orange-600 hover:text-white">
               SignUp
