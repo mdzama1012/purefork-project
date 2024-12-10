@@ -9,6 +9,7 @@ import { CDN_URL } from '../utils/constants';
 const AccordionBody = ({ category }) => {
   // Handle the Adding of Item to the cart (cart slice)
   const dispatch = useDispatch();
+
   const handleAddItem = (dish) => {
     dispatch(addItem(dish));
   };

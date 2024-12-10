@@ -26,22 +26,22 @@ const Header = () => {
       <nav>
         <ul className="flex items-center">
           <li>
-            <Link to="/" className="navlink">
+            <Link to="/" className="navigation-link">
               Home
             </Link>
           </li>
           <li>
-            <Link to="/about" className="navlink">
+            <Link to="/about" className="navigation-link">
               About Us
             </Link>
           </li>
           <li>
-            <Link to="/cart" className="navlink">
+            <Link to="/cart" className="navigation-link">
               Cart - {dishList.length}
             </Link>
           </li>
           <li>
-            <Link to="/grocery" className="navlink">
+            <Link to="/grocery" className="navigation-link">
               Grocery App
             </Link>
           </li>
@@ -61,7 +61,7 @@ const Header = () => {
             <li>{buttonContent ? userData.username : ''}</li>
           )}
           <li>
-            <button className="ml-6 rounded border-2 border-orange-600 px-4 py-2 font-mono text-slate-800 transition-colors hover:bg-orange-600 hover:text-white">
+            <button className="secondary-btn hover:primary-btn ml-6 px-4 py-2">
               SignUp
             </button>
           </li>

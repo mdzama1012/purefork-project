@@ -7,8 +7,8 @@ import BasicLayout from './components/BasicLayout';
 import Cart from './components/Cart';
 import Error from './components/Error';
 import Home from './components/Home';
+import Loading from './components/Loading';
 import RestaurantMenu from './components/RestaurantMenu';
-import Shimmer from './components/Spinner';
 import UserContext from './context/UserContext';
 import appStore from './utils/appStore';
 
@@ -52,7 +52,7 @@ const appRouter = createBrowserRouter([
       {
         path: '/grocery',
         element: (
-          <Suspense fallback={<Shimmer />}>
+          <Suspense fallback={<Loading />}>
             <Grocery />
           </Suspense>
         ),

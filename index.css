@@ -3,7 +3,22 @@
 @tailwind utilities;
 
 @layer components {
-  .navlink {
+  .navigation-link {
     @apply mr-6 font-mono uppercase tracking-tight text-slate-800 transition-colors hover:text-orange-600;
+  }
+  .secondary-btn {
+    @apply rounded border-2 border-orange-600 font-mono text-slate-700 transition-colors;
+  }
+  .primary-btn {
+    @apply rounded border-2 border-orange-400 bg-orange-600 font-mono text-white;
+  }
+  .center-message {
+    @apply flex h-[75vh] items-center justify-center;
+  }
+  .filter-btn {
+    @apply rounded-full border-2 border-slate-300 tracking-tight;
+  }
+  .active-filter-btn {
+    @apply border-slate-400 bg-slate-200;
   }
 }

@@ -6,8 +6,8 @@ import About from './components/About';
 import BasicLayout from './components/BasicLayout';
 import Cart from './components/Cart';
 import Home from './components/Home';
+import Loading from './components/Loading';
 import RestaurantMenu from './components/RestaurantMenu';
-import Shimmer from './components/Shimmer';
 import UserContext from './context/UserContext';
 import appStore from './utils/appStore';
 
@@ -36,7 +36,7 @@ const App_2 = () => {
               <Route
                 path="grocery"
                 element={
-                  <Suspense fallback={<Shimmer />}>
+                  <Suspense fallback={<Loading />}>
                     <Grocery />
                   </Suspense>
                 }

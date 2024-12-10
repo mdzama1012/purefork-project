@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 import UserContext from '../context/UserContext';
 import { GITHUB_USER_API } from '../utils/constants';
 
-import Shimmer from './Spinner';
+import Loading from './Loading';
 
 class About extends Component {
   constructor() {
@@ -25,7 +25,7 @@ class About extends Component {
     const { teamMembers } = this.state;
 
     return teamMembers.length === 0 ? (
-      <Shimmer />
+      <Loading />
     ) : (
       <div className="mx-20 rounded-lg border p-5">
         <UserContext.Consumer>

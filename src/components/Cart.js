@@ -12,13 +12,13 @@ const Cart = () => {
   const { username } = useContext(UserContext);
   const dispatch = useDispatch();
   return (
-    <section className="container mx-auto w-3/4">
-      <header className="flex justify-between">
-        <h1 className="mb-2 text-3xl font-bold tracking-tight text-slate-800">
+    <section className="mx-auto w-3/4">
+      <header className="mb-4 flex items-baseline justify-between">
+        <h1 className="text-3xl font-bold text-slate-800">
           🛒 {username}'s Cart
         </h1>
         <button
-          className="rounded border-2 border-orange-600 px-4 font-mono hover:bg-orange-500 hover:text-white"
+          className="secondary-btn hover:primary-btn px-3 py-1"
           onClick={() => {
             dispatch(clearCart());
           }}

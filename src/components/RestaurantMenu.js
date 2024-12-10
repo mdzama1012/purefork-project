@@ -6,16 +6,17 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import useRestaurantMenu from '../hooks/useRestaurantMenu';
 
 import AccordionItem from './AccordionItem';
-import Shimmer from './Spinner';
+import Error from './Error';
+import Loading from './Loading';
 
 const RestaurantMenu = () => {
   const [accordionIndex, setAccordionIndex] = useState(-1);
   // Custom hook
-  const restaurantMenu = useRestaurantMenu();
-  const restaurantBasicData = restaurantMenu?.cards[2].card?.card?.info;
+  const { data: restaurantMenu, loading, error } = useRestaurantMenu();
+  const restaurantBasicData = restaurantMenu?.data?.cards[2].card?.card?.info;
   // Array of object containing categories of dishes (food).
   const categories =
-    restaurantMenu?.cards[4]?.groupedCard?.cardGroupMap?.REGULAR?.cards?.filter(
+    restaurantMenu?.data?.cards[4]?.groupedCard?.cardGroupMap?.REGULAR?.cards?.filter(
       (currCard) => {
         return (
           currCard.card.card['@type'] ===
@@ -23,8 +24,10 @@ const RestaurantMenu = () => {
         );
       }
     );
-  return restaurantMenu === null ? (
-    <Shimmer />
+  return loading ? (
+    <Loading />
+  ) : error ? (
+    <Error />
   ) : (
     <main>
       <section className="mx-auto mb-10 w-1/2 leading-7">

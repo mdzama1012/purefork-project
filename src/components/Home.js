@@ -1,30 +1,23 @@
-// Recommended Import Order:
-// 1. React imports (e.g., useEffect, useState, etc.)
-// 2. Third-party libraries (e.g., axios, lodash, react-router-dom, etc.)
-// 3. Absolute imports from your project (if using absolute paths, e.g., src/components/...)
-// 4. Local utility/constants imports (e.g., import { API_URL } from '../utils/constants';)
-// 5. Local components (e.g., import Header from './Header';)
-// 6. Stylesheets (import './App.css';)
-// Note: Separate each group with a blank line to improve readability.
-import { useContext, useEffect, useState } from 'react';
+import { useContext, useEffect, useRef, useState } from 'react';
 import { Link } from 'react-router-dom';
 
 import { faSearch } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 import NoRestaurantFound from '../components/NoRestaurantFound';
-import UserContext from '../context/UserContext';
+// import UserContext from '../context/UserContext';
 import useInternetStatus from '../hooks/useInternetStatus';
 import { RESTAURANT_API } from '../utils/constants';
 
+import Loading from './Loading';
 import RestaurantCard, { restaurantCardOffer } from './RestaurantCard';
-import Shimmer from './Spinner';
 
 const Home = () => {
-  // Local state variable - Super powerful variable given by React.
-  const [originalRestaurants, setOriginalRestaurants] = useState([]); // Reason why this is a state rather then a normal JS variable.
-  const [allRestaurants, setAllRestaurants] = useState([]);
-  const [filteredRestaurants, setFilteredRestaurants] = useState([]);
+  const restaurants = useRef([]);
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState(false);
+
+  // State those who change filtered restaurants state
   const [searchText, setSearchText] = useState('');
   const [filters, setFilters] = useState([
     { active: false, name: 'Fast Delivery' },
@@ -33,93 +26,92 @@ const Home = () => {
     { active: false, name: 'Low to High' },
     { active: false, name: 'High to Low' },
   ]);
-
-  // Using a logged in user context for greeting.
-  const userData = useContext(UserContext);
+  const [filteredRestaurants, setFilteredRestaurants] = useState([]);
 
   // Using custom hook to handle web application when there is no internet connection.
   const isOnline = useInternetStatus();
 
-  // Using a higher order component.
+  // Using a logged-in user context for greeting heading
+  // const userData = useContext(UserContext);
+
+  useEffect(() => fetchRestaurants(), []);
+
+  useEffect(() => {
+    // Manage filtering of restaurant.
+    setFilteredRestaurants(() => {
+      // Deep copy of restaurant.
+      const restaurantCopy = structuredClone(restaurants.current);
+      if (filters[3].active) {
+        // Sort the restaurants by price (low to high)
+        restaurantCopy.sort((restaurantA, restaurantB) => {
+          const costA = +restaurantA.costForTwo.split(' ')[0].slice(1);
+          const costB = +restaurantB.costForTwo.split(' ')[0].slice(1);
+          return costA - costB;
+        });
+      } else if (filters[4].active) {
+        // Sort the restaurants by price (high to low)
+        restaurantCopy.sort((restaurantA, restaurantB) => {
+          const costA = +restaurantA.costForTwo.split(' ')[0].slice(1);
+          const costB = +restaurantB.costForTwo.split(' ')[0].slice(1);
+          return costB - costA;
+        });
+      }
+      return restaurantCopy.filter((restaurant) => {
+        let passed = true;
+        filters.forEach((filter) => {
+          if (!filter.active) return true;
+          switch (filter.name) {
+            case 'Fast Delivery':
+              passed &&= restaurant.sla.deliveryTime <= 25;
+              break;
+            case 'Rating 4.5+':
+              passed &&= restaurant.avgRating >= 4.5;
+              break;
+            case 'Pure Veg':
+              passed &&= true;
+              break;
+            default:
+              break;
+          }
+        });
+        return passed;
+      });
+    });
+  }, [filters, restaurants.current]);
+
+  const fetchRestaurants = () => {
+    fetch(RESTAURANT_API)
+      .then((response) => response.json())
+      .then((responseData) => {
+        restaurants.current =
+          responseData.data?.cards[1]?.card?.card?.gridElements?.infoWithStyle?.restaurants?.map(
+            (restaurant) => restaurant.info
+          );
+      })
+      .catch((error) => {
+        console.log('Error fetching restaurant: ' + error.message);
+        setError(true);
+      })
+      .finally(() => setLoading(false));
+  };
+
+  const toggleFilter = (activeIndex) => {
+    setFilters(
+      filters.map((filter, index) =>
+        index === activeIndex
+          ? { active: !filter.active, name: filter.name }
+          : filter
+      )
+    );
+  };
+
+  // Using a higher order component (HOC)
   const RestaurantCardOffer = restaurantCardOffer(RestaurantCard);
 
-  useEffect(() => {
-    console.log('useEffect is called!');
-    isOnline && fetchRestaurants();
-  }, [isOnline]);
-
-  useEffect(() => {
-    setFilteredRestaurants(
-      allRestaurants.filter((restaurant) => {
-        let filterTest = true;
-        filters.forEach((filter) => {
-          if (filter.active)
-            switch (filter.name) {
-              case 'Fast Delivery':
-                filterTest &&= restaurant.sla.deliveryTime <= 25;
-                break;
-              case 'Rating 4.5+':
-                filterTest &&= restaurant.avgRating >= 4.5;
-                break;
-              case 'Pure Veg':
-                filterTest &&= restaurant.veg;
-                break;
-            }
-        });
-        return filterTest;
-      })
-    );
-  }, [filters]);
-
-  const fetchRestaurants = async () => {
-    try {
-      const res = await fetch(RESTAURANT_API);
-      const resData = await res.json();
-      // Array of info object of each restaurant.
-      let restaurantArray =
-        resData.data?.cards[1]?.card?.card?.gridElements?.infoWithStyle?.restaurants?.map(
-          (restaurant) => restaurant.info
-        );
-      setAllRestaurants(restaurantArray);
-      setFilteredRestaurants(restaurantArray);
-      setOriginalRestaurants(restaurantArray);
-    } catch (error) {
-      console.log('Error fetching data: ');
-      console.log(error);
-    }
-  };
-
-  const toggleFilter = (index) => {
-    if (
-      filters[index].name === 'Low to High' ||
-      filters[index].name === 'High to Low'
-    ) {
-      setAllRestaurants(
-        filters[index].active
-          ? originalRestaurants
-          : allRestaurants.toSorted((restaurantA, restaurantB) => {
-              const costStringA = restaurantA.costForTwo.split(' ')[0];
-              const costA = +costStringA.slice(1);
-              const costStringB = restaurantB.costForTwo.split(' ')[0];
-              const costB = +costStringB.slice(1);
-              return filters[index].name === 'Low to High'
-                ? costA - costB
-                : costB - costA;
-            })
-      );
-    }
-    setFilters(
-      filters.map((filter, currIndex) => {
-        if (index === currIndex) filter.active = 1 ^ filter.active;
-        return filter;
-      })
-    );
-  };
-
-  // Conditional rendering
-  return allRestaurants.length === 0 ? (
-    // Shimmer effect for better UX
-    <Shimmer />
+  return loading ? (
+    <Loading />
+  ) : error ? (
+    <Error />
   ) : (
     <main className={`mx-auto w-4/5 ${isOnline ? 'grayscale-0' : 'grayscale'}`}>
       {/* Just for learning purpose (Learning React Context) */}
@@ -143,7 +135,7 @@ const Home = () => {
           onClick={(event) => {
             event.preventDefault();
             setFilteredRestaurants(
-              allRestaurants.filter(
+              restaurants.current.filter(
                 (restaurant) =>
                   restaurant.name
                     .toLowerCase()
@@ -182,8 +174,8 @@ const Home = () => {
             <button
               key={index}
               className={
-                (filter.active ? 'border-slate-400 bg-slate-200 ' : '') +
-                'mr-1 cursor-pointer rounded-full border-2 border-slate-300 px-3 py-1 tracking-tight last:m-0'
+                (filter.active ? 'active-filter-btn ' : '') +
+                'filter-btn mr-1 px-3 py-1 last:m-0'
               }
               onClick={() => toggleFilter(index)}
             >

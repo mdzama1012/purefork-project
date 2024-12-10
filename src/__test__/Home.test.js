@@ -25,9 +25,9 @@ test('Should render search input field and search button', async () => {
       </BrowserRouter>
     )
   );
-  const searchBtn = screen.getByRole('button');
+  const searchBtn = screen.getAllByRole('button');
   const searchField = screen.getByRole('textbox');
-  expect(searchBtn).toBeInTheDocument();
+  expect(searchBtn[0]).toBeInTheDocument();
   expect(searchField).toBeInTheDocument();
 });
 
@@ -53,11 +53,11 @@ test('Should filter the restaurant that offers pizza, using search functionality
   );
   // Another way of selecting search field.
   const searchField = screen.getByTestId('searchField');
-  const searchBtn = screen.getByRole('button');
+  const searchBtn = screen.getAllByRole('button');
 
   // Enter "pizza" in search field and click on search button.
   fireEvent.change(searchField, { target: { value: 'pizza' } });
-  fireEvent.click(searchBtn);
+  fireEvent.click(searchBtn[0]);
 
   // After the search, number of restaurant card must be 3.
   const restaurantsAfterSearch = screen.getAllByTestId('restaurantCard');
@@ -73,11 +73,11 @@ test('Should filter the restaurant that offers burger, using search functionalit
     )
   );
   const searchField = screen.getByTestId('searchField');
-  const searchBtn = screen.getByRole('button');
+  const searchBtn = screen.getAllByRole('button');
 
   // Enter "burger" in search field and click on search button.
   fireEvent.change(searchField, { target: { value: 'burger' } });
-  fireEvent.click(searchBtn);
+  fireEvent.click(searchBtn[0]);
 
   // After the search, number of restaurant card must be 2.
   const restaurantsAfterSearch = screen.getAllByTestId('restaurantCard');

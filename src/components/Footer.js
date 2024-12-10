@@ -18,18 +18,16 @@ const Footer = () => {
       <section className="flex w-1/2 items-center justify-center">
         {/* Right footer content wrapped in a div */}
         <div>
-          <div className="mb-1 flex items-center gap-2 text-lg font-bold">
-            <Link to="/">
-              <figure>
-                <img
-                  className="aspect-square w-14 rounded-xl object-cover transition-all hover:scale-105"
-                  src={LOGO_URL}
-                  alt="Logo"
-                />
-              </figure>
-            </Link>
-            <span>PureFork</span>
-          </div>
+          <Link to="/">
+            <figure className="mb-1 flex items-center gap-2 text-lg font-bold">
+              <img
+                className="aspect-square w-14 rounded-xl object-cover transition-all hover:scale-105"
+                src={LOGO_URL}
+                alt="Logo"
+              />
+              <figcaption>PureFork</figcaption>
+            </figure>
+          </Link>
           <span className="font-mono text-gray-500">
             &#169; 2024 PureFork Limited
           </span>
