@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 
 import { faSearch } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { Skeleton } from '@mui/material';
 
 import NoRestaurantFound from '../components/NoRestaurantFound';
 // import UserContext from '../context/UserContext';
@@ -11,6 +12,7 @@ import { RESTAURANT_API } from '../utils/constants';
 
 import Loading from './Loading';
 import RestaurantCard, { restaurantCardOffer } from './RestaurantCard';
+import ShimmerCard from './Shimmer/ShimmerCard';
 
 const Home = () => {
   const restaurants = useRef([]);
@@ -108,9 +110,7 @@ const Home = () => {
   // Using a higher order component (HOC)
   const RestaurantCardOffer = restaurantCardOffer(RestaurantCard);
 
-  return loading ? (
-    <Loading />
-  ) : error ? (
+  return error ? (
     <Error />
   ) : (
     <main className={`mx-auto w-4/5 ${isOnline ? 'grayscale-0' : 'grayscale'}`}>
@@ -184,26 +184,28 @@ const Home = () => {
           ))}
         </section>
       </aside>
-      {filteredRestaurants.length === 0 ? (
+      {filteredRestaurants.length && !loading === 0 ? (
         <NoRestaurantFound />
       ) : (
         <section className="grid grid-cols-4 gap-5">
-          {
-            // Giving index as a key prop is not recommended (even in react documentations).
-            filteredRestaurants.map((restaurant) => (
-              <Link
-                key={restaurant.id}
-                to={`/restaurant/${restaurant.id}`}
-                className="transition-transform hover:scale-95"
-              >
-                {restaurant.aggregatedDiscountInfoV3 ? (
-                  <RestaurantCardOffer restaurantData={restaurant} />
-                ) : (
-                  <RestaurantCard restaurantData={restaurant} />
-                )}
-              </Link>
-            ))
-          }
+          {loading
+            ? Array.from({ length: 20 }, (_, index) => (
+                <ShimmerCard key={index} />
+              ))
+            : // Giving index as a key prop is not recommended (even in react documentations).
+              filteredRestaurants.map((restaurant) => (
+                <Link
+                  key={restaurant.id}
+                  to={`/restaurant/${restaurant.id}`}
+                  className="transition-transform hover:scale-95"
+                >
+                  {restaurant.aggregatedDiscountInfoV3 ? (
+                    <RestaurantCardOffer restaurantData={restaurant} />
+                  ) : (
+                    <RestaurantCard restaurantData={restaurant} />
+                  )}
+                </Link>
+              ))}
         </section>
       )}
     </main>
