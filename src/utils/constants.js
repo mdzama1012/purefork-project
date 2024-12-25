@@ -14,5 +14,5 @@ export const RESTAURANT_MENU_API =
 // Using HTTP cats website to show funny error, using images of cat.
 export const IMG_CAT_404 = 'https://http.cat/images/404.jpg';
 
-// Get github user data by username.
-export const GITHUB_USER_API = 'https://api.github.com/users/';
+// API to get the list of team members.
+export const TEAM_MEMBERS_API = 'https://api.escuelajs.co/api/v1/users/';

@@ -2,8 +2,8 @@ import { Skeleton } from '@mui/material';
 
 const ShimmerMainHeading = () => {
   return (
-    <div className="my-3">
-      <Skeleton animation="wave" width="80%" height="4rem" />
+    <div className="my-4">
+      <Skeleton animation="pulse" width="60%" height="4rem" />
     </div>
   );
 };

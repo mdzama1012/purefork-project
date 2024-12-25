@@ -9,9 +9,9 @@ import useRestaurantMenu from '../hooks/useRestaurantMenu';
 import AccordionItem from './AccordionItem';
 import Error from './Error';
 import Loading from './Loading';
+import ShimmerCardHorizontal from './Shimmer/ShimmerCardHorizontal';
 import ShimmerMainHeading from './Shimmer/ShimmerMainHeading';
 import ShimmerTextCard from './Shimmer/ShimmerTextCard';
-import ShimmerWideCard from './Shimmer/ShimmerWideCard';
 
 const RestaurantMenu = () => {
   const [accordionIndex, setAccordionIndex] = useState(-1);
@@ -72,20 +72,24 @@ const RestaurantMenu = () => {
         <div className="text-center font-mono uppercase">Menu</div>
         {/* Accordion */}
         <div className="mx-auto my-5 w-4/5">
-          {loading
-            ? Array.from({ length: 8 }, (_, index) => (
-                <ShimmerWideCard key={index} />
-              ))
-            : categories.map((category, index) => (
-                <AccordionItem
-                  key={category?.card?.card?.title}
-                  category={category}
-                  showAccordionContent={accordionIndex === index}
-                  setAccordionIndex={() =>
-                    setAccordionIndex(accordionIndex === index ? -1 : index)
-                  }
-                />
+          {loading ? (
+            <div className="flex flex-col gap-4">
+              {Array.from({ length: 8 }, (_, index) => (
+                <ShimmerCardHorizontal key={index} />
               ))}
+            </div>
+          ) : (
+            categories.map((category, index) => (
+              <AccordionItem
+                key={category?.card?.card?.title}
+                category={category}
+                showAccordionContent={accordionIndex === index}
+                setAccordionIndex={() =>
+                  setAccordionIndex(accordionIndex === index ? -1 : index)
+                }
+              />
+            ))
+          )}
         </div>
       </section>
     </main>
